@@ -1,0 +1,104 @@
+{
+  "segments": [
+    {
+      "id": "colleges",
+      "slug": "colleges",
+      "name": "Engineering Colleges & Universities",
+      "badge": "Institutional Pillar",
+      "pillar": "education",
+      "summary": "Preparing engineering students for real-world software delivery through comprehensive human-led assessments, gap analyses, and company simulations.",
+      "coreConcerns": [
+        "Objective measurement of student coding and engineering readiness",
+        "Bridging curriculum gaps against modern cloud/backend industry stacks",
+        "Exposing students to real Agile sprint workflows before campus hiring",
+        "Comprehensive batch-level and individual skill analytics for faculty"
+      ],
+      "keyOfferings": [
+        "Supervised Human-Led Employability Assessment (18+ topic areas)",
+        "2-Day (17 Hours) Software Company Simulation",
+        "Hands-on Technology Workshops (Java, Python, Spring Boot, APIs)",
+        "Motivational & Career Growth Mindset Sessions"
+      ],
+      "primaryCta": {
+        "label": "Discuss a College Programme",
+        "href": "/for-colleges"
+      },
+      "enabled": true
+    },
+    {
+      "id": "students",
+      "slug": "students",
+      "name": "Engineering Students & Graduates",
+      "badge": "Career Readiness",
+      "pillar": "education",
+      "summary": "Demystifying the transition from academic coursework to professional engineering through hands-on practice, code reviews, and Agile teamwork.",
+      "coreConcerns": [
+        "Understanding what technical interviewers actually look for",
+        "Experiencing real collaborative development and change requests",
+        "Building depth in core CS fundamentals rather than memorizing snippets",
+        "Overcoming interview anxiety and developing professional discipline"
+      ],
+      "keyOfferings": [
+        "Objective technical assessment with constructive gap feedback",
+        "Hands-on sprint delivery experience in a team setting",
+        "Direct mentorship from practicing software engineers",
+        "Realistic expectations: skill competence over gimmicks"
+      ],
+      "primaryCta": {
+        "label": "Explore Student Journey",
+        "href": "/for-students"
+      },
+      "enabled": true
+    },
+    {
+      "id": "small-business",
+      "slug": "small-business",
+      "name": "Small Businesses & Startups",
+      "badge": "Business Technology",
+      "pillar": "business",
+      "summary": "Cost-conscious engineering support to build MVPs, automate manual spreadsheets, integrate existing tools, and maintain essential applications.",
+      "coreConcerns": [
+        "Limited development budgets that require tight scope control",
+        "Fragile spreadsheets or manual processes slowing daily operations",
+        "Unmaintained business applications prone to downtime or bugs",
+        "Desire for practical AI without runaway cloud API costs"
+      ],
+      "keyOfferings": [
+        "Custom Web Applications & Operational Portals",
+        "Spreadsheet-to-Database Migration and Workflow Automation",
+        "Software Maintenance, Bug Fixing & Reliability Improvements",
+        "Pragmatic AI Use-Case Discovery & Scoped MVPs"
+      ],
+      "primaryCta": {
+        "label": "Discuss Your Project",
+        "href": "/solutions/small-business"
+      },
+      "enabled": true
+    },
+    {
+      "id": "enterprise",
+      "slug": "enterprise",
+      "name": "Growing Companies & Enterprises",
+      "badge": "Enterprise Engineering",
+      "pillar": "business",
+      "summary": "Disciplined engineering capacity for backend systems, legacy modernization, API integration, and secure enterprise LLM adoption.",
+      "coreConcerns": [
+        "Managing technical debt and monolith complexity safely",
+        "Secure API integration with external partners and messaging backbones",
+        "Enterprise AI risks: prompt injection, data leakage, and hallucinations",
+        "High test coverage, automated CI/CD, and strict architectural documentation"
+      ],
+      "keyOfferings": [
+        "Legacy Application Modernization & Monolith Refactoring",
+        "High-Throughput API & Event-Driven Integrations (REST, Kafka)",
+        "Grounded RAG Assistants with Document Source Citations",
+        "Architecture Reviews, Quality Engineering & CI/CD Pipelines"
+      ],
+      "primaryCta": {
+        "label": "Discuss Your Requirements",
+        "href": "/solutions/enterprise"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "contactForm": {
+    "enableHoneypot": true,
+    "maxMessageLength": 2000,
+    "rateLimitWindowMinutes": 15,
+    "maxSubmissionsPerWindow": 5,
+    "requiredFields": [
+      "fullName",
+      "email",
+      "enquiryCategory",
+      "message"
+    ],
+    "conditionalFields": {
+      "collegeFields": [
+        "institutionName",
+        "cohortSize",
+        "engineeringBranches",
+        "preferredTimeline"
+      ],
+      "businessFields": [
+        "organizationName",
+        "projectType",
+        "existingStack",
+        "estimatedBudget"
+      ]
+    }
+  }
+}

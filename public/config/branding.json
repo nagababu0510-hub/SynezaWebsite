@@ -1,0 +1,41 @@
+{
+  "companyName": "Syneza Technologies",
+  "logo": {
+    "text": "SYNEZA",
+    "badgeText": "TECHNOLOGIES",
+    "showIcon": true,
+    "iconName": "Code2"
+  },
+  "colors": {
+    "primary": "#2563EB",
+    "primaryHover": "#1D4ED8",
+    "navy": "#14213D",
+    "navyDark": "#0B132B",
+    "teal": "#0F766E",
+    "tealLight": "#14B8A6",
+    "emerald": "#059669",
+    "accentAi": "#7C3AED",
+    "accentAiLight": "#A78BFA",
+    "accentCyan": "#0284C7",
+    "surface": "#F8FAFC",
+    "surfaceCard": "#FFFFFF",
+    "textMain": "#1E293B",
+    "textMuted": "#64748B",
+    "border": "#E2E8F0"
+  },
+  "typography": {
+    "fontFamily": "Inter, system-ui, sans-serif",
+    "baseFontSize": "16px",
+    "headingFontFamily": "Inter, system-ui, sans-serif"
+  },
+  "borderRadius": {
+    "small": "0.375rem",
+    "medium": "0.5rem",
+    "large": "0.75rem",
+    "pill": "9999px"
+  },
+  "theme": {
+    "defaultTheme": "light",
+    "allowToggle": false
+  }
+}

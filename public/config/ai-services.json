@@ -1,0 +1,720 @@
+{
+  "pillarOverview": {
+    "title": "AI & Large Language Model Solutions",
+    "tagline": "Practical, Grounded AI Designed to Solve Concrete Business Problems",
+    "description": "We help businesses evaluate, integrate, and operationalize artificial intelligence and Large Language Models. Rather than rushing to slap chatbots onto every product, we focus on grounded knowledge retrieval, document processing, intelligent internal workflows, and strict security safeguards.",
+    "responsibleAiStatement": "We believe responsible AI begins with clear boundaries: data minimization, prompt-injection defense, strict access controls, evaluation datasets, and human-in-the-loop approvals for consequential actions. We never claim any model is immune to hallucinations, and we design systems with explicit fallbacks and source citations.",
+    "deliveryProcess": [
+      {
+        "step": 1,
+        "name": "Discovery & Business Problem Framing",
+        "description": "Identify repetitive, information-heavy workflows where AI can deliver genuine ROI rather than novelty."
+      },
+      {
+        "step": 2,
+        "name": "Feasibility, Data & Security Review",
+        "description": "Examine data privacy constraints, assess regulatory considerations, and establish security threat models."
+      },
+      {
+        "step": 3,
+        "name": "Architecture & Provider Selection",
+        "description": "Design provider abstractions supporting commercial or open-weight models without vendor lock-in."
+      },
+      {
+        "step": 4,
+        "name": "Grounded Proof-of-Concept (POC)",
+        "description": "Build a rapid prototype evaluated against representative real-world test cases and failure modes."
+      },
+      {
+        "step": 5,
+        "name": "Evaluation, Validation & Guardrails",
+        "description": "Measure accuracy, cost per invocation, hallucination rates, and inject defensive prompt boundaries."
+      },
+      {
+        "step": 6,
+        "name": "Controlled Integration & Monitoring",
+        "description": "Deploy behind authorization layers with structured logging, cost limits, and human escalation paths."
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "llm-integration",
+      "slug": "llm-integration",
+      "name": "Large Language Model (LLM) Integration",
+      "badge": "Provider Abstraction",
+      "shortDescription": "Seamlessly integrate commercial or open-weight LLMs into existing software systems using structured outputs, tool calling, and clean provider abstractions.",
+      "fullDescription": "Connecting an LLM API is simple; building a resilient, production-ready LLM integration requires disciplined software engineering. We design clean provider abstractions that prevent vendor lock-in, enforce structured JSON schemas on model responses, implement strict tool-calling permissions, and monitor token consumption and latency.",
+      "targetAudience": [
+        "Software companies integrating AI features into existing SaaS",
+        "Enterprises seeking resilient LLM backend architectures"
+      ],
+      "businessProblem": [
+        "Vendor lock-in: application code tightly coupled to a single proprietary AI API that might change pricing or deprecate models.",
+        "Unpredictable, unstructured text responses causing downstream application parsers to crash.",
+        "Unchecked token usage leading to surprise monthly API invoices."
+      ],
+      "synezaSolution": [
+        "Clean repository abstraction layer allowing hot-swapping between model providers (OpenAI, Anthropic, Google, or self-hosted models).",
+        "Schema-enforced structured outputs (JSON Schema / Pydantic / Zod) ensuring reliable data parsing.",
+        "Cost monitoring, rate-limiting, and request quota controls preventing unexpected bills.",
+        "Human approval mechanisms for sensitive or state-changing actions."
+      ],
+      "keyCapabilities": [
+        "Provider abstraction and agnostic model client architecture",
+        "Structured output generation and strict response validation",
+        "Constrained tool calling and API function invocation",
+        "Token usage monitoring, cost limits, and caching strategies",
+        "Context window optimization and conversation history pruning",
+        "Graceful fallback handling when model providers experience downtime"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Phase 1",
+          "title": "Integration Architecture Design",
+          "description": "Define domain interfaces, token budgets, and security parameters."
+        },
+        {
+          "step": "Phase 2",
+          "title": "Provider Adapter Implementation",
+          "description": "Implement abstracted clients with automated retry, timeout, and schema validation."
+        },
+        {
+          "step": "Phase 3",
+          "title": "Tool Calling & Boundary Enforcement",
+          "description": "Configure tool calling with least-privilege permissions and audit logs."
+        },
+        {
+          "step": "Phase 4",
+          "title": "Evaluation & Performance Tuning",
+          "description": "Benchmark response latency, output reliability, and error handling under load."
+        }
+      ],
+      "benefits": [
+        "Protects your business from provider lock-in and sudden API pricing changes.",
+        "Ensures downstream software services receive reliable, schema-validated JSON.",
+        "Keeps operating expenses predictable through strict usage monitoring."
+      ],
+      "engagementModels": [
+        "Fixed-Scope Integration Sprint",
+        "Milestone-Based Feature Build"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Python",
+        "OpenAI API",
+        "Anthropic Claude",
+        "Google Gemini",
+        "Ollama / Open-Weight"
+      ],
+      "cta": {
+        "label": "Inquire About LLM Integration",
+        "href": "/contact?category=llm-integration"
+      },
+      "seo": {
+        "title": "LLM Integration Services for Business Applications | Syneza Technologies",
+        "metaDescription": "Secure, production-grade Large Language Model (LLM) integration. Clean provider abstraction, structured JSON outputs, and tool calling.",
+        "keywords": [
+          "LLM integration services",
+          "Large Language Model API integration",
+          "AI software integration",
+          "structured output LLM"
+        ]
+      },
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "retrieval-augmented-generation",
+      "slug": "retrieval-augmented-generation",
+      "name": "Retrieval-Augmented Generation (RAG)",
+      "badge": "Grounded Search & Citations",
+      "shortDescription": "Build AI knowledge assistants that answer questions using approved company documents, complete with source citations, access control, and fallback handling.",
+      "fullDescription": "Retrieval-Augmented Generation (RAG) grounds language models in your company’s actual, authorized documents. Rather than relying on a model’s training memory, our RAG architectures ingest approved documents, generate vector embeddings, retrieve the most relevant sections at query time, and synthesize answers with explicit citations. Crucially, when evidence is insufficient, our systems say \"I don’t know\" instead of inventing answers.",
+      "targetAudience": [
+        "Companies with large technical documentation libraries or internal wikis",
+        "Customer support teams managing complex product manuals",
+        "Legal, HR, and compliance departments searching policy records"
+      ],
+      "businessProblem": [
+        "Standard LLMs hallucinate plausible-sounding but incorrect information when queried on internal company specifics.",
+        "Employees spend hours searching across fragmented PDFs, wikis, and tickets for critical procedures.",
+        "Fear that sensitive internal documents might leak across unauthorized user permission boundaries."
+      ],
+      "synezaSolution": [
+        "Document ingestion pipelines with semantic chunking and metadata preservation.",
+        "Pre-retrieval access control: queries only search documents the authenticated user has permission to view.",
+        "Source-attributed responses: every claim links directly back to the source paragraph and document.",
+        "Explicit fallback threshold: if retrieval relevance is below confidence bounds, the system gracefully declines to answer."
+      ],
+      "keyCapabilities": [
+        "Document parsing and ingestion (PDF, Markdown, HTML, DOCX, TXT)",
+        "Semantic chunking with overlapping context and metadata tagging",
+        "Vector embedding generation and semantic similarity search",
+        "Pre-retrieval authorization and tenant data isolation",
+        "Source citation generation linking responses to exact source passages",
+        "RAG evaluation pipelines measuring retrieval precision, recall, and groundedness"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Data Corpus & Access Audit",
+          "description": "Review document formats, update frequencies, and user permission boundaries."
+        },
+        {
+          "step": "Step 2",
+          "title": "Ingestion & Indexing Pipeline",
+          "description": "Build automated chunking, embedding, and vector database indexing workflows."
+        },
+        {
+          "step": "Step 3",
+          "title": "Retrieval & Prompt Synthesis",
+          "description": "Implement hybrid search (dense vector + sparse keyword) and citation formatting."
+        },
+        {
+          "step": "Step 4",
+          "title": "Evaluation & Hardening",
+          "description": "Test against custom evaluation questions to benchmark groundedness and prevent hallucinations."
+        }
+      ],
+      "benefits": [
+        "Drastically reduces employee time spent searching across dispersed repositories.",
+        "Provides answers backed by verifiable source citations rather than opaque model claims.",
+        "Enforces strict authorization: users only receive answers from documents they have rights to see."
+      ],
+      "engagementModels": [
+        "RAG Proof-of-Concept Sprint (2-3 Weeks)",
+        "Enterprise Knowledge Assistant Build"
+      ],
+      "technologies": [
+        "Vector Databases (pgvector, Chroma, Qdrant)",
+        "Python",
+        "TypeScript",
+        "Embeddings",
+        "Hybrid Search"
+      ],
+      "cta": {
+        "label": "Explore Grounded RAG Solutions",
+        "href": "/contact?category=rag-assistants"
+      },
+      "seo": {
+        "title": "Retrieval-Augmented Generation (RAG) Solutions | Syneza Technologies",
+        "metaDescription": "Grounded RAG and enterprise knowledge assistants. Verified document citations, pre-retrieval access control, and hallucination mitigation.",
+        "keywords": [
+          "Retrieval-augmented generation",
+          "RAG knowledge assistant",
+          "internal document search AI",
+          "grounded AI solutions"
+        ]
+      },
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "ai-workflow-automation",
+      "slug": "ai-workflow-automation",
+      "name": "AI Workflow Automation & Controlled Agents",
+      "badge": "Human-in-the-Loop",
+      "shortDescription": "Multi-step operational workflows combining deterministic business logic with targeted AI assistance, backed by explicit permissions and human approvals.",
+      "fullDescription": "Not every problem requires an autonomous agent, and allowing an AI agent broad, unconstrained authority over production systems is dangerous. We design predictable workflow automation that combines reliable deterministic business logic with targeted AI assistance for information parsing, synthesis, and drafting. Consequential actions always require explicit human authorization.",
+      "targetAudience": [
+        "Operations teams handling repetitive multi-step customer or document workflows",
+        "Businesses looking to accelerate internal operations safely"
+      ],
+      "businessProblem": [
+        "Multi-step operational tasks (e.g. ticket intake, data extraction, draft preparation) causing bottlenecks.",
+        "Unconstrained \"autonomous AI agents\" taking unexpected, irreversible actions in production.",
+        "High labor costs spent copying data between internal business tools."
+      ],
+      "synezaSolution": [
+        "Deterministic state machines that guide the workflow, invoking AI only where cognitive tasks are needed.",
+        "Strict human-in-the-loop review screens before any external communication, database write, or financial action.",
+        "Auditable execution logs capturing prompts, model outputs, and human approval timestamps.",
+        "Least-privilege API permissions that strictly prevent arbitrary file or shell execution."
+      ],
+      "keyCapabilities": [
+        "Multi-step workflow orchestration with deterministic guardrails",
+        "Automated draft generation, classification, and summarization",
+        "Human-in-the-loop review and approval dashboards",
+        "Integration with existing operational software via secure REST APIs",
+        "Comprehensive audit logging of all AI reasoning steps and tool calls",
+        "Configurable fallback to manual queues when confidence thresholds are unmet"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Phase 1",
+          "title": "Workflow Decomposition",
+          "description": "Map the exact steps of the manual process and identify deterministic vs. cognitive steps."
+        },
+        {
+          "step": "Phase 2",
+          "title": "Guardrail & State Machine Design",
+          "description": "Build state management, authorization gates, and human approval checkpoints."
+        },
+        {
+          "step": "Phase 3",
+          "title": "AI Integration & Prompts",
+          "description": "Implement structured task prompts with explicit boundary conditions and error handlers."
+        },
+        {
+          "step": "Phase 4",
+          "title": "Pilot & Human Review Tuning",
+          "description": "Run alongside human operators to measure time saved and refine review interfaces."
+        }
+      ],
+      "benefits": [
+        "Accelerates complex business processes while keeping humans firmly in control.",
+        "Prevents costly agent errors through explicit permission boundaries.",
+        "Provides complete regulatory and operational audit trails."
+      ],
+      "engagementModels": [
+        "Workflow Automation Pilot",
+        "Production Integration Engagement"
+      ],
+      "technologies": [
+        "State Machines",
+        "TypeScript",
+        "Python",
+        "REST APIs",
+        "Audit Logging"
+      ],
+      "cta": {
+        "label": "Automate Internal Workflows",
+        "href": "/contact?category=workflow-automation"
+      },
+      "seo": {
+        "title": "AI Workflow Automation & Controlled Agents | Syneza Technologies",
+        "metaDescription": "Predictable multi-step AI workflow automation with human-in-the-loop approvals, deterministic state machines, and complete audit logging.",
+        "keywords": [
+          "AI workflow automation",
+          "human in the loop AI",
+          "business process automation AI",
+          "controlled AI agents"
+        ]
+      },
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "ai-customer-support",
+      "slug": "ai-customer-support",
+      "name": "AI for Customer Support & Helpdesk",
+      "badge": "Assisted Service",
+      "shortDescription": "Assist support teams with intelligent knowledge retrieval, accurate FAQ responses, ticket categorization, draft replies, and seamless human escalation.",
+      "fullDescription": "Customer support teams often spend significant time answering the same repetitive questions or digging through product documentation. Our AI support solutions provide grounded knowledge assistance, draft accurate replies based on approved company FAQs, categorize incoming tickets, and immediately escalate sensitive or complex queries to human agents.",
+      "targetAudience": [
+        "Customer service organizations with high repetitive ticket volumes",
+        "Technical helpdesks supporting software products"
+      ],
+      "businessProblem": [
+        "High ticket volumes leading to long customer wait times and agent burnout.",
+        "Inconsistent answers provided by different support agents across shifts.",
+        "Over-promising chatbots that hallucinate return policies or make unauthorized commitments."
+      ],
+      "synezaSolution": [
+        "Grounded FAQ and knowledge-base search with source verification.",
+        "Agent-assist mode: drafting responses for human agent review before sending.",
+        "Intelligent ticket classification and sentiment routing to appropriate specialists.",
+        "Zero unauthorized commitments: models restricted to approved policy text."
+      ],
+      "keyCapabilities": [
+        "Automated FAQ question answering grounded in approved help center articles",
+        "Agent copilot: suggested response drafting and conversation summarization",
+        "Ticket triage, priority tagging, and intelligent department routing",
+        "Automatic escalation to human agents for negative sentiment or ungrounded queries",
+        "Integration with popular helpdesk systems (Zendesk, Freshdesk, email inboxes)"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Helpdesk Audit & Knowledge Ingestion",
+          "description": "Review common ticket types, clean help articles, and establish routing rules."
+        },
+        {
+          "step": "Step 2",
+          "title": "Agent-Assist Pilot",
+          "description": "Deploy the assistant internally to support staff first, validating accuracy without customer exposure."
+        },
+        {
+          "step": "Step 3",
+          "title": "Customer-Facing Staging",
+          "description": "Carefully roll out self-service FAQ answers for high-confidence topics with clear escalation buttons."
+        },
+        {
+          "step": "Step 4",
+          "title": "Continuous Review & Gap Filling",
+          "description": "Review unanswered questions weekly to continuously improve help documentation."
+        }
+      ],
+      "benefits": [
+        "Reduces first-response time without sacrificing response accuracy.",
+        "Relieves human agents from answering repetitive tier-1 questions.",
+        "Maintains customer trust through clear human escalation paths."
+      ],
+      "engagementModels": [
+        "Helpdesk AI Implementation Sprint",
+        "Pilot & Knowledge Optimization"
+      ],
+      "technologies": [
+        "RAG",
+        "Ticket Classification",
+        "REST Webhooks",
+        "TypeScript",
+        "Python"
+      ],
+      "cta": {
+        "label": "Inquire About Support AI",
+        "href": "/contact?category=ai-support"
+      },
+      "seo": {
+        "title": "AI for Customer Support & Helpdesk | Syneza Technologies",
+        "metaDescription": "Intelligent customer support assistance, automated FAQ resolution, ticket categorization, and seamless human escalation.",
+        "keywords": [
+          "AI for customer support",
+          "helpdesk ticket classification",
+          "support agent copilot",
+          "customer service AI automation"
+        ]
+      },
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "ai-document-processing",
+      "slug": "ai-document-processing",
+      "name": "AI Document Processing & Extraction",
+      "badge": "Structured Extraction",
+      "shortDescription": "Transform unstructured invoices, contracts, statements, and reports into validated, structured data for downstream business systems.",
+      "fullDescription": "Businesses receive thousands of documents every month—invoices, purchase orders, statements, contracts, and resumes—trapped in unstructured PDFs and images. We build document processing pipelines that extract specific data fields, validate extracted information against business rules, and feed structured JSON into your existing ERP or databases.",
+      "targetAudience": [
+        "Finance, logistics, and legal teams processing high volumes of paperwork",
+        "Companies seeking to eliminate manual data entry from PDFs"
+      ],
+      "businessProblem": [
+        "Expensive, error-prone manual data entry from incoming PDFs into internal software.",
+        "Traditional OCR tools breaking whenever a vendor modifies their invoice layout slightly.",
+        "Lack of validation causing bad data to silently enter accounting or inventory systems."
+      ],
+      "synezaSolution": [
+        "Layout-aware extraction leveraging multimodal language models and vision embeddings.",
+        "Strict schema validation: ensuring extracted numbers, dates, and line items balance accurately.",
+        "Human exception handling: flagging low-confidence extractions for manual operator review.",
+        "Direct REST integration into downstream databases, ERPs, or accounting tools."
+      ],
+      "keyCapabilities": [
+        "PDF and scanned document text extraction with layout awareness",
+        "Field-level extraction (invoice numbers, dates, line items, totals, party details)",
+        "Document classification (identifying document types automatically)",
+        "Mathematical reconciliation (e.g. verifying subtotal + tax = total)",
+        "Exception review workflow for documents falling below confidence thresholds"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Document Sample Analysis",
+          "description": "Examine sample documents across target formats, variations, and edge cases."
+        },
+        {
+          "step": "Step 2",
+          "title": "Extraction Pipeline & Schema Design",
+          "description": "Define output JSON schemas, mathematical validation rules, and prompts."
+        },
+        {
+          "step": "Step 3",
+          "title": "Benchmarking on Historical Batches",
+          "description": "Run extraction against hundreds of historical files to measure precision and recall."
+        },
+        {
+          "step": "Step 4",
+          "title": "Production Pipeline & Exception UI",
+          "description": "Deploy automated ingestion with human review screens for exceptions."
+        }
+      ],
+      "benefits": [
+        "Cuts document processing time by up to 80% while improving data accuracy.",
+        "Adapts smoothly to layout changes without brittle template rewriting.",
+        "Flags anomalies and discrepancies before they pollute downstream systems."
+      ],
+      "engagementModels": [
+        "Document Processing Pilot",
+        "Custom Pipeline Implementation"
+      ],
+      "technologies": [
+        "Vision LLMs",
+        "Python",
+        "PDF Parsing",
+        "JSON Schema Validation"
+      ],
+      "cta": {
+        "label": "Discuss Document Processing",
+        "href": "/contact?category=document-processing"
+      },
+      "seo": {
+        "title": "AI Document Processing & Data Extraction | Syneza Technologies",
+        "metaDescription": "Extract structured data from unstructured PDFs, invoices, and contracts. Layout-aware AI document parsing with strict validation.",
+        "keywords": [
+          "AI document processing",
+          "invoice data extraction AI",
+          "PDF to JSON extraction",
+          "intelligent document automation"
+        ]
+      },
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "id": "ai-developer-workflows",
+      "slug": "ai-developer-workflows",
+      "name": "AI-Assisted Developer Workflows",
+      "badge": "Engineering Productivity",
+      "shortDescription": "Equip software teams with internal AI coding tools, automated test generation, code explanation, and documentation assistance under strict security standards.",
+      "fullDescription": "AI developer tools can accelerate engineering velocity, but using public commercial coding tools carelessly can expose proprietary source code to third-party model training. We help engineering organizations integrate secure developer assistants, automate initial unit test scaffolding, generate API documentation, and assist with legacy code comprehension—all with appropriate security reviews and intellectual property safeguards.",
+      "targetAudience": [
+        "Engineering organizations modernizing legacy codebases",
+        "Software teams seeking disciplined AI productivity tools"
+      ],
+      "businessProblem": [
+        "Engineers using unvetted public AI tools that may retain proprietary code for model training.",
+        "Sparse or outdated documentation making onboarding new engineers slow and painful.",
+        "Writing comprehensive unit test suites for legacy systems being deprioritized due to time pressure."
+      ],
+      "synezaSolution": [
+        "Zero-data-retention enterprise API configurations and self-hosted model setups.",
+        "Automated initial test scaffolding that human engineers review, execute, and verify.",
+        "Automated documentation generation from code interfaces, comments, and schemas.",
+        "Code explanation assistants that help engineers understand complex legacy algorithms safely."
+      ],
+      "keyCapabilities": [
+        "Enterprise AI coding assistant configuration with zero-data-retention policies",
+        "Automated unit test draft generation for untested legacy functions",
+        "OpenAPI and architectural documentation drafting from code structure",
+        "Complex regex, SQL, and query translation and explanation",
+        "Human engineering review standards for all AI-generated code snippets"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Phase 1",
+          "title": "Security & IP Policy Review",
+          "description": "Review corporate IP requirements and establish compliant provider configurations."
+        },
+        {
+          "step": "Phase 2",
+          "title": "Toolchain Integration",
+          "description": "Integrate tools into developer IDEs or CI workflows with strict credential management."
+        },
+        {
+          "step": "Phase 3",
+          "title": "Testing & Documentation Pilots",
+          "description": "Pilot test generation and documentation workflows on designated non-critical modules."
+        },
+        {
+          "step": "Phase 4",
+          "title": "Developer Training & Guidelines",
+          "description": "Train engineers on prompt engineering, security boundaries, and mandatory code review."
+        }
+      ],
+      "benefits": [
+        "Accelerates test authoring and documentation without sacrificing code hygiene.",
+        "Protects company intellectual property with audited zero-data-retention configurations.",
+        "Shortens developer onboarding time on unfamiliar or legacy codebases."
+      ],
+      "engagementModels": [
+        "Developer Tooling Integration Sprint",
+        "Engineering Productivity Consulting"
+      ],
+      "technologies": [
+        "IDE Plugins",
+        "CLI Tools",
+        "Python",
+        "TypeScript",
+        "Git"
+      ],
+      "cta": {
+        "label": "Explore Developer AI Tools",
+        "href": "/contact?category=developer-workflows"
+      },
+      "seo": {
+        "title": "AI-Assisted Developer Workflows | Syneza Technologies",
+        "metaDescription": "Secure AI coding tools, automated test scaffolding, and documentation generation. Enterprise developer productivity with strict IP protections.",
+        "keywords": [
+          "AI developer workflows",
+          "automated unit test generation",
+          "developer productivity AI",
+          "code documentation AI"
+        ]
+      },
+      "order": 6,
+      "enabled": true
+    },
+    {
+      "id": "ai-readiness-discovery",
+      "slug": "ai-readiness-discovery",
+      "name": "AI Readiness & Use-Case Discovery",
+      "badge": "Feasibility First",
+      "shortDescription": "Objective assessment to determine whether AI makes technical and commercial sense for your specific problem before you spend capital.",
+      "fullDescription": "The most expensive AI mistake is building a complex system for a problem that could have been solved with a simple SQL query or deterministic code. Our AI Readiness Discovery is an objective, consulting-led engagement designed to evaluate your business problem, review data quality, assess security boundaries, estimate operating costs, and give you an honest recommendation on whether to proceed, pivot, or stop.",
+      "targetAudience": [
+        "Business leaders considering AI adoption but unsure where to start",
+        "Companies seeking an honest evaluation before committing capital"
+      ],
+      "businessProblem": [
+        "Pressure from boards or leadership to \"do something with AI\" without clear business justification.",
+        "Vendor proposals offering generic chatbot solutions that do not solve real operational pain points.",
+        "Uncertainty regarding data privacy, regulatory risks, and ongoing token consumption costs."
+      ],
+      "synezaSolution": [
+        "Rigorous problem framing: distinguishing genuine AI use cases from deterministic software problems.",
+        "Data readiness review: assessing completeness, labeling, accessibility, and privacy constraints.",
+        "Total Cost of Ownership (TCO) modeling: projecting ongoing inference costs at scale.",
+        "Definitive go / no-go recommendation backed by clear architectural analysis."
+      ],
+      "keyCapabilities": [
+        "Business workflow mapping and repetitive task identification",
+        "Data readiness and privacy boundary evaluation",
+        "Technical feasibility analysis (LLM vs. heuristics vs. classical machine learning)",
+        "Inference cost, token consumption, and infrastructure cost modeling",
+        "Security threat modeling and regulatory compliance review",
+        "Prioritized AI roadmap with rapid POC scoping"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Stakeholder Discovery Sessions",
+          "description": "Deep-dive interviews across management, engineering, and operations teams."
+        },
+        {
+          "step": "Step 2",
+          "title": "Data & Security Inspection",
+          "description": "Review representative datasets, existing systems, and data sensitivity classifications."
+        },
+        {
+          "step": "Step 3",
+          "title": "Feasibility & ROI Modeling",
+          "description": "Evaluate solution archetypes, estimated development effort, and operational costs."
+        },
+        {
+          "step": "Step 4",
+          "title": "Readiness Report & Recommendations",
+          "description": "Deliver a frank, actionable report with prioritized use cases and clear go/no-go guidance."
+        }
+      ],
+      "benefits": [
+        "Prevents wasted investment on ill-conceived, high-risk AI experiments.",
+        "Focuses development resources exclusively on high-impact, feasible opportunities.",
+        "Provides leadership with transparent cost estimates and realistic expectations."
+      ],
+      "engagementModels": [
+        "1-Week Discovery Sprint",
+        "2-Week Comprehensive Feasibility Review"
+      ],
+      "technologies": [
+        "Feasibility Modeling",
+        "Cost Estimation",
+        "Data Auditing",
+        "Threat Modeling"
+      ],
+      "cta": {
+        "label": "Schedule an AI Discovery Sprint",
+        "href": "/contact?category=ai-discovery"
+      },
+      "seo": {
+        "title": "AI Readiness & Use-Case Discovery | Syneza Technologies",
+        "metaDescription": "Objective AI feasibility assessment. Evaluate business problems, data readiness, security constraints, and projected ROI before investing.",
+        "keywords": [
+          "AI readiness assessment",
+          "AI use case discovery",
+          "AI consulting for business",
+          "AI feasibility evaluation"
+        ]
+      },
+      "order": 7,
+      "enabled": true
+    },
+    {
+      "id": "llm-security-responsible-ai",
+      "slug": "llm-security-responsible-ai",
+      "name": "LLM Security & Responsible AI",
+      "badge": "Defensive Engineering",
+      "shortDescription": "Protect business AI implementations against prompt injection, unauthorized data disclosure, hallucination risks, and uncontrolled tool execution.",
+      "fullDescription": "Connecting an LLM to internal business data introduces an entirely new threat surface. Our LLM security practice helps organizations implement defensive controls across the AI application lifecycle: input validation, prompt-injection defenses, strict tenant isolation, tool-calling restrictions, evaluation datasets, and audit logging. We treat security as an architectural requirement rather than a marketing slogan.",
+      "targetAudience": [
+        "Enterprises deploying customer-facing or data-sensitive AI applications",
+        "Security and compliance teams reviewing internal AI deployments"
+      ],
+      "businessProblem": [
+        "Direct and indirect prompt injection attacks manipulating model behavior or attempting jailbreaks.",
+        "Sensitive customer PII or proprietary IP leaking through model responses or logs.",
+        "Unbounded agent tool calling executing destructive commands or accessing unauthorized databases.",
+        "Lack of systematic evaluation to measure whether new prompt revisions introduce regressions."
+      ],
+      "synezaSolution": [
+        "Input sanitization, boundary demarcation, and defensive system prompt engineering.",
+        "Strict pre-retrieval authorization ensuring vector lookups respect user permission boundaries.",
+        "Tool-calling sandboxes with least-privilege permissions and mandatory human approval gates.",
+        "Curated evaluation benchmark datasets to measure accuracy, hallucination rates, and prompt resistance."
+      ],
+      "keyCapabilities": [
+        "Prompt-injection threat modeling and defensive boundary engineering",
+        "Data minimization and automated PII masking before API transmission",
+        "Pre-retrieval access control and multi-tenant data isolation for RAG systems",
+        "Constrained tool-calling permissions and state-changing approval workflows",
+        "Evaluation dataset creation for regression testing of model outputs",
+        "Comprehensive audit logging with safe token redaction"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Phase 1",
+          "title": "AI Threat Modeling",
+          "description": "Analyze potential attack vectors (prompt injection, data extraction, denial of wallet)."
+        },
+        {
+          "step": "Phase 2",
+          "title": "Defensive Architecture Implementation",
+          "description": "Implement input validation, system prompt guardrails, and tool sandboxing."
+        },
+        {
+          "step": "Phase 3",
+          "title": "Adversarial Testing & Red-Teaming",
+          "description": "Test the implementation against known prompt injection and boundary-breaking payloads."
+        },
+        {
+          "step": "Phase 4",
+          "title": "Monitoring & Continuous Evaluation",
+          "description": "Set up audit logging, token velocity alerts, and automated benchmark test runs."
+        }
+      ],
+      "benefits": [
+        "Significantly reduces the risk of embarrassing or damaging AI safety incidents.",
+        "Protects sensitive business records and customer data from unauthorized exposure.",
+        "Gives compliance, legal, and security leaders confidence in business AI adoption."
+      ],
+      "engagementModels": [
+        "AI Security Audit",
+        "Guardrail Implementation Sprint"
+      ],
+      "technologies": [
+        "Threat Modeling",
+        "Input Filtering",
+        "Output Validation",
+        "Evaluation Suites",
+        "Audit Logging"
+      ],
+      "cta": {
+        "label": "Inquire About AI Security",
+        "href": "/contact?category=ai-security"
+      },
+      "seo": {
+        "title": "LLM Security & Responsible AI Architecture | Syneza Technologies",
+        "metaDescription": "Protect business AI from prompt injection, sensitive data leakage, and unauthorized tool execution. Defensive AI engineering and guardrails.",
+        "keywords": [
+          "LLM security services",
+          "prompt injection defense",
+          "responsible AI architecture",
+          "AI security audit"
+        ]
+      },
+      "order": 8,
+      "enabled": true
+    }
+  ]
+}

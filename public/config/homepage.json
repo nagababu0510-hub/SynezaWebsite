@@ -1,0 +1,113 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "order": 1,
+      "enabled": true,
+      "heading": "Engineering Technology. Enabling Potential.",
+      "subtitle": "From developing reliable software and integrating practical AI solutions to preparing the next generation of technology professionals, Syneza Technologies helps organizations turn ideas into meaningful outcomes.",
+      "badge": "Dual-Pillar Technology Partner",
+      "primaryCta": {
+        "label": "Explore Technology Services",
+        "href": "/services"
+      },
+      "secondaryCta": {
+        "label": "Explore College Programmes",
+        "href": "/education"
+      }
+    },
+    {
+      "id": "dual-pillar-overview",
+      "type": "dual-pillar-overview",
+      "order": 2,
+      "enabled": true,
+      "heading": "Two Complementary Business Pillars",
+      "subtitle": "We combine rigorous software delivery with hands-on talent readiness, serving both forward-thinking businesses and forward-looking academic institutions."
+    },
+    {
+      "id": "software-services-preview",
+      "type": "software-services-preview",
+      "order": 3,
+      "enabled": true,
+      "heading": "Software Engineering & Maintenance",
+      "subtitle": "From greenfield web applications and microservices to legacy refactoring and database optimization, we build systems that endure.",
+      "primaryCta": {
+        "label": "View Full Technology Catalogue",
+        "href": "/services"
+      }
+    },
+    {
+      "id": "ai-solutions-preview",
+      "type": "ai-solutions-preview",
+      "order": 4,
+      "enabled": true,
+      "heading": "Pragmatic AI & LLM Solutions",
+      "subtitle": "We move beyond novelty chatbots to integrate secure retrieval systems, document processing, and human-in-the-loop workflows.",
+      "primaryCta": {
+        "label": "Explore AI & LLM Solutions",
+        "href": "/ai-solutions"
+      }
+    },
+    {
+      "id": "education-preview",
+      "type": "education-preview",
+      "order": 5,
+      "enabled": true,
+      "heading": "Education, Employability & Simulation",
+      "subtitle": "Empowering engineering institutions with structured, human-led technical assessments, 2-day Agile simulations, and industry workshops.",
+      "primaryCta": {
+        "label": "Explore Education Offerings",
+        "href": "/education"
+      }
+    },
+    {
+      "id": "audience-segments-preview",
+      "type": "audience-segments-preview",
+      "order": 6,
+      "enabled": true,
+      "heading": "Tailored Customer Pathways",
+      "subtitle": "Whether you represent a college placement cell, a local startup, or a growing enterprise, our engagement model adapts to your constraints."
+    },
+    {
+      "id": "engineering-principles",
+      "type": "engineering-principles",
+      "order": 7,
+      "enabled": true,
+      "heading": "Our Engineering Principles",
+      "subtitle": "Disciplined software craftsmanship, transparent communication, and honest boundaries."
+    },
+    {
+      "id": "security-responsible-ai",
+      "type": "security-responsible-ai",
+      "order": 8,
+      "enabled": true,
+      "heading": "Security-First & Responsible AI",
+      "subtitle": "We implement genuine data minimization, boundary controls, prompt defense, and zero unauthorized data leakage."
+    },
+    {
+      "id": "faqs",
+      "type": "faqs",
+      "order": 9,
+      "enabled": true,
+      "heading": "Frequently Asked Questions",
+      "subtitle": "Clear answers on our delivery models, assessment philosophy, AI integration, and commercial transparency."
+    },
+    {
+      "id": "final-cta",
+      "type": "final-cta",
+      "order": 10,
+      "enabled": true,
+      "heading": "Ready to Collaborate?",
+      "subtitle": "Discuss your software engineering project, schedule an AI feasibility discovery, or tailor an employability programme for your college.",
+      "primaryCta": {
+        "label": "Start a Project Conversation",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "Enquire for College Cohort",
+        "href": "/for-colleges"
+      }
+    }
+  ]
+}

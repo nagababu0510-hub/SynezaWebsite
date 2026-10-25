@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "sticky": true,
+  "showLogo": true,
+  "showCompanyName": true,
+  "showTagline": false,
+  "announcementBar": {
+    "enabled": true,
+    "text": "Now Scheduling 2026 College Assessment Drives & Enterprise Discovery Sprints",
+    "linkUrl": "/contact",
+    "linkLabel": "Schedule Consultation",
+    "badge": "Announcement"
+  },
+  "primaryCta": {
+    "enabled": true,
+    "label": "Discuss Your Project",
+    "href": "/contact"
+  },
+  "secondaryCta": {
+    "enabled": true,
+    "label": "College Programmes",
+    "href": "/for-colleges"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "privacyPolicy": {
+    "lastUpdated": "October 25, 2026",
+    "sections": [
+      {
+        "title": "1. Overview and Commitment",
+        "content": "Syneza Technologies Private Limited (\"Syneza\", \"we\", \"us\", or \"our\") respects your privacy. This Privacy Policy outlines what information we collect when you visit our website, submit an enquiry, or engage with our services, and how that information is processed."
+      },
+      {
+        "title": "2. Information We Collect",
+        "content": "We only collect information that you voluntarily provide through our contact forms or direct email communications. This typically includes your name, email address, phone number, organization or college name, and the text of your message. We do not collect unnecessary personal information."
+      },
+      {
+        "title": "3. Purpose of Processing",
+        "content": "Information submitted through our website is used solely to respond to your business inquiries, prepare customized service proposals, coordinate college training schedules, and maintain professional correspondence."
+      },
+      {
+        "title": "4. Data Retention and Security",
+        "content": "We implement appropriate administrative and technical safeguards to protect your information against unauthorized access, loss, or disclosure. We retain contact inquiries only as long as necessary to fulfill the business purpose for which they were gathered."
+      },
+      {
+        "title": "5. Third-Party Sharing",
+        "content": "We do not sell, rent, or trade your personal information to third parties. We do not transmit customer data to external AI model providers without explicit, agreed project contracts and appropriate security reviews."
+      },
+      {
+        "title": "6. Your Rights & Contact",
+        "content": "You may request access to, correction of, or deletion of your contact records at any time by contacting us at privacy@syneza.com or contact@syneza.com."
+      }
+    ]
+  },
+  "termsOfService": {
+    "lastUpdated": "October 25, 2026",
+    "sections": [
+      {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you accept and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our website."
+      },
+      {
+        "title": "2. Informational Purpose",
+        "content": "The content on this website is provided for general informational purposes regarding the technology services, consulting, assessments, and educational programmes offered by Syneza Technologies. Formal service engagements are governed by separate, executed service agreements."
+      },
+      {
+        "title": "3. Educational Programmes and Outcomes",
+        "content": "Syneza Technologies provides structured assessments, industry simulations, and training workshops to assist institutions and students in understanding real-world software expectations. We do not guarantee employment, job placements, or specific hiring outcomes."
+      },
+      {
+        "title": "4. Intellectual Property",
+        "content": "All materials, documentation, logos, and website content are the intellectual property of Syneza Technologies or licensed partners, protected by applicable copyright and trademark laws."
+      },
+      {
+        "title": "5. Limitation of Liability",
+        "content": "While we strive to keep website information accurate and up-to-date, Syneza Technologies makes no warranties regarding uninterrupted availability or total error-freedom. In no event shall Syneza be liable for indirect or consequential damages arising from website use."
+      },
+      {
+        "title": "6. Governing Law",
+        "content": "These terms are governed by and construed in accordance with the laws of India, with jurisdiction in Bengaluru, Karnataka."
+      }
+    ]
+  }
+}

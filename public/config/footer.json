@@ -1,0 +1,149 @@
+{
+  "enabled": true,
+  "showLogo": true,
+  "companyDescription": "Syneza Technologies is a dual-pillar technology partner delivering robust software engineering, practical AI integrations, and rigorous industry-readiness programmes for engineering institutions.",
+  "columns": [
+    {
+      "id": "tech-services",
+      "heading": "Technology Services",
+      "enabled": true,
+      "links": [
+        {
+          "label": "Custom Software Development",
+          "href": "/services/custom-software-development"
+        },
+        {
+          "label": "Software Maintenance & Support",
+          "href": "/services/software-maintenance"
+        },
+        {
+          "label": "Application Modernization",
+          "href": "/services/application-modernization"
+        },
+        {
+          "label": "API & System Integration",
+          "href": "/services/api-system-integration"
+        },
+        {
+          "label": "Database Engineering",
+          "href": "/services/database-engineering"
+        },
+        {
+          "label": "Quality & Test Engineering",
+          "href": "/services/quality-engineering"
+        },
+        {
+          "label": "DevOps & Delivery Engineering",
+          "href": "/services/devops-delivery"
+        },
+        {
+          "label": "Technical Consulting & Architecture",
+          "href": "/services/technical-consulting-architecture"
+        }
+      ]
+    },
+    {
+      "id": "ai-solutions-col",
+      "heading": "AI & LLM Solutions",
+      "enabled": true,
+      "links": [
+        {
+          "label": "LLM Integration",
+          "href": "/ai-solutions/llm-integration"
+        },
+        {
+          "label": "RAG Knowledge Assistants",
+          "href": "/ai-solutions/retrieval-augmented-generation"
+        },
+        {
+          "label": "AI Workflow Automation",
+          "href": "/ai-solutions/ai-workflow-automation"
+        },
+        {
+          "label": "AI Document Processing",
+          "href": "/ai-solutions/ai-document-processing"
+        },
+        {
+          "label": "AI Readiness & Discovery",
+          "href": "/ai-solutions/ai-readiness-discovery"
+        },
+        {
+          "label": "LLM Security & Responsible AI",
+          "href": "/ai-solutions/llm-security-responsible-ai"
+        }
+      ]
+    },
+    {
+      "id": "education-col",
+      "heading": "Education & Employability",
+      "enabled": true,
+      "links": [
+        {
+          "label": "Employability Assessment",
+          "href": "/education/employability-assessment"
+        },
+        {
+          "label": "Software Company Simulation",
+          "href": "/education/software-company-simulation"
+        },
+        {
+          "label": "Technology Workshops",
+          "href": "/education/technology-workshops"
+        },
+        {
+          "label": "Motivational Sessions",
+          "href": "/education/motivational-sessions"
+        },
+        {
+          "label": "For Engineering Colleges",
+          "href": "/for-colleges"
+        },
+        {
+          "label": "For Engineering Students",
+          "href": "/for-students"
+        }
+      ]
+    },
+    {
+      "id": "solutions-audience",
+      "heading": "Customer Solutions",
+      "enabled": true,
+      "links": [
+        {
+          "label": "Small Businesses & Startups",
+          "href": "/solutions/small-business"
+        },
+        {
+          "label": "Enterprise & Growing Firms",
+          "href": "/solutions/enterprise"
+        },
+        {
+          "label": "About Syneza Technologies",
+          "href": "/about"
+        },
+        {
+          "label": "Contact & Enquiries",
+          "href": "/contact"
+        }
+      ]
+    }
+  ],
+  "contactDetails": {
+    "enabled": true,
+    "email": "contact@syneza.com",
+    "phone": "+91 (0) 80-0000-0000",
+    "location": "Bengaluru, Karnataka, India"
+  },
+  "socialLinksEnabled": true,
+  "legalLinks": [
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Terms of Service",
+      "href": "/terms"
+    }
+  ],
+  "copyrightText": "© 2026 Syneza Technologies Private Limited. All rights reserved."
+}

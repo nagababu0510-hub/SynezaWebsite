@@ -1,0 +1,710 @@
+{
+  "pillarOverview": {
+    "title": "Software Engineering & Technology Services",
+    "tagline": "Delivering Dependable Software, Modernization, and Systems Integration",
+    "description": "We help businesses design, build, modernize, maintain, and optimize software systems. From early-stage web platforms to enterprise backend services, our engineering approach emphasizes clarity, maintainability, sensible architecture, and honest communication.",
+    "principles": [
+      "Simplicity over needless complexity: choose the simplest architecture that solves the problem.",
+      "Code maintainability: write software that another competent engineer can understand, modify, and test.",
+      "Disciplined testing: regression prevention and automated tests are essential parts of delivery, not afterthoughts.",
+      "Transparent scope management: clear requirements, documented interfaces, and no unsupported commitments."
+    ]
+  },
+  "services": [
+    {
+      "id": "custom-software-development",
+      "slug": "custom-software-development",
+      "name": "Custom Software Development",
+      "badge": "Full Lifecycle Engineering",
+      "shortDescription": "End-to-end web applications, business portals, operational workflow tools, and scalable backend services built to your exact specifications.",
+      "fullDescription": "We partner with organizations to translate business goals into working, dependable software. From initial requirements gathering and technical design to implementation, automated testing, and deployment preparation, we develop applications built for durability and maintainability.",
+      "targetAudience": [
+        "Small Businesses needing custom operational software",
+        "Mid-market companies outgrowing off-the-shelf SaaS",
+        "Enterprise teams requiring dedicated web applications"
+      ],
+      "businessProblem": [
+        "Generic commercial software often forces awkward compromises in core business workflows.",
+        "Spreadsheets and disconnected manual spreadsheets become unmanageable as transaction volume grows.",
+        "Previous outsourced development resulted in brittle code with no tests, no documentation, and high maintenance costs."
+      ],
+      "synezaSolution": [
+        "Collaborative discovery and transparent technical specification before any line of code is written.",
+        "Clean, modular architectures using proven modern stacks (Java/Spring Boot, TypeScript/React, Python, SQL).",
+        "Strict inclusion of unit and integration test suites as standard release deliverables.",
+        "Documented deployment procedures and clean handover of all source repositories."
+      ],
+      "keyCapabilities": [
+        "Custom web application and customer-facing business portal development",
+        "Internal workflow, inventory, and operations management systems",
+        "Backend microservices and robust RESTful API architectures",
+        "Proof-of-concept (POC) and Minimum Viable Product (MVP) builds",
+        "Database-driven web architectures with relational and document persistence",
+        "Application enhancements and new feature additions to existing systems"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Phase 1",
+          "title": "Requirements & Scope Definition",
+          "description": "Document user stories, system boundaries, edge cases, and acceptance criteria."
+        },
+        {
+          "step": "Phase 2",
+          "title": "Architecture & UX Design",
+          "description": "Design database schemas, interface contracts, and clear responsive wireframes."
+        },
+        {
+          "step": "Phase 3",
+          "title": "Iterative Implementation",
+          "description": "Milestone-based development sprints with regular staging demonstrations and feedback."
+        },
+        {
+          "step": "Phase 4",
+          "title": "Quality Verification & Deployment",
+          "description": "End-to-end verification, security audits, containerization, and production cutover."
+        }
+      ],
+      "benefits": [
+        "Tailored software that fits exact business processes without unnecessary feature bloat.",
+        "Complete intellectual property ownership and cleanly documented codebases.",
+        "Reduced long-term operating costs through maintainable, standard technologies."
+      ],
+      "engagementModels": [
+        "Fixed-Scope Project",
+        "Milestone-Based Delivery",
+        "Time & Materials Engineering Support"
+      ],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "TypeScript",
+        "React",
+        "Python",
+        "PostgreSQL",
+        "MySQL",
+        "Docker"
+      ],
+      "cta": {
+        "label": "Discuss Your Software Project",
+        "href": "/contact?category=custom-software"
+      },
+      "seo": {
+        "title": "Custom Software Development Services | Syneza Technologies",
+        "metaDescription": "Custom software development for businesses. Scalable web applications, backend services, and APIs built with Java, React, and Python.",
+        "keywords": [
+          "Custom software development services",
+          "Java and Spring Boot development",
+          "web application development",
+          "business portal engineering"
+        ]
+      },
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "software-maintenance",
+      "slug": "software-maintenance",
+      "name": "Software Maintenance & Application Support",
+      "badge": "Reliability & Longevity",
+      "shortDescription": "Corrective maintenance, bug resolution, root-cause diagnosis, dependency patching, refactoring, and technical debt reduction for existing applications.",
+      "fullDescription": "Many organizations already possess working software but lack the internal team bandwidth or specialized engineering capacity to maintain it reliably. We step in to stabilize existing systems, eliminate recurring bugs, patch security vulnerabilities, upgrade outdated libraries, and refactor technical debt—allowing your core team to focus on business priorities.",
+      "targetAudience": [
+        "Companies with existing software requiring ongoing engineering upkeep",
+        "Businesses experiencing recurring production errors or slowdowns"
+      ],
+      "businessProblem": [
+        "Unresolved bug backlogs frustrating internal users and external clients.",
+        "Accumulated technical debt making every new minor feature slow, risky, and expensive to ship.",
+        "Outdated runtime versions, libraries, and frameworks introducing unpatched security vulnerabilities.",
+        "Lack of automated tests making code modifications fraught with fear of regression breakage."
+      ],
+      "synezaSolution": [
+        "Systematic codebase triage, error log analysis, and root-cause remediation rather than surface-level band-aids.",
+        "Safe, incremental dependency updates with automated regression verification.",
+        "Targeted code refactoring that simplifies high-complexity functions and untangles spaghetti logic.",
+        "Creation of automated integration tests that lock in expected behavior before major modifications."
+      ],
+      "keyCapabilities": [
+        "Corrective maintenance, bug fixing, and defect triage",
+        "In-depth root-cause analysis for intermittent or complex production failures",
+        "Framework and dependency version upgrades (e.g. Java, Spring, Node.js packages)",
+        "Technical debt reduction, modularization, and dead code removal",
+        "Database query tuning, connection leak resolution, and index adjustments",
+        "Writing missing automated test suites and operational runbooks",
+        "Structured release preparation and deployment verification"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Codebase Audit & Knowledge Transfer",
+          "description": "Review repository, logs, dependencies, and setup instructions to establish a baseline."
+        },
+        {
+          "step": "Step 2",
+          "title": "Triage & Priority Backlog",
+          "description": "Categorize existing issues by severity, user impact, and engineering risk."
+        },
+        {
+          "step": "Step 3",
+          "title": "Incremental Fixes & Test Coverage",
+          "description": "Ship prioritized fixes paired with regression tests to prevent recurrence."
+        },
+        {
+          "step": "Step 4",
+          "title": "Ongoing Maintenance Rhythm",
+          "description": "Regular scheduled maintenance windows for library updates, security patches, and reviews."
+        }
+      ],
+      "benefits": [
+        "Extends the lifespan of existing software investments without costly total rewrites.",
+        "Restores developer confidence and reduces production incident frequencies.",
+        "Agreed service hours and commitments tailored to your operational requirements."
+      ],
+      "engagementModels": [
+        "Ongoing Monthly Maintenance Retainer",
+        "Block of Engineering Hours",
+        "Targeted Triage Sprint"
+      ],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "JavaScript / TypeScript",
+        "PHP",
+        "Python",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "cta": {
+        "label": "Inquire About Application Maintenance",
+        "href": "/contact?category=application-maintenance"
+      },
+      "seo": {
+        "title": "Software Maintenance & Application Support | Syneza Technologies",
+        "metaDescription": "Professional software maintenance, bug fixing, technical debt reduction, and dependency updates for business applications.",
+        "keywords": [
+          "Software maintenance services",
+          "application support",
+          "code refactoring",
+          "technical debt reduction",
+          "bug fixing"
+        ]
+      },
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "application-modernization",
+      "slug": "application-modernization",
+      "name": "Application Modernization",
+      "badge": "Incremental Evolution",
+      "shortDescription": "Pragmatic, value-guided modernization of legacy codebases: monolith modularization, framework upgrades, and API decoupling without high-risk rewrites.",
+      "fullDescription": "Big-bang rewrites are notoriously high-risk, expensive, and frequently fail to replicate subtle legacy business logic. Our application modernization practice focuses on incremental, value-driven evolution. We assess existing architectures, isolate core domain modules, modernize database access, and upgrade underlying frameworks while preserving continuous business operations.",
+      "targetAudience": [
+        "Established businesses with critical legacy applications",
+        "Organizations running unsupported Java/framework versions",
+        "Teams facing high deployment friction and architectural gridlock"
+      ],
+      "businessProblem": [
+        "Tightly coupled monolithic codebases where a minor change in one area breaks unrelated features.",
+        "Legacy runtime versions (e.g., ancient Java or PHP versions) blocking modern infrastructure adoption.",
+        "Slow release cycles requiring all developers to coordinate massive, risky all-hands deployments."
+      ],
+      "synezaSolution": [
+        "Architecture assessment and domain boundary discovery using Strangler Fig and modular patterns.",
+        "Pragmatic modularization: extracting discrete API services only where business value justifies it.",
+        "Runtime and framework upgrades executed with backward compatibility checks and safety nets.",
+        "Containerization and CI/CD improvements that speed up deployment cycles safely."
+      ],
+      "keyCapabilities": [
+        "Legacy codebase assessment, static code analysis, and architectural review",
+        "Monolith modularization and bounded context isolation",
+        "Framework and runtime upgrades (e.g. Java 8/11 to Java 17/21, Spring Boot 2 to 3)",
+        "Database access modernization and query decoupling",
+        "API wrapper creation around legacy core logic to enable modern web/mobile frontends",
+        "Containerization (Docker) and automated CI pipeline integration"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Phase 1",
+          "title": "Architecture & Risk Review",
+          "description": "Map dependencies, test coverage, high-friction files, and business criticality."
+        },
+        {
+          "step": "Phase 2",
+          "title": "Modernization Roadmap",
+          "description": "Define incremental milestones prioritized by business impact and risk profile."
+        },
+        {
+          "step": "Phase 3",
+          "title": "Incremental Extraction / Upgrades",
+          "description": "Apply changes slice-by-slice, verifying behavior through automated regression suites."
+        },
+        {
+          "step": "Phase 4",
+          "title": "Operational Handover & Observability",
+          "description": "Implement logging, metrics, and train internal team on updated architecture."
+        }
+      ],
+      "benefits": [
+        "Avoids the high failure rates and astronomical costs of total rewrite projects.",
+        "Modernizes mission-critical systems while keeping daily operations fully intact.",
+        "Improves security posture, developer productivity, and system maintainability."
+      ],
+      "engagementModels": [
+        "Phased Modernization Roadmap",
+        "Defined Milestone Execution"
+      ],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Docker",
+        "PostgreSQL",
+        "REST",
+        "Linux"
+      ],
+      "cta": {
+        "label": "Explore Application Modernization",
+        "href": "/contact?category=application-modernization"
+      },
+      "seo": {
+        "title": "Application Modernization Services | Syneza Technologies",
+        "metaDescription": "Pragmatic application modernization and legacy code refactoring. Monolith modularization, framework upgrades, and API decoupling.",
+        "keywords": [
+          "Application modernization",
+          "monolith to microservices migration",
+          "legacy software modernization",
+          "Java upgrade services"
+        ]
+      },
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "api-system-integration",
+      "slug": "api-system-integration",
+      "name": "API Development & System Integration",
+      "badge": "Interoperability & Data Flow",
+      "shortDescription": "Design, build, and secure RESTful APIs, third-party integrations, and event-driven messaging pipelines to connect disparate software platforms.",
+      "fullDescription": "Modern business efficiency depends on reliable data flow between software systems. We design robust REST APIs, integrate third-party SaaS platforms, and build event-driven messaging backbones using technologies like Apache Kafka. We emphasize clear interface documentation, strict validation, idempotency, and comprehensive error handling.",
+      "targetAudience": [
+        "Companies needing to connect internal systems with external partners/suppliers",
+        "Teams needing clean APIs for mobile or frontend clients"
+      ],
+      "businessProblem": [
+        "Siloed software applications requiring manual double-entry of data across multiple systems.",
+        "Fragile point-to-point scripts that fail silently during network hiccups or schema changes.",
+        "Lack of standardized API documentation (OpenAPI/Swagger) confusing integration partners."
+      ],
+      "synezaSolution": [
+        "Contract-first REST API design with OpenAPI/Swagger specifications.",
+        "Resilient third-party connectors with retry policies, rate limiting, and dead-letter queues.",
+        "Event-driven data pipelines for asynchronous, decoupled communication.",
+        "Secure token-based authentication (OAuth2 / JWT / API Keys) and input sanitization."
+      ],
+      "keyCapabilities": [
+        "RESTful API design, versioning, implementation, and documentation",
+        "Third-party API integrations (Payment gateways, CRM, ERP, logistics, communication)",
+        "Event-driven architecture and asynchronous messaging with Kafka",
+        "Data exchange, transformation, and schema mapping between formats",
+        "Authentication and authorization integration (OAuth2, JWT, API Gateway patterns)",
+        "Integration testing and synthetic API monitoring"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Interface & Contract Design",
+          "description": "Define endpoints, data payloads, headers, and error response schemas."
+        },
+        {
+          "step": "Step 2",
+          "title": "Implementation & Resilience",
+          "description": "Build services with circuit breakers, exponential backoff, and idempotent endpoints."
+        },
+        {
+          "step": "Step 3",
+          "title": "Integration Testing & Verification",
+          "description": "Verify payloads against edge cases, network timeouts, and malformed inputs."
+        },
+        {
+          "step": "Step 4",
+          "title": "Documentation & Monitoring",
+          "description": "Publish interactive API docs and configure alerting for error rate spikes."
+        }
+      ],
+      "benefits": [
+        "Eliminates repetitive manual data entry between business software tools.",
+        "Provides robust error visibility and automatic recovery from transient outages.",
+        "Enables smooth partner onboarding with clear, standardized documentation."
+      ],
+      "engagementModels": [
+        "Fixed-Scope Integration Project",
+        "API Design & Implementation Sprint"
+      ],
+      "technologies": [
+        "Spring Boot",
+        "Kafka",
+        "REST",
+        "JSON Schema",
+        "OpenAPI",
+        "Postman"
+      ],
+      "cta": {
+        "label": "Discuss System Integration",
+        "href": "/contact?category=system-integration"
+      },
+      "seo": {
+        "title": "API Development & System Integration Services | Syneza Technologies",
+        "metaDescription": "Secure REST API design, third-party integration, and event-driven architectures with Spring Boot and Kafka.",
+        "keywords": [
+          "API development and integration",
+          "REST API design services",
+          "Kafka messaging integration",
+          "system integration partner"
+        ]
+      },
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "database-engineering",
+      "slug": "database-engineering",
+      "name": "Database Engineering & Optimization",
+      "badge": "Data Integrity & Performance",
+      "shortDescription": "Relational and document schema modeling, SQL query tuning, index strategy, database migrations, and transaction integrity assurance.",
+      "fullDescription": "Your database is the definitive source of truth for your business operations. Our database engineering services help organizations design clean schemas, tune sluggish queries, structure indexing strategies, and execute safe migrations with rollback planning, automated validation, and zero unverified data assumptions.",
+      "targetAudience": [
+        "Businesses experiencing database performance bottlenecks",
+        "Teams undertaking complex schema migrations or version upgrades"
+      ],
+      "businessProblem": [
+        "Slow database queries causing page timeouts and degrading user experience during peak hours.",
+        "Unindexed tables and poorly constructed joins consuming excessive CPU and memory.",
+        "High fear of executing database migrations due to potential data loss or locking."
+      ],
+      "synezaSolution": [
+        "In-depth query profiling and execution plan analysis (EXPLAIN) to eliminate table scans.",
+        "Thoughtful indexing strategies that accelerate reads without penalizing write throughput.",
+        "Safe, repeatable migration scripts (Flyway / Liquibase) with automated rollback steps.",
+        "Strict transaction isolation reviews to prevent dirty reads, phantom rows, or race conditions."
+      ],
+      "keyCapabilities": [
+        "Database schema design, normalization, and relational modeling",
+        "Query optimization, slow-query log analysis, and execution plan profiling",
+        "Composite index design and index bloat remediation",
+        "Database migration planning, testing, and execution with rollback provisions",
+        "Data access layer refactoring (ORM optimization, eliminating N+1 query patterns)",
+        "Data integrity constraints, foreign key validation, and transactional audits"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Profiling & Performance Baseline",
+          "description": "Analyze slow query logs, connection pools, and table statistics to find hot spots."
+        },
+        {
+          "step": "Step 2",
+          "title": "Optimization & Query Refactoring",
+          "description": "Rewrite complex queries, adjust indexes, and eliminate N+1 ORM bottlenecks."
+        },
+        {
+          "step": "Step 3",
+          "title": "Staging Benchmarking",
+          "description": "Benchmark performance improvements on realistic dataset replicas before production release."
+        },
+        {
+          "step": "Step 4",
+          "title": "Production Cutover & Verification",
+          "description": "Apply changes during designated windows with verifiable rollback scripts ready."
+        }
+      ],
+      "benefits": [
+        "Significantly speeds up response times for key business reports and customer screens.",
+        "Prevents costly over-provisioning of cloud database instances.",
+        "Protects business-critical records with tested migration safety nets."
+      ],
+      "engagementModels": [
+        "Database Performance Audit Sprint",
+        "Schema Migration & Refactoring Engagement"
+      ],
+      "technologies": [
+        "PostgreSQL",
+        "MySQL",
+        "Oracle Database",
+        "MongoDB",
+        "Flyway"
+      ],
+      "cta": {
+        "label": "Inquire About Database Engineering",
+        "href": "/contact?category=database-engineering"
+      },
+      "seo": {
+        "title": "Database Engineering & SQL Optimization | Syneza Technologies",
+        "metaDescription": "Database schema design, SQL query tuning, indexing optimization, and migration planning for MySQL, PostgreSQL, and Oracle.",
+        "keywords": [
+          "Database optimization",
+          "SQL query tuning services",
+          "database schema design",
+          "database migration planning"
+        ]
+      },
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "id": "quality-engineering",
+      "slug": "quality-engineering",
+      "name": "Quality Engineering & Testing",
+      "badge": "Defect Prevention",
+      "shortDescription": "Comprehensive test automation strategies, API verification, regression testing, and CI pipeline quality gates that prevent defects before production.",
+      "fullDescription": "Quality is not an afterthought tacked on before release—it is a core engineering discipline. We help organizations establish reliable test strategies combining unit tests, integration tests, contract tests, and end-to-end automation, ensuring fast, confident releases that do not break existing functionality.",
+      "targetAudience": [
+        "Teams struggling with manual, repetitive regression testing",
+        "Organizations needing to establish automated test foundations"
+      ],
+      "businessProblem": [
+        "Manual QA testing takes days before every release, slowing down feature delivery.",
+        "Regressions repeatedly slip into production, frustrating customers and hurting reputation.",
+        "Developers avoid touching legacy code because no automated safety net exists."
+      ],
+      "synezaSolution": [
+        "Implementation of testing pyramids balanced between fast unit tests, integration tests, and targeted UI smoke tests.",
+        "API contract and regression test automation integrated into automated CI/CD pipelines.",
+        "Realistic test data strategies that reproduce production scenarios without sensitive user data exposure."
+      ],
+      "keyCapabilities": [
+        "Test strategy development and coverage assessment",
+        "Automated API and backend integration testing",
+        "Unit testing suites (JUnit 5, Pytest, Vitest, Jest)",
+        "Regression test automation and smoke test suites",
+        "CI pipeline quality gates that fail builds on regression or coverage drops",
+        "Performance, load, and concurrency verification"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Test Gap Assessment",
+          "description": "Audit existing code coverage, critical user journeys, and recurring defect hot spots."
+        },
+        {
+          "step": "Step 2",
+          "title": "Framework & Harness Setup",
+          "description": "Establish clean test scaffolding, fixtures, and CI automation hooks."
+        },
+        {
+          "step": "Step 3",
+          "title": "Core Flow Automation",
+          "description": "Automate high-value critical regression paths first to deliver immediate risk reduction."
+        },
+        {
+          "step": "Step 4",
+          "title": "Team Enablement & Standards",
+          "description": "Document testing conventions and train developers on test maintenance habits."
+        }
+      ],
+      "benefits": [
+        "Cuts release validation time from days to minutes.",
+        "Gives development teams the safety net required to refactor code aggressively.",
+        "Protects customer trust by preventing high-impact regression bugs."
+      ],
+      "engagementModels": [
+        "Test Automation Jumpstart",
+        "Ongoing Quality Engineering Support"
+      ],
+      "technologies": [
+        "JUnit",
+        "Mockito",
+        "Vitest",
+        "Playwright",
+        "Postman / Newman",
+        "GitHub Actions"
+      ],
+      "cta": {
+        "label": "Explore Quality Engineering",
+        "href": "/contact?category=quality-engineering"
+      },
+      "seo": {
+        "title": "Quality Engineering & Test Automation | Syneza Technologies",
+        "metaDescription": "Test strategy development, automated regression testing, API test suites, and CI/CD quality gates for reliable software delivery.",
+        "keywords": [
+          "Quality engineering services",
+          "test automation partner",
+          "API regression testing",
+          "software testing strategy"
+        ]
+      },
+      "order": 6,
+      "enabled": true
+    },
+    {
+      "id": "devops-delivery",
+      "slug": "devops-delivery",
+      "name": "DevOps & Delivery Engineering",
+      "badge": "Automated Operations",
+      "shortDescription": "Build automation, CI/CD pipelines, containerization, environment reproducibility, deployment safety, and observability for reliable releases.",
+      "fullDescription": "Reliable software requires reliable delivery mechanisms. Our DevOps and delivery engineering services focus on removing friction from the release process through containerization, reproducible builds, automated CI/CD pipelines, clear environment configurations, and deployment verification with rollback provisions.",
+      "targetAudience": [
+        "Engineering teams with manual, error-prone deployment procedures",
+        "Organizations standardizing environments with Docker and CI/CD"
+      ],
+      "businessProblem": [
+        "\"It works on my machine\" syndrome due to inconsistent developer, staging, and production environments.",
+        "Manual SSH and copy-paste release workflows that introduce human configuration errors.",
+        "Lack of automated deployment rollbacks when a release encounters unexpected errors."
+      ],
+      "synezaSolution": [
+        "Containerization of applications using Docker for reproducible environment behavior.",
+        "Automated CI/CD pipelines (e.g. GitHub Actions, GitLab CI) running linting, tests, and builds on every commit.",
+        "Strict configuration management separating environment secrets from source code.",
+        "Structured deployment runbooks and rollback automation to minimize downtime."
+      ],
+      "keyCapabilities": [
+        "Continuous Integration (CI) and Continuous Deployment (CD) pipeline engineering",
+        "Docker containerization and multi-stage build optimization",
+        "Environment configuration management and secret handling guidance",
+        "Deployment automation, health check verification, and zero-downtime cutover patterns",
+        "Structured application logging, metrics collection, and basic alerting setup",
+        "Rollback planning and disaster recovery procedures"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Delivery Workflow Audit",
+          "description": "Map the current path from developer commit to production release."
+        },
+        {
+          "step": "Step 2",
+          "title": "Containerization & Standardization",
+          "description": "Create optimized, minimal Dockerfiles and local development compose files."
+        },
+        {
+          "step": "Step 3",
+          "title": "CI/CD Pipeline Build",
+          "description": "Configure automated build, test, and artifact packaging stages with gated promotions."
+        },
+        {
+          "step": "Step 4",
+          "title": "Verification & Documentation",
+          "description": "Test failovers, verify rollbacks, and provide full operational documentation."
+        }
+      ],
+      "benefits": [
+        "Eliminates deployment dread by making releases predictable, repeatable, and automated.",
+        "Ensures environments are identical across development, test, and production.",
+        "Improves mean time to recovery (MTTR) with automated rollback steps."
+      ],
+      "engagementModels": [
+        "CI/CD Pipeline Implementation Project",
+        "Environment Standardization Sprint"
+      ],
+      "technologies": [
+        "Docker",
+        "GitHub Actions",
+        "GitLab CI",
+        "Linux",
+        "Nginx",
+        "Bash"
+      ],
+      "cta": {
+        "label": "Inquire About DevOps Delivery",
+        "href": "/contact?category=devops-delivery"
+      },
+      "seo": {
+        "title": "DevOps & Delivery Engineering | Syneza Technologies",
+        "metaDescription": "CI/CD pipeline automation, containerization with Docker, environment configuration, and deployment reliability engineering.",
+        "keywords": [
+          "DevOps and delivery engineering",
+          "CI/CD pipeline implementation",
+          "Docker containerization services",
+          "automated deployment workflows"
+        ]
+      },
+      "order": 7,
+      "enabled": true
+    },
+    {
+      "id": "technical-consulting-architecture",
+      "slug": "technical-consulting-architecture",
+      "name": "Architecture & Technical Consulting",
+      "badge": "Strategic Guidance",
+      "shortDescription": "Technical discovery, architecture reviews, technology stack selection, technical debt prioritization, and pragmatic engineering roadmaps.",
+      "fullDescription": "Before committing significant capital to software development, organizations benefit from objective, experienced architectural advice. We help business and technical leaders assess architectural options, select appropriate technology stacks, evaluate feasibility, and prioritize technical debt based on genuine business risk, cost, and team capabilities.",
+      "targetAudience": [
+        "Founders and business leaders planning new technical initiatives",
+        "CTOs/Engineering Managers seeking independent architecture reviews"
+      ],
+      "businessProblem": [
+        "Uncertainty about whether to choose microservices, modular monoliths, or specific frameworks for a new project.",
+        "Conflicting internal opinions on whether to rewrite or refactor a problematic system.",
+        "Risk of over-engineering and choosing complex, expensive infrastructure before product-market fit."
+      ],
+      "synezaSolution": [
+        "Objective technical discovery sessions analyzing business goals, team size, budget, and operational constraints.",
+        "Independent architecture reviews identifying single points of failure, security concerns, and scaling bottlenecks.",
+        "Pragmatic technology recommendations grounded in long-term maintainability rather than industry fads.",
+        "Actionable technical debt prioritization matrix ranking issues by business impact vs. remediation effort."
+      ],
+      "keyCapabilities": [
+        "Technical discovery and detailed requirements analysis",
+        "Architecture reviews and scalability assessments",
+        "Technology evaluation and stack selection (languages, frameworks, databases)",
+        "Proof-of-concept (POC) scoping and architectural prototyping",
+        "Technical debt prioritization and remediation roadmaps",
+        "Security posture review and maintainability audits"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Discovery Interviews",
+          "description": "Engage with key business stakeholders, engineers, and operators to understand challenges."
+        },
+        {
+          "step": "Step 2",
+          "title": "Artifact & System Review",
+          "description": "Review existing diagrams, documentation, code repositories, and operational costs."
+        },
+        {
+          "step": "Step 3",
+          "title": "Analysis & Trade-Off Modeling",
+          "description": "Model architectural options against budget, operational risk, and delivery timelines."
+        },
+        {
+          "step": "Step 4",
+          "title": "Executive Presentation & Report",
+          "description": "Deliver a concise architectural assessment report with prioritized next steps."
+        }
+      ],
+      "benefits": [
+        "Prevents costly architectural mistakes and inappropriate technology selections.",
+        "Provides independent, unvarnished engineering clarity to leadership and investors.",
+        "Creates an actionable roadmap aligned with realistic budgets and team bandwidth."
+      ],
+      "engagementModels": [
+        "Architecture Assessment Sprint (1-2 Weeks)",
+        "Fractional Architectural Advisory",
+        "Pre-Project Discovery Phase"
+      ],
+      "technologies": [
+        "Architecture Reviews",
+        "System Design",
+        "Risk Modeling",
+        "Roadmapping"
+      ],
+      "cta": {
+        "label": "Schedule an Architectural Discovery",
+        "href": "/contact?category=architecture-consulting"
+      },
+      "seo": {
+        "title": "Technical Consulting & Software Architecture | Syneza Technologies",
+        "metaDescription": "Independent software architecture reviews, technology stack evaluation, technical debt prioritization, and engineering roadmaps.",
+        "keywords": [
+          "Software engineering consulting",
+          "technical architecture review",
+          "technology stack selection",
+          "technical debt prioritization"
+        ]
+      },
+      "order": 8,
+      "enabled": true
+    }
+  ]
+}

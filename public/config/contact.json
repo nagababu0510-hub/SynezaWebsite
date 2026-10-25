@@ -1,0 +1,123 @@
+{
+  "title": "Contact Syneza Technologies",
+  "subtitle": "Whether you need software engineering, application maintenance, AI guidance, or a college readiness programme, our team is ready to discuss your requirements.",
+  "contactEmail": "contact@syneza.com",
+  "contactPhone": "+91 (0) 80-0000-0000",
+  "locationText": "Bengaluru, Karnataka, India (Serving clients nationally and internationally)",
+  "enquiryCategories": [
+    {
+      "value": "custom-software",
+      "label": "Custom Software Development",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "application-maintenance",
+      "label": "Software Maintenance & Support",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "application-modernization",
+      "label": "Application Modernization",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "system-integration",
+      "label": "API & System Integration",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "database-engineering",
+      "label": "Database Engineering & Tuning",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "quality-engineering",
+      "label": "Quality Engineering & Testing",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "devops-delivery",
+      "label": "DevOps & Delivery Engineering",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "architecture-consulting",
+      "label": "Architecture & Technical Consulting",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "small-business",
+      "label": "Small Business Solutions",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "enterprise-solutions",
+      "label": "Enterprise Technology Services",
+      "categoryGroup": "software"
+    },
+    {
+      "value": "llm-integration",
+      "label": "Large Language Model (LLM) Integration",
+      "categoryGroup": "ai"
+    },
+    {
+      "value": "rag-assistants",
+      "label": "RAG Knowledge Assistants",
+      "categoryGroup": "ai"
+    },
+    {
+      "value": "workflow-automation",
+      "label": "AI Workflow Automation",
+      "categoryGroup": "ai"
+    },
+    {
+      "value": "ai-support",
+      "label": "AI for Customer Support",
+      "categoryGroup": "ai"
+    },
+    {
+      "value": "document-processing",
+      "label": "AI Document Processing",
+      "categoryGroup": "ai"
+    },
+    {
+      "value": "ai-discovery",
+      "label": "AI Readiness & Feasibility Discovery",
+      "categoryGroup": "ai"
+    },
+    {
+      "value": "ai-security",
+      "label": "LLM Security & Responsible AI",
+      "categoryGroup": "ai"
+    },
+    {
+      "value": "college-assessment",
+      "label": "College Employability Assessment Drive",
+      "categoryGroup": "education"
+    },
+    {
+      "value": "company-simulation",
+      "label": "Software Company Simulation Programme",
+      "categoryGroup": "education"
+    },
+    {
+      "value": "technology-workshops",
+      "label": "Technology Workshops for Colleges",
+      "categoryGroup": "education"
+    },
+    {
+      "value": "motivational-sessions",
+      "label": "Motivational & Career Sessions",
+      "categoryGroup": "education"
+    },
+    {
+      "value": "general-inquiry",
+      "label": "General / Other Inquiry",
+      "categoryGroup": "general"
+    }
+  ],
+  "formDisclaimers": {
+    "privacyNotice": "Your contact details and message will only be used to respond to your specific enquiry. We do not sell or share contact details with third-party marketers.",
+    "responseCommitment": "Our engineering and academic coordinators review submissions and aim to respond within 1-2 business days."
+  }
+}

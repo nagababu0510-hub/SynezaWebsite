@@ -1,0 +1,56 @@
+{
+  "models": [
+    {
+      "id": "fixed-scope",
+      "name": "Fixed-Scope Project",
+      "idealFor": "Clearly defined projects, MVPs, proof-of-concepts, and scoped feature additions.",
+      "description": "We define comprehensive requirements, deliverables, milestones, and acceptance criteria upfront. Best for projects with stable, well-understood boundaries.",
+      "keyCharacteristics": [
+        "Defined milestones with concrete deliverables",
+        "Clear upfront budget with no surprise costs",
+        "Explicit acceptance criteria and sign-off points",
+        "Warranty period for defect remediation following release"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "discovery-assessment",
+      "name": "Discovery & Technical Assessment",
+      "idealFor": "Organizations planning new software initiatives or evaluating AI feasibility before committing major capital.",
+      "description": "A focused, time-boxed technical investigation (typically 1 to 2 weeks) analyzing architecture, data readiness, security risks, and feasibility.",
+      "keyCharacteristics": [
+        "Time-boxed 1 to 2 week engagement",
+        "In-depth interviews with business and engineering stakeholders",
+        "Concrete architectural assessment report and risk matrix",
+        "Actionable roadmap with realistic budget and effort estimates"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ongoing-maintenance",
+      "name": "Ongoing Maintenance & Engineering Retainer",
+      "idealFor": "Businesses with existing software applications requiring reliable ongoing upkeep, bug fixes, updates, and optimization.",
+      "description": "A monthly engagement providing dedicated engineering hours for bug fixing, library upgrades, database optimization, code refactoring, and technical debt reduction.",
+      "keyCharacteristics": [
+        "Agreed monthly hours and service windows",
+        "Prioritized backlog triage and monthly release cycles",
+        "Continuous security patching and dependency maintenance",
+        "Transparent time and activity tracking reports"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "institutional-programme",
+      "name": "Institutional College Partnership",
+      "idealFor": "Engineering colleges seeking tailored student assessments, company simulations, and technical workshops.",
+      "description": "Collaborative engagement calibrated to institutional schedules, student batch numbers, engineering branches, and specific placement timelines.",
+      "keyCharacteristics": [
+        "Tailored cohort sizing from single branches to campus-wide drives",
+        "Detailed diagnostic reporting delivered to college leadership & TPOs",
+        "Combination of human-led assessments, simulations, and workshops",
+        "Clear scheduling around semester exams and recruitment seasons"
+      ],
+      "enabled": true
+    }
+  ]
+}

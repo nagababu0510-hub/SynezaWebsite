@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/company/syneza-technologies",
+      "enabled": true
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/syneza-technologies",
+      "enabled": true
+    },
+    {
+      "platform": "Twitter / X",
+      "url": "https://twitter.com/SynezaTech",
+      "enabled": false
+    }
+  ]
+}

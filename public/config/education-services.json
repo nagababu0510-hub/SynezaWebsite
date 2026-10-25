@@ -1,0 +1,494 @@
+{
+  "pillarOverview": {
+    "title": "Education, Employability & Industry Readiness",
+    "tagline": "Bridging Academic Preparation and Professional Software Engineering",
+    "description": "We partner with engineering colleges, placement officers, and faculty to deliver structured, human-evaluated assessments and immersive delivery simulations. We emphasize transparent feedback, grounded expectations, and genuine competence over hype.",
+    "humanLedCommitment": "Our employability assessments are led and reviewed by experienced human evaluators. AI assists solely in aggregating patterns and formatting summary reports. We do not use automated black-box scoring to replace human engineering judgment, and we never make false promises of guaranteed placements."
+  },
+  "services": [
+    {
+      "id": "employability-assessment",
+      "slug": "employability-assessment",
+      "name": "Comprehensive Employability Assessment",
+      "badge": "Human-Led Evaluation",
+      "shortDescription": "Supervised paper-based and practical evaluations covering 18 foundational software engineering competencies, followed by 1-on-1 human technical interviews.",
+      "fullDescription": "A multi-dimensional diagnostic process designed to give students and institutions a clear, unvarnished picture of technical and problem-solving readiness. Unlike automated multiple-choice tests that reward rote memorization, our assessment combines supervised evaluations with individual technical interviews conducted by seasoned engineers.",
+      "targetAudience": [
+        "Engineering Colleges (B.E. / B.Tech / M.C.A.)",
+        "Pre-final & Final Year Students",
+        "Faculty & Training & Placement Officers (TPOs)"
+      ],
+      "businessProblem": [
+        "High GPA students frequently struggle in live technical interviews due to superficial conceptual understanding.",
+        "Online automated coding platforms reward memorization of solutions rather than structured problem-solving and communication.",
+        "Colleges lack granular diagnostic data showing exactly where curriculum coverage diverges from industry expectations.",
+        "Students lack practice articulating technical tradeoffs, architecture choices, and project code under interview pressure."
+      ],
+      "synezaSolution": [
+        "Multi-topic diagnostic covering programming fundamentals, OOP, data structures, databases, networking, OS, and APIs.",
+        "Human-led individual technical interviews assessing thought process, problem decomposition, and code clarity.",
+        "Institutional skill-gap reporting mapping student cohort performance against core industry competency standards.",
+        "Actionable student feedback detailing specific focus areas for remediation prior to formal campus recruitment."
+      ],
+      "keyCapabilities": [
+        "Supervised paper-based and written programming assessments",
+        "Aptitude, logical reasoning, and algorithmic problem-solving",
+        "Core CS evaluations: Data Structures, OOP, OS, Networks, Computer Architecture",
+        "Databases, SQL queries, and transaction understanding",
+        "Software engineering discipline: Testing, Version Control (Git), REST APIs",
+        "Final-year project deep-dive and technical communication assessment",
+        "One-on-one structured interviews with engineering practitioners"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Phase 1",
+          "title": "Curriculum & Cohort Alignment",
+          "description": "Review branch composition, year of study, and institutional focus areas to calibrate question banks."
+        },
+        {
+          "step": "Phase 2",
+          "title": "Supervised Assessment Session",
+          "description": "Conducted on campus under strict supervision covering foundational CS and practical coding decomposition."
+        },
+        {
+          "step": "Phase 3",
+          "title": "1-on-1 Technical Interviews",
+          "description": "Individual evaluations by engineers exploring problem-solving depth, project code, and communication."
+        },
+        {
+          "step": "Phase 4",
+          "title": "Diagnostic Report Delivery",
+          "description": "Comprehensive institutional report delivered to TPO/leadership plus individual student improvement notes."
+        }
+      ],
+      "benefits": [
+        "Eliminates guesswork regarding student placement readiness across all sections.",
+        "Empowers faculty with factual data to adjust internal lab sessions and revision workshops.",
+        "Normalizes constructive feedback and technical interview conditions for students.",
+        "Accurate, grounded evaluation with zero exaggerated or guaranteed claims."
+      ],
+      "engagementModels": [
+        "Campus-Wide Cohort",
+        "Branch-Specific Diagnostic",
+        "Pre-Placement Readiness Drive"
+      ],
+      "duration": "1 to 2 Days depending on cohort size",
+      "pricingNote": "Custom scoped based on student cohort count and location.",
+      "cta": {
+        "label": "Request College Assessment Proposal",
+        "href": "/contact?category=college-assessment"
+      },
+      "seo": {
+        "title": "Employability Assessment for Engineering Colleges | Syneza Technologies",
+        "metaDescription": "Supervised, human-led technical employability assessments for engineering institutions. Diagnostic skill-gap reports across 18 CS disciplines.",
+        "keywords": [
+          "engineering student employability assessment",
+          "technical skill assessment",
+          "engineering college training",
+          "campus placement preparation"
+        ]
+      },
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "software-company-simulation",
+      "slug": "software-company-simulation",
+      "name": "Software Company Simulation",
+      "badge": "2-Day Industry Immersion",
+      "shortDescription": "A 2-day practical Agile software delivery simulation featuring 4 sprints, prepared user stories, change requests, and a working proof-of-concept demonstration.",
+      "fullDescription": "The Software Company Simulation places engineering students inside a realistic delivery environment designed to simulate a working engineering squad. Over 17 structured hours (1 hour of Agile immersion followed by four 4-hour sprints), student teams take realistic user stories with acceptance criteria, manage backlogs, respond to mid-project change requests, and build a verified working proof of concept.",
+      "targetAudience": [
+        "Pre-final & Final Year Engineering Students",
+        "Colleges seeking hands-on industry exposure for students"
+      ],
+      "businessProblem": [
+        "Graduating engineers have never worked with team-based version control branches, pull requests, or merge conflicts.",
+        "Academic projects rarely include formal acceptance criteria, peer code reviews, or automated unit tests.",
+        "Students have never experienced the reality of sudden client change requests or sprint timeboxing.",
+        "Isolated coding exercises fail to teach collaborative architecture, documentation, and sprint demonstrations."
+      ],
+      "synezaSolution": [
+        "A fully prepared simulated enterprise scenario with backlog, user stories, and acceptance test definitions.",
+        "17 intensive hours structured into four 4-hour sprints plus Agile fundamentals immersion.",
+        "Deliberate injection of a scope change request in Sprint 3 to evaluate adaptive engineering and teamwork.",
+        "Final sprint proof-of-concept demonstration evaluated against defined acceptance criteria and code hygiene."
+      ],
+      "keyCapabilities": [
+        "Four 4-hour delivery sprints (16 hours sprint time + 1 hour Agile kickoff = 17 hours total)",
+        "Backlog grooming, user story sizing, and sprint commitment",
+        "Git branch management, feature branches, and pull request reviews",
+        "Automated testing fundamentals and integration checks",
+        "Handling mid-sprint requirement change requests under realistic constraints",
+        "Executive proof-of-concept presentation and technical walkthrough"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Sprint 0",
+          "title": "Agile Immersion & Sprint Setup",
+          "description": "Form teams, assign roles, inspect product backlog, and set up local dev repositories."
+        },
+        {
+          "step": "Sprint 1",
+          "title": "Core Architecture & Baseline Stories",
+          "description": "Implement initial foundation, schema models, and baseline endpoints with unit tests."
+        },
+        {
+          "step": "Sprint 2",
+          "title": "Feature Expansion & Integration",
+          "description": "Deliver primary business logic, integrate components, and perform code review."
+        },
+        {
+          "step": "Sprint 3",
+          "title": "The Change Request & Hardening",
+          "description": "Introduce a realistic client scope change; refactor code, update tests, and adapt."
+        },
+        {
+          "step": "Sprint 4",
+          "title": "Final Integration & Demonstration",
+          "description": "End-to-end verification, demo to instructors/evaluators, and retrospective."
+        }
+      ],
+      "benefits": [
+        "Demystifies everyday software company workflows before students start their first job.",
+        "Teaches communication, accountability, and trade-off negotiation under sprint deadlines.",
+        "Provides tangible, practical experience students can articulate credibly in technical interviews.",
+        "Delivered as an educational simulation, avoiding misleading claims of employment."
+      ],
+      "engagementModels": [
+        "Weekend College Intensive",
+        "Departmental Workshop Week",
+        "Pre-Placement Boot Camp"
+      ],
+      "duration": "2 Days (17 Hours total)",
+      "pricingNote": "Scoped based on lab capacity and batch count.",
+      "cta": {
+        "label": "Schedule Simulation for College",
+        "href": "/contact?category=company-simulation"
+      },
+      "seo": {
+        "title": "Software Company Simulation Programme | Syneza Technologies",
+        "metaDescription": "Two-day 17-hour Agile software company simulation for engineering students. Sprint planning, change requests, and working POC demos.",
+        "keywords": [
+          "Software Company Simulation",
+          "Agile sprint workshop for students",
+          "engineering college training",
+          "industry readiness"
+        ]
+      },
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "technology-workshops",
+      "slug": "technology-workshops",
+      "name": "Technology Workshops",
+      "badge": "Hands-on Modules",
+      "shortDescription": "Modular, practitioner-taught workshops in Java, Spring Boot, Python, REST APIs, Microservices, SQL, Git, and Practical AI/LLMs.",
+      "fullDescription": "Focused, intensive engineering workshops tailored to the specific learning gaps identified during student assessments or requested by department heads. Each workshop emphasizes hands-on code writing, real debugging scenarios, and architectural patterns rather than theoretical slide lectures.",
+      "targetAudience": [
+        "Engineering Departments",
+        "Student Coding Clubs",
+        "Pre-placement Training Initiatives"
+      ],
+      "businessProblem": [
+        "Curriculums often lag behind modern frameworks (e.g. teaching basic Java syntax without Spring Boot or REST API principles).",
+        "Students lack experience connecting backend services to relational databases or messaging queues like Kafka.",
+        "Excessive focus on AI buzzwords without understanding foundational tokenization, API limits, or prompting fundamentals."
+      ],
+      "synezaSolution": [
+        "Hands-on, project-backed workshops led by active technology practitioners.",
+        "Configurable modules spanning enterprise Java/Spring, Python data engineering, database tuning, and generative AI.",
+        "All topics verified against currently available instructor competencies before being scheduled."
+      ],
+      "keyCapabilities": [
+        "Java & Spring Boot backend services",
+        "Python for scripting, backend, and data workflows",
+        "RESTful API architecture, design, and documentation",
+        "SQL, relational database modeling, and query tuning",
+        "Version control best practices with Git & GitHub/GitLab",
+        "Software testing & quality fundamentals (Unit & Integration tests)",
+        "Practical Generative AI & LLM application integration"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Topic Selection & Lab Pre-requisites",
+          "description": "Align on workshop tracks and verify student machine/lab toolchain readiness."
+        },
+        {
+          "step": "Step 2",
+          "title": "Conceptual Primer & Code Architecture",
+          "description": "30% concept breakdown followed immediately by architectural walkthrough."
+        },
+        {
+          "step": "Step 3",
+          "title": "Hands-on Lab Implementation",
+          "description": "70% guided coding exercises, debugging real stack traces, and writing tests."
+        },
+        {
+          "step": "Step 4",
+          "title": "Take-home Repository & Exercises",
+          "description": "Documented boilerplate repositories provided for continuous post-workshop learning."
+        }
+      ],
+      "benefits": [
+        "Immediately actionable skills that align directly with industry hiring profiles.",
+        "High student engagement through active coding and live debugging.",
+        "Flexible 1-day or multi-day formats matching academic calendars."
+      ],
+      "engagementModels": [
+        "1-Day Intensive",
+        "3-Day Deep Dive",
+        "Semester Weekend Series"
+      ],
+      "duration": "1 to 3 Days per topic track",
+      "pricingNote": "Priced per workshop track and cohort size.",
+      "cta": {
+        "label": "Inquire About Workshop Tracks",
+        "href": "/contact?category=technology-workshops"
+      },
+      "seo": {
+        "title": "Technology Workshops for Engineering Colleges | Syneza Technologies",
+        "metaDescription": "Hands-on technology workshops for engineering institutions. Java, Spring Boot, REST APIs, SQL, Git, and practical LLM integration.",
+        "keywords": [
+          "Technical workshops for engineering colleges",
+          "Java Spring Boot college workshop",
+          "Python and REST API training"
+        ]
+      },
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "motivational-sessions",
+      "slug": "motivational-sessions",
+      "name": "Motivational & Inspirational Sessions",
+      "badge": "Mindset & Discipline",
+      "shortDescription": "Interactive sessions designed to build professional resilience, career awareness, a growth mindset, and constructive responses to setbacks.",
+      "fullDescription": "Technical capability alone does not guarantee a successful engineering career. Our motivational sessions address the mindset, emotional resilience, and professional discipline required to navigate rigorous hiring cycles, career transitions, and ongoing technology changes.",
+      "targetAudience": [
+        "Engineering Students of all semesters",
+        "Graduating Batches facing recruitment cycles"
+      ],
+      "businessProblem": [
+        "Students become discouraged after initial interview rejections and withdraw from further preparation.",
+        "Impatience and fixation on unrealistic starting salaries leads to poor career choices.",
+        "Lack of workplace etiquette, professional communication, and self-directed learning discipline."
+      ],
+      "synezaSolution": [
+        "Practical, relatable talks from experienced industry professionals who share real stories of career setbacks and perseverance.",
+        "Cultivation of a sustainable growth mindset: viewing failed interviews as diagnostic feedback rather than personal inadequacy.",
+        "Frameworks for long-term skill acquisition and maintaining curiosity across a 30-year engineering career."
+      ],
+      "keyCapabilities": [
+        "Demystifying industry hiring and career trajectory realities",
+        "Building emotional resilience and constructive response to rejection",
+        "Developing self-regulated learning and personal accountability",
+        "Professional ethics, workplace communication, and teamwork etiquette"
+      ],
+      "deliveryApproach": [
+        {
+          "step": "Step 1",
+          "title": "Context Gathering",
+          "description": "Consult with college leadership to understand specific student morale and context."
+        },
+        {
+          "step": "Step 2",
+          "title": "Keynote & Interactive Discussion",
+          "description": "High-energy, grounded session with active Q&A addressing real student questions."
+        },
+        {
+          "step": "Step 3",
+          "title": "Action Frameworks",
+          "description": "Provide students with concrete weekly habit trackers for study, projects, and personal health."
+        }
+      ],
+      "benefits": [
+        "Re-energizes student batches before critical placement and project deadlines.",
+        "Reduces placement anxiety through candid, realistic industry perspectives.",
+        "Encourages continuous improvement rather than short-term panic."
+      ],
+      "engagementModels": [
+        "College Auditorium Keynote",
+        "Departmental Interactive Forum"
+      ],
+      "duration": "2 to 3 Hours",
+      "pricingNote": "Often combined with assessment or simulation engagements.",
+      "cta": {
+        "label": "Book a Motivational Session",
+        "href": "/contact?category=motivational-sessions"
+      },
+      "seo": {
+        "title": "Motivational & Career Readiness Sessions | Syneza Technologies",
+        "metaDescription": "Inspirational and resilience-building sessions for engineering students. Career awareness, growth mindset, and professional discipline.",
+        "keywords": [
+          "engineering student motivational sessions",
+          "career awareness",
+          "growth mindset for engineers"
+        ]
+      },
+      "order": 4,
+      "enabled": true
+    }
+  ],
+  "simulationDetails": {
+    "title": "Software Company Simulation: Detailed 17-Hour Structure",
+    "duration": "2 Days / 17 Total Programme Hours",
+    "structure": [
+      {
+        "sprint": "Hour 0-1",
+        "title": "Practical Agile Immersion",
+        "focus": "Understanding the Software Delivery Lifecycle",
+        "activities": [
+          "Overview of Agile vs. Waterfall in real enterprise environments",
+          "Role definition: Product Owner, Scrum Master, Lead Engineer, QA",
+          "Examining the project charter, user story anatomy, and acceptance criteria",
+          "Local development environment setup and Git remote branch cloning"
+        ]
+      },
+      {
+        "sprint": "Sprint 1 (Hours 2-5)",
+        "title": "Sprint 1: Foundation & Baseline Stories",
+        "focus": "Architecture, Schemas, and Core Logic",
+        "activities": [
+          "Sprint planning meeting and story point estimation",
+          "Creating domain models, database schema definitions, and migration scripts",
+          "Implementing initial REST endpoints or core service interfaces",
+          "Authoring unit tests for baseline business logic",
+          "End-of-sprint standup and review against initial acceptance criteria"
+        ]
+      },
+      {
+        "sprint": "Sprint 2 (Hours 6-9)",
+        "title": "Sprint 2: Feature Expansion & Collaborative Integration",
+        "focus": "Branch Merging, Integration & Code Reviews",
+        "activities": [
+          "Branching strategy execution: feature branches and pull requests",
+          "Resolving first real Git merge conflicts among team members",
+          "Building operational business workflows and error handling",
+          "Integration testing between API layer and persistence layer",
+          "Peer code reviews focusing on readability, edge cases, and logging"
+        ]
+      },
+      {
+        "sprint": "Sprint 3 (Hours 10-13)",
+        "title": "Sprint 3: The Change Request & Agile Adaptation",
+        "focus": "Responding to Inevitable Requirement Volatility",
+        "activities": [
+          "Introduction of an unexpected simulated customer change request",
+          "Assessing blast radius of change on existing schema and API contracts",
+          "Refactoring existing modules without breaking previously passed tests",
+          "Team trade-off negotiation: what stays in scope vs. what gets deprioritized",
+          "Updating regression tests and continuous integration checks"
+        ]
+      },
+      {
+        "sprint": "Sprint 4 (Hours 14-17)",
+        "title": "Sprint 4: Verification, Demo & Retrospective",
+        "focus": "End-to-End Hardening & Executive Demonstration",
+        "activities": [
+          "Bug bashing and edge-case testing under time constraints",
+          "Preparing release notes and architectural proof-of-concept summary",
+          "Formal sprint review: demonstrating the working application to evaluators",
+          "Sprint retrospective: what went well, communication breakdowns, and lessons learned",
+          "Individual feedback debrief on teamwork and engineering habits"
+        ]
+      }
+    ],
+    "learningOutcomes": [
+      "Grasps what a daily software engineering workflow actually feels like before graduation.",
+      "Understands how to decompose user stories and write code that satisfies explicit acceptance criteria.",
+      "Experiences the reality of handling merge conflicts, pull request feedback, and mid-course change requests.",
+      "Gains concrete experiences and anecdotes to discuss authentically during technical interviews."
+    ]
+  },
+  "workshopCatalog": [
+    {
+      "id": "ws-java-spring",
+      "title": "Java 21 & Spring Boot Enterprise Services",
+      "track": "Enterprise Backend",
+      "status": "Available",
+      "duration": "2 Days (14 Hours)",
+      "topics": [
+        "Java 21 Modern Syntax & Records",
+        "Spring Boot 3 Core & Dependency Injection",
+        "RESTful Controller Design",
+        "Spring Data JPA & Transaction Management",
+        "Exception Handling & Validation",
+        "Unit Testing with JUnit 5 and Mockito"
+      ]
+    },
+    {
+      "id": "ws-python-apis",
+      "title": "Python Backend & REST API Engineering",
+      "track": "Backend & Data",
+      "status": "Available",
+      "duration": "2 Days (14 Hours)",
+      "topics": [
+        "Pythonic Idioms & Type Hinting",
+        "FastAPI / Flask Architecture",
+        "Pydantic Data Validation",
+        "Asynchronous Request Processing",
+        "SQLAlchemy ORM & Database Migrations",
+        "Pytest Suite Implementation"
+      ]
+    },
+    {
+      "id": "ws-sql-databases",
+      "title": "Relational Database Design & Query Optimization",
+      "track": "Data Systems",
+      "status": "Available",
+      "duration": "1 to 2 Days",
+      "topics": [
+        "3NF Normalization & Denormalization Tradeoffs",
+        "Indexing Internals (B-Tree, Hash)",
+        "Execution Plan Analysis (EXPLAIN)",
+        "Transaction Isolation Levels & Concurrency",
+        "Writing Complex Analytical Queries in PostgreSQL/MySQL"
+      ]
+    },
+    {
+      "id": "ws-microservices-kafka",
+      "title": "Event-Driven Architectures with Apache Kafka",
+      "track": "Distributed Systems",
+      "status": "Upon Institutional Request",
+      "duration": "2 Days",
+      "topics": [
+        "Microservice Decomposition Principles",
+        "Event-Driven vs Request-Response Paradigms",
+        "Kafka Topics, Partitions, and Consumer Groups",
+        "Producer & Consumer Implementations in Spring Boot",
+        "Handling Message Idempotency & Failure DLQs"
+      ]
+    },
+    {
+      "id": "ws-git-devops",
+      "title": "Git Version Control & Modern CI/CD Workflows",
+      "track": "Software Craftsmanship",
+      "status": "Available",
+      "duration": "1 Day",
+      "topics": [
+        "Git Internals (Blobs, Trees, Commits)",
+        "Branching Strategies (Trunk-Based vs GitFlow)",
+        "Interactive Rebase, Cherry-Pick, and Conflict Resolution",
+        "Automating Unit Tests via GitHub Actions",
+        "Basic Containerization with Docker"
+      ]
+    },
+    {
+      "id": "ws-practical-ai",
+      "title": "Practical Generative AI & LLM Integration for Developers",
+      "track": "AI Engineering",
+      "status": "Available",
+      "duration": "2 Days",
+      "topics": [
+        "LLM Fundamentals & Token Economics",
+        "Structured JSON Outputs from Model APIs",
+        "Building Grounded Retrieval-Augmented Generation (RAG)",
+        "Vector Embeddings & Semantic Search",
+        "Mitigating Prompt Injections & Enforcing Tool Permissions"
+      ]
+    }
+  ]
+}

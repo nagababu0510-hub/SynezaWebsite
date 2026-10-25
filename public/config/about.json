@@ -1,0 +1,45 @@
+{
+  "purpose": "Syneza Technologies exists to deliver dependable software engineering and practical AI solutions to organizations, while simultaneously preparing the next generation of engineering talent for real-world software delivery.",
+  "mission": "To turn technology concepts into robust, maintainable systems, and to elevate technical education through rigorous, human-evaluated industry readiness.",
+  "vision": "To be a trusted technology and talent readiness partner recognized for engineering excellence, practical problem-solving, transparency, and ethical standards.",
+  "dualPillarPhilosophy": "We believe that building real software systems and developing engineering talent are intimately connected. The insights we gain from designing, modernizing, and maintaining production software directly inform how we assess and prepare engineering students. Conversely, our commitment to teaching and evaluating core fundamentals reinforces disciplined engineering practices across our client projects.",
+  "coreValues": [
+    {
+      "title": "Engineering Excellence",
+      "description": "We believe software should be built to last—well-structured, thoroughly tested, documented, and maintainable by any competent engineer."
+    },
+    {
+      "title": "Practical Problem-Solving",
+      "description": "We select the simplest technology that genuinely solves the business problem, avoiding industry buzzwords, unnecessary complexity, and premature optimization."
+    },
+    {
+      "title": "Security & Reliability",
+      "description": "Security is an architectural foundation, not a late-stage checklist. We implement real defense-in-depth, data minimization, and safe failure modes."
+    },
+    {
+      "title": "Transparent Communication",
+      "description": "We give honest technical advice. If a requested AI feature is ill-advised or a legacy rewrite unnecessary, we say so directly."
+    },
+    {
+      "title": "Human-Centered Service",
+      "description": "Whether mentoring a student through their first sprint or collaborating with a business owner on software requirements, we prioritize human understanding and empathy."
+    },
+    {
+      "title": "Continuous Improvement",
+      "description": "Technology changes rapidly; fundamental principles of computation, logic, and craftsmanship endure. We cultivate curious, disciplined learning in ourselves and our students."
+    }
+  ],
+  "engineeringStandards": [
+    "No unverified claims or fake statistics: we speak truthfully about our capabilities and boundaries.",
+    "Test-driven discipline: automated unit and integration tests are essential deliverables.",
+    "Clear contracts: REST APIs and service interfaces are formally defined with OpenAPI or JSON Schema.",
+    "Zero secret leaks: secrets are never committed to version control or exposed in frontend code.",
+    "Human oversight for AI: consequential automated actions require explicit human authorization."
+  ],
+  "leadershipSection": {
+    "enabled": false,
+    "title": "Leadership & Team",
+    "subtitle": "Profiles will be published following final corporate governance approvals.",
+    "members": []
+  }
+}

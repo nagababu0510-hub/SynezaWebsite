@@ -1,0 +1,266 @@
+{
+  "mainNav": [
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "/",
+      "enabled": true
+    },
+    {
+      "id": "about",
+      "label": "About Us",
+      "href": "/about",
+      "enabled": true
+    },
+    {
+      "id": "education",
+      "label": "Education & Employability",
+      "href": "/education",
+      "enabled": true,
+      "children": [
+        {
+          "id": "edu-overview",
+          "label": "Overview & Approach",
+          "href": "/education",
+          "description": "Bridging engineering education and industry expectations",
+          "pillar": "education",
+          "enabled": true
+        },
+        {
+          "id": "edu-assessment",
+          "label": "Employability Assessment",
+          "href": "/education/employability-assessment",
+          "description": "Supervised, human-led technical & cognitive evaluations",
+          "badge": "Human-Led",
+          "pillar": "education",
+          "enabled": true
+        },
+        {
+          "id": "edu-simulation",
+          "label": "Software Company Simulation",
+          "href": "/education/software-company-simulation",
+          "description": "2-day Agile delivery simulation across 4 structured sprints",
+          "badge": "2-Day Programme",
+          "pillar": "education",
+          "enabled": true
+        },
+        {
+          "id": "edu-workshops",
+          "label": "Technology Workshops",
+          "href": "/education/technology-workshops",
+          "description": "Hands-on tracks in Java, Python, Spring Boot, APIs, and AI",
+          "pillar": "education",
+          "enabled": true
+        },
+        {
+          "id": "edu-motivational",
+          "label": "Motivational Sessions",
+          "href": "/education/motivational-sessions",
+          "description": "Cultivating resilience, growth mindset, and professionalism",
+          "pillar": "education",
+          "enabled": true
+        },
+        {
+          "id": "for-colleges",
+          "label": "For Engineering Colleges",
+          "href": "/for-colleges",
+          "description": "Institutional partnerships, tailored cohorts & gap reports",
+          "pillar": "education",
+          "enabled": true
+        },
+        {
+          "id": "for-students",
+          "label": "For Students",
+          "href": "/for-students",
+          "description": "Practical learning pathways and realistic career preparation",
+          "pillar": "education",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "technology-services",
+      "label": "Technology Services",
+      "href": "/services",
+      "enabled": true,
+      "children": [
+        {
+          "id": "tech-overview",
+          "label": "All Technology Services",
+          "href": "/services",
+          "description": "Comprehensive software delivery, maintenance & engineering",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "custom-software",
+          "label": "Custom Software Development",
+          "href": "/services/custom-software-development",
+          "description": "Web apps, backend services, enterprise portals & APIs",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "maintenance-support",
+          "label": "Software Maintenance & Support",
+          "href": "/services/software-maintenance",
+          "description": "Bug fixing, refactoring, dependency updates & tech debt",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "modernization",
+          "label": "Application Modernization",
+          "href": "/services/application-modernization",
+          "description": "Legacy assessments, monolith modularization & upgrades",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "api-integration",
+          "label": "API & System Integration",
+          "href": "/services/api-system-integration",
+          "description": "REST APIs, Kafka messaging & enterprise integration",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "database-engineering",
+          "label": "Database Engineering",
+          "href": "/services/database-engineering",
+          "description": "Schema design, query tuning, indexing & migration safety",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "quality-engineering",
+          "label": "Quality Engineering & Testing",
+          "href": "/services/quality-engineering",
+          "description": "Automated test suites, CI/CD validation & performance tests",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "devops-delivery",
+          "label": "DevOps & Delivery Engineering",
+          "href": "/services/devops-delivery",
+          "description": "Pipelines, containerization, observability & rollback safety",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "architecture-consulting",
+          "label": "Architecture & Technical Consulting",
+          "href": "/services/technical-consulting-architecture",
+          "description": "Discovery, architecture reviews & engineering roadmaps",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "small-business",
+          "label": "Small Business Solutions",
+          "href": "/solutions/small-business",
+          "description": "Cost-conscious, practical development without bloat",
+          "pillar": "software",
+          "enabled": true
+        },
+        {
+          "id": "enterprise-solutions",
+          "label": "Enterprise & Growing Businesses",
+          "href": "/solutions/enterprise",
+          "description": "Governance, security, documentation & scalable systems",
+          "pillar": "software",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "ai-solutions",
+      "label": "AI & LLM Solutions",
+      "href": "/ai-solutions",
+      "enabled": true,
+      "children": [
+        {
+          "id": "ai-overview",
+          "label": "AI Solutions Overview",
+          "href": "/ai-solutions",
+          "description": "Pragmatic, grounded AI designed to solve real business needs",
+          "pillar": "ai",
+          "enabled": true
+        },
+        {
+          "id": "llm-integration",
+          "label": "LLM Integration",
+          "href": "/ai-solutions/llm-integration",
+          "description": "Structured output, provider abstraction & tool calling",
+          "pillar": "ai",
+          "enabled": true
+        },
+        {
+          "id": "rag-assistants",
+          "label": "RAG & Knowledge Assistants",
+          "href": "/ai-solutions/retrieval-augmented-generation",
+          "description": "Source-grounded question answering over authorized documents",
+          "badge": "Grounded",
+          "pillar": "ai",
+          "enabled": true
+        },
+        {
+          "id": "workflow-automation",
+          "label": "AI Workflow Automation",
+          "href": "/ai-solutions/ai-workflow-automation",
+          "description": "Predictable multi-step workflows with human-in-the-loop approvals",
+          "pillar": "ai",
+          "enabled": true
+        },
+        {
+          "id": "ai-support",
+          "label": "AI for Customer Support",
+          "href": "/ai-solutions/ai-customer-support",
+          "description": "Knowledge-base search, routing assistance & escalation",
+          "pillar": "ai",
+          "enabled": true
+        },
+        {
+          "id": "doc-processing",
+          "label": "AI Document Processing",
+          "href": "/ai-solutions/ai-document-processing",
+          "description": "Information extraction, classification & summarization",
+          "pillar": "ai",
+          "enabled": true
+        },
+        {
+          "id": "developer-workflows",
+          "label": "AI Developer Workflows",
+          "href": "/ai-solutions/ai-developer-workflows",
+          "description": "Code explanation, test drafting & documentation assistance",
+          "pillar": "ai",
+          "enabled": true
+        },
+        {
+          "id": "readiness-discovery",
+          "label": "AI Readiness & Discovery",
+          "href": "/ai-solutions/ai-readiness-discovery",
+          "description": "Objective feasibility assessments before capital expenditure",
+          "pillar": "ai",
+          "enabled": true
+        },
+        {
+          "id": "security-evaluation",
+          "label": "LLM Security & Responsible AI",
+          "href": "/ai-solutions/llm-security-responsible-ai",
+          "description": "Prompt-injection defenses, data minimization & evaluation datasets",
+          "badge": "Security-First",
+          "pillar": "ai",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "href": "/contact",
+      "enabled": true
+    }
+  ]
+}

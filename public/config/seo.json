@@ -1,0 +1,14 @@
+{
+  "siteTitleDefault": "Syneza Technologies | Engineering Technology. Enabling Potential.",
+  "siteTitleTemplate": "%s | Syneza Technologies",
+  "defaultMetaDescription": "Syneza Technologies provides custom software engineering, application modernization, practical AI and LLM solutions, and industry-oriented employability assessments for engineering institutions.",
+  "canonicalBase": "https://syneza.com",
+  "ogImage": "/assets/images/syneza-og.png",
+  "twitterHandle": "@SynezaTech",
+  "organizationSchema": {
+    "name": "Syneza Technologies Private Limited",
+    "url": "https://syneza.com",
+    "logo": "https://syneza.com/assets/logo/syneza-logo.png",
+    "email": "contact@syneza.com"
+  }
+}
