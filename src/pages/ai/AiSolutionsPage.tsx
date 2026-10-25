@@ -149,20 +149,20 @@ export const AiSolutionsPage: React.FC = () => {
                       </Link>
                     </h3>
 
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-5 line-clamp-3">
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-5 line-clamp-3">
                       {service.shortDescription}
                     </p>
 
                     {/* Key Deliverables */}
                     {service.keyCapabilities && service.keyCapabilities.length > 0 && (
                       <div className="space-y-2 mb-5">
-                        <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-1">
+                        <span className="text-[11px] font-bold uppercase tracking-wider text-slate-700 block mb-1">
                           Core Deliverables
                         </span>
-                        <ul className="space-y-1.5 text-xs text-slate-600">
+                        <ul className="space-y-1.5 text-xs text-slate-700">
                           {service.keyCapabilities.slice(0, 3).map((cap, idx) => (
                             <li key={idx} className="flex items-start gap-2">
-                              <CheckCircle2 className="w-3.5 h-3.5 text-purple-600 mt-0.5 flex-shrink-0" />
+                              <CheckCircle2 className="w-3.5 h-3.5 text-purple-800 mt-0.5 flex-shrink-0" />
                               <span className="leading-snug">{cap}</span>
                             </li>
                           ))}
@@ -172,15 +172,15 @@ export const AiSolutionsPage: React.FC = () => {
 
                     {/* Tech Badges */}
                     {service.technologies && service.technologies.length > 0 && (
-                      <div className="pt-4 border-t border-slate-100 mb-6">
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-2">
+                      <div className="pt-4 border-t border-slate-200 mb-6">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 block mb-2">
                           Frameworks & Architecture Patterns
                         </span>
                         <div className="flex flex-wrap gap-1.5">
                           {service.technologies.map((tech, idx) => (
                             <span
                               key={idx}
-                              className="px-2.5 py-1 text-xs font-medium bg-slate-50 text-slate-700 border border-slate-200/80 rounded-md"
+                              className="px-2.5 py-1 text-xs font-semibold bg-slate-50 text-slate-800 border border-slate-300 rounded-md"
                             >
                               {tech}
                             </span>
@@ -190,10 +190,10 @@ export const AiSolutionsPage: React.FC = () => {
                     )}
                   </div>
 
-                  <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
+                  <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
                     <Link
                       to={`/ai-solutions/${service.slug}`}
-                      className="text-sm font-semibold text-purple-600 hover:text-purple-800 inline-flex items-center gap-1.5 group"
+                      className="min-h-[44px] text-sm font-bold text-purple-900 hover:text-purple-950 focus:underline inline-flex items-center gap-1.5 group"
                     >
                       <span>Explore Offering</span>
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

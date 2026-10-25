@@ -50,23 +50,23 @@ export const AboutPage: React.FC = () => {
           <section aria-labelledby="mission-heading" className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-card flex flex-col justify-between">
               <div>
-                <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+                <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
                   <Target className="w-6 h-6" />
                 </div>
                 <h2 id="mission-heading" className="text-2xl font-bold text-slate-900 mb-3">
                   Our Mission
                 </h2>
-                <p className="text-slate-600 text-base leading-relaxed">{about.mission}</p>
+                <p className="text-slate-700 text-base leading-relaxed">{about.mission}</p>
               </div>
             </div>
 
             <div className="p-8 rounded-2xl bg-white border border-slate-200 shadow-card flex flex-col justify-between">
               <div>
-                <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
+                <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-800 flex items-center justify-center mb-4">
                   <Eye className="w-6 h-6" />
                 </div>
                 <h2 className="text-2xl font-bold text-slate-900 mb-3">Our Vision</h2>
-                <p className="text-slate-600 text-base leading-relaxed">{about.vision}</p>
+                <p className="text-slate-700 text-base leading-relaxed">{about.vision}</p>
               </div>
             </div>
           </section>
@@ -109,7 +109,7 @@ export const AboutPage: React.FC = () => {
               <h2 id="values-heading" className="text-3xl font-extrabold text-slate-900 tracking-tight">
                 Our Core Values
               </h2>
-              <p className="mt-2 text-slate-600 text-sm sm:text-base">
+              <p className="mt-2 text-slate-700 text-sm sm:text-base">
                 How we interact with client organizations, academic partners, and aspiring engineers.
               </p>
             </div>
@@ -118,7 +118,7 @@ export const AboutPage: React.FC = () => {
               {about.coreValues.map((val, idx) => (
                 <Card key={idx} hoverable className="p-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-2">{val.title}</h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                     {val.description}
                   </p>
                 </Card>
@@ -134,7 +134,7 @@ export const AboutPage: React.FC = () => {
             <div className="space-y-3">
               {about.engineeringStandards.map((std, idx) => (
                 <div key={idx} className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-blue-800 mt-0.5 flex-shrink-0" />
                   <p className="text-sm text-slate-700 leading-relaxed font-medium">{std}</p>
                 </div>
               ))}
@@ -151,8 +151,8 @@ export const AboutPage: React.FC = () => {
                 {about.leadershipSection.members.map((member, idx) => (
                   <Card key={idx} className="p-6">
                     <h3 className="text-lg font-bold text-slate-900">{member.name}</h3>
-                    <div className="text-xs text-blue-600 font-semibold mb-2">{member.role}</div>
-                    <p className="text-xs text-slate-600">{member.bio}</p>
+                    <div className="text-xs text-blue-800 font-semibold mb-2">{member.role}</div>
+                    <p className="text-xs text-slate-700">{member.bio}</p>
                   </Card>
                 ))}
               </div>
@@ -160,7 +160,7 @@ export const AboutPage: React.FC = () => {
           )}
 
           {/* CTA Banner */}
-          <div className="p-8 sm:p-10 rounded-2xl bg-blue-600 text-white flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="p-8 sm:p-10 rounded-2xl bg-blue-800 text-white flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="space-y-2 text-center sm:text-left">
               <h3 className="text-2xl font-extrabold">Ready to work with Syneza?</h3>
               <p className="text-blue-100 text-sm max-w-xl">
@@ -172,7 +172,7 @@ export const AboutPage: React.FC = () => {
                 variant="secondary"
                 size="md"
                 href="/contact"
-                className="bg-white text-blue-900 hover:bg-slate-100"
+                className="bg-white text-blue-950 hover:bg-slate-100 font-bold"
               >
                 <span>Contact Our Team</span>
                 <ArrowRight className="w-4 h-4 ml-2" />

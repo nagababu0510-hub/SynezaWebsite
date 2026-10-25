@@ -131,11 +131,11 @@ export const EmployabilityAssessmentPage: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {evaluationTopics.map((topic, idx) => (
                 <div key={idx} className="p-4 rounded-xl bg-white border border-slate-200/90 shadow-xs hover:border-emerald-500/50 transition-colors">
-                  <div className="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-1">
+                  <div className="text-xs font-bold text-emerald-800 uppercase tracking-wider mb-1">
                     Area {idx + 1}
                   </div>
                   <h3 className="text-sm font-bold text-slate-900 mb-1.5">{topic.title}</h3>
-                  <p className="text-xs text-slate-500 leading-relaxed">{topic.desc}</p>
+                  <p className="text-xs text-slate-700 leading-relaxed font-medium">{topic.desc}</p>
                 </div>
               ))}
             </div>

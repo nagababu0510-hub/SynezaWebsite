@@ -63,68 +63,68 @@ export const EnterpriseSolutionsPage: React.FC = () => {
               <h2 id="enterprise-focus" className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
                 Areas of Technical Engagement
               </h2>
-              <p className="mt-2 text-slate-600 text-sm">
+              <p className="mt-2 text-slate-700 text-sm">
                 Built to operate smoothly within existing governance, security review cycles, and deployment protocols.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
                   <Layers className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Legacy Modernization</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Incremental monolith decoupling, framework and Java runtime upgrades (e.g. Java 8/11 to 17/21), and modularization without the high risk of a total rewrite.
                 </p>
               </Card>
 
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
                   <Network className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">High-Throughput APIs & Messaging</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Contract-first REST API design with OpenAPI specs, Kafka event streams, idempotency enforcement, and third-party partner integration.
                 </p>
               </Card>
 
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
                   <Database className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Database Performance Tuning</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Execution plan diagnostics, indexing optimization, connection leak remediation, and safe schema migration testing with verified rollback plans.
                 </p>
               </Card>
 
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Grounded Enterprise RAG</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Knowledge assistants searching internal wikis and documents with pre-retrieval authorization, source passage citations, and zero model training leakage.
                 </p>
               </Card>
 
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
                   <FileCheck2 className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Quality & Test Automation</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Building automated regression suites, API contract testing, and CI quality gates that prevent high-impact defects from reaching production.
                 </p>
               </Card>
 
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-blue-50 text-blue-800 flex items-center justify-center mb-4">
                   <GitBranch className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">CI/CD & Delivery Engineering</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Containerization with Docker, multi-stage pipeline configuration, deployment runbooks, and zero-downtime cutover strategies.
                 </p>
               </Card>
@@ -134,7 +134,7 @@ export const EnterpriseSolutionsPage: React.FC = () => {
           {/* Governance & Integrity Notice */}
           <div className="p-6 rounded-2xl bg-slate-100 border border-slate-200">
             <h4 className="text-sm font-bold text-slate-900 mb-1">Authentic Capabilities & Clear Boundaries</h4>
-            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
               We distinguish intended capabilities from independently verified formal certifications. We do not claim unverified corporate partnerships or publish fictitious enterprise case studies. We engage on defined scopes with clear acceptance criteria and technical accountability.
             </p>
           </div>

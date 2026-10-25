@@ -25,24 +25,24 @@ export const Button: React.FC<ButtonProps> = ({
     'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none active:scale-[0.98]';
 
   const sizeStyles = {
-    sm: 'px-3.5 py-1.5 text-xs sm:text-sm',
-    md: 'px-5 py-2.5 text-sm sm:text-base',
-    lg: 'px-6 py-3.5 text-base sm:text-lg font-semibold',
+    sm: 'min-h-[44px] min-w-[44px] px-4 py-2 text-xs sm:text-sm',
+    md: 'min-h-[44px] min-w-[44px] px-5 py-2.5 text-sm sm:text-base',
+    lg: 'min-h-[48px] min-w-[48px] px-6 py-3.5 text-base sm:text-lg font-semibold',
   };
 
   const variantStyles = {
     primary:
-      'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 shadow-sm border border-transparent',
+      'bg-blue-800 text-white hover:bg-blue-900 focus:ring-blue-700 shadow-sm border border-transparent',
     secondary:
-      'bg-slate-100 text-slate-800 hover:bg-slate-200 focus:ring-slate-400 border border-slate-200',
+      'bg-slate-100 text-slate-900 hover:bg-slate-200 focus:ring-slate-500 border border-slate-300',
     outline:
-      'bg-transparent text-slate-700 hover:bg-slate-50 focus:ring-blue-500 border border-slate-300',
+      'bg-transparent text-slate-900 hover:bg-slate-100 focus:ring-blue-700 border-2 border-slate-400',
     teal:
-      'bg-teal-700 text-white hover:bg-teal-800 focus:ring-teal-600 shadow-sm border border-transparent',
+      'bg-teal-800 text-white hover:bg-teal-900 focus:ring-teal-700 shadow-sm border border-transparent',
     navy:
-      'bg-slate-900 text-white hover:bg-slate-800 focus:ring-slate-900 shadow-sm border border-transparent',
+      'bg-slate-950 text-white hover:bg-slate-900 focus:ring-slate-700 shadow-sm border border-slate-800',
     ghost:
-      'bg-transparent text-slate-600 hover:text-slate-900 hover:bg-slate-100 focus:ring-slate-400',
+      'bg-transparent text-slate-800 hover:text-slate-950 hover:bg-slate-100 focus:ring-slate-500',
   };
 
   const widthStyle = fullWidth ? 'w-full' : '';

@@ -26,13 +26,13 @@ export const MotivationalSessionsPage: React.FC = () => {
 
       <div className="pb-24">
         {/* Breadcrumb */}
-        <nav aria-label="Breadcrumb" className="bg-slate-100/80 border-b border-slate-200 py-3 text-xs text-slate-500">
+        <nav aria-label="Breadcrumb" className="bg-slate-100/80 border-b border-slate-200 py-3 text-xs text-slate-700 font-medium">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-2">
-            <Link to="/" className="hover:text-slate-900 transition-colors">Home</Link>
-            <ChevronRight className="w-3 h-3 text-slate-400" />
-            <Link to="/education" className="hover:text-slate-900 transition-colors">Education & Employability</Link>
-            <ChevronRight className="w-3 h-3 text-slate-400" />
-            <span className="text-slate-800 font-semibold">Motivational Sessions</span>
+            <Link to="/" className="min-h-[44px] inline-flex items-center hover:text-slate-900 hover:underline transition-colors">Home</Link>
+            <ChevronRight className="w-3 h-3 text-slate-500" />
+            <Link to="/education" className="min-h-[44px] inline-flex items-center hover:text-slate-900 hover:underline transition-colors">Education & Employability</Link>
+            <ChevronRight className="w-3 h-3 text-slate-500" />
+            <span className="text-slate-900 font-bold">Motivational Sessions</span>
           </div>
         </nav>
 
@@ -60,41 +60,41 @@ export const MotivationalSessionsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 space-y-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card hoverable className="p-6">
-              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4">
+              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-900 flex items-center justify-center mb-4">
                 <Shield className="w-5 h-5" />
               </div>
               <h3 className="text-base font-bold text-slate-900 mb-2">Resilience to Setbacks</h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Reframing interview rejections and failed coding tests as diagnostic feedback rather than personal inadequacy.
               </p>
             </Card>
 
             <Card hoverable className="p-6">
-              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4">
+              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-900 flex items-center justify-center mb-4">
                 <TrendingUp className="w-5 h-5" />
               </div>
               <h3 className="text-base font-bold text-slate-900 mb-2">A Growth Mindset</h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Embracing iterative improvement, active debugging patience, and learning through deliberate practice.
               </p>
             </Card>
 
             <Card hoverable className="p-6">
-              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4">
+              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-900 flex items-center justify-center mb-4">
                 <Lightbulb className="w-5 h-5" />
               </div>
               <h3 className="text-base font-bold text-slate-900 mb-2">Career Realism</h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Understanding industry career trajectories, avoiding short-term panic, and focusing on foundational craft over buzzwords.
               </p>
             </Card>
 
             <Card hoverable className="p-6">
-              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4">
+              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-900 flex items-center justify-center mb-4">
                 <HeartHandshake className="w-5 h-5" />
               </div>
               <h3 className="text-base font-bold text-slate-900 mb-2">Professional Discipline</h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Workplace communication etiquette, accountability, peer collaboration, and ethical engineering habits.
               </p>
             </Card>

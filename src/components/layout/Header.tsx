@@ -168,10 +168,10 @@ export const Header: React.FC = () => {
                       <Link
                         key={item.id}
                         to={item.href}
-                        className={`px-3.5 py-2 rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+                        className={`min-h-[44px] inline-flex items-center px-3.5 py-2 rounded-md text-sm font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-blue-700 ${
                           isCurrent
-                            ? 'text-blue-600 bg-blue-50/70 font-semibold'
-                            : 'text-slate-700 hover:text-slate-900 hover:bg-slate-100/70'
+                            ? 'text-blue-900 bg-blue-50/90 font-bold'
+                            : 'text-slate-800 hover:text-slate-950 hover:bg-slate-100'
                         }`}
                         aria-current={isCurrent ? 'page' : undefined}
                       >
@@ -194,16 +194,16 @@ export const Header: React.FC = () => {
                         aria-expanded={isDropdownActive}
                         aria-haspopup="true"
                         aria-label={`${item.label} submenu`}
-                        className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+                        className={`min-h-[44px] inline-flex items-center gap-1.5 px-3.5 py-2 rounded-md text-sm font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-blue-700 ${
                           isDropdownActive || location.pathname.startsWith(item.href)
-                            ? 'text-blue-700 bg-blue-50/80 font-semibold'
-                            : 'text-slate-700 hover:text-slate-900 hover:bg-slate-100/70'
+                            ? 'text-blue-900 bg-blue-50/90 font-bold'
+                            : 'text-slate-800 hover:text-slate-950 hover:bg-slate-100'
                         }`}
                       >
                         <span>{item.label}</span>
                         <ChevronDown
                           className={`w-4 h-4 transition-transform duration-200 ${
-                            isDropdownActive ? 'rotate-180 text-blue-600' : 'text-slate-400'
+                            isDropdownActive ? 'rotate-180 text-blue-800' : 'text-slate-600'
                           }`}
                           aria-hidden="true"
                         />
@@ -217,7 +217,7 @@ export const Header: React.FC = () => {
                           className="absolute left-0 mt-2 w-80 sm:w-96 rounded-xl bg-white shadow-elevated border border-slate-200/90 py-2.5 z-50 animate-in fade-in slide-in-from-top-1 duration-150"
                         >
                           <div className="px-3 py-1.5 mb-1 border-b border-slate-100">
-                            <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-400">
+                            <span className="text-[11px] font-bold uppercase tracking-wider text-slate-700">
                               {item.label} Services & Pathways
                             </span>
                           </div>
@@ -230,24 +230,24 @@ export const Header: React.FC = () => {
                                   to={child.href}
                                   role="menuitem"
                                   onClick={() => setActiveDropdown(null)}
-                                  className="flex items-start gap-3 p-2.5 rounded-lg hover:bg-slate-50 transition-colors focus:outline-none focus:bg-slate-100 group"
+                                  className="flex items-start gap-3 p-2.5 rounded-lg min-h-[44px] hover:bg-slate-50 transition-colors focus:outline-none focus:bg-slate-100 group"
                                 >
                                   <div className="mt-0.5 p-1 rounded bg-slate-100 group-hover:bg-white group-hover:shadow-xs transition-colors">
                                     {renderPillarIcon(child.pillar)}
                                   </div>
                                   <div className="flex-1 min-w-0">
                                     <div className="flex items-center gap-2">
-                                      <span className="text-sm font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                                      <span className="text-sm font-bold text-slate-900 group-hover:text-blue-800 transition-colors">
                                         {child.label}
                                       </span>
                                       {child.badge && (
-                                        <span className="px-1.5 py-0.2 text-[10px] font-semibold bg-blue-50 text-blue-700 rounded border border-blue-200/60">
+                                        <span className="px-1.5 py-0.2 text-[10px] font-bold bg-blue-50 text-blue-900 rounded border border-blue-300">
                                           {child.badge}
                                         </span>
                                       )}
                                     </div>
                                     {child.description && (
-                                      <p className="text-xs text-slate-500 mt-0.5 line-clamp-2 leading-relaxed">
+                                      <p className="text-xs text-slate-700 mt-0.5 line-clamp-2 leading-relaxed font-medium">
                                         {child.description}
                                       </p>
                                     )}
@@ -301,7 +301,7 @@ export const Header: React.FC = () => {
                 aria-expanded={mobileMenuOpen}
                 aria-controls="mobile-navigation"
                 aria-label={mobileMenuOpen ? 'Close main menu' : 'Open main menu'}
-                className="p-2 rounded-lg text-slate-700 hover:text-slate-900 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="min-h-[44px] min-w-[44px] inline-flex items-center justify-center p-2 rounded-lg text-slate-800 hover:text-slate-950 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-700"
               >
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>

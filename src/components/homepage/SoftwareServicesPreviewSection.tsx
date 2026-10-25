@@ -78,11 +78,11 @@ export const SoftwareServicesPreviewSection: React.FC<{ section: HomepageSection
             >
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <div className="w-10 h-10 rounded-lg bg-blue-50 border border-blue-100 flex items-center justify-center">
-                    {iconMap[service.id] || <Code2 className="w-5 h-5 text-blue-600" />}
+                  <div className="w-10 h-10 rounded-lg bg-blue-50 border border-blue-200 flex items-center justify-center">
+                    {iconMap[service.id] || <Code2 className="w-5 h-5 text-blue-800" />}
                   </div>
                   {service.badge && (
-                    <span className="text-[10px] font-semibold text-blue-700 bg-blue-50/80 px-2 py-0.5 rounded border border-blue-200/60 uppercase">
+                    <span className="text-[10px] font-bold text-blue-900 bg-blue-50 px-2 py-0.5 rounded border border-blue-300 uppercase">
                       {service.badge}
                     </span>
                   )}
@@ -91,22 +91,22 @@ export const SoftwareServicesPreviewSection: React.FC<{ section: HomepageSection
                 <h3 className="text-lg font-bold text-slate-900 mb-2 leading-snug">
                   <Link
                     to={`/services/${service.slug}`}
-                    className="hover:text-blue-600 transition-colors focus:outline-none focus:underline"
+                    className="hover:text-blue-800 transition-colors focus:outline-none focus:underline"
                   >
                     {service.name}
                   </Link>
                 </h3>
 
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed line-clamp-3 mb-4">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed line-clamp-3 mb-4">
                   {service.shortDescription}
                 </p>
 
                 {/* Key Capabilities */}
                 {service.keyCapabilities && service.keyCapabilities.length > 0 && (
-                  <ul className="space-y-1.5 mb-4 text-xs text-slate-600">
+                  <ul className="space-y-1.5 mb-4 text-xs text-slate-700">
                     {service.keyCapabilities.slice(0, 2).map((cap, idx) => (
                       <li key={idx} className="flex items-start gap-1.5">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-blue-600 mt-0.5 flex-shrink-0" />
+                        <CheckCircle2 className="w-3.5 h-3.5 text-blue-800 mt-0.5 flex-shrink-0" />
                         <span className="line-clamp-1">{cap}</span>
                       </li>
                     ))}
@@ -115,21 +115,21 @@ export const SoftwareServicesPreviewSection: React.FC<{ section: HomepageSection
 
                 {/* Core Stack Highlight without awkward overflow counts */}
                 {service.technologies && service.technologies.length > 0 && (
-                  <div className="pt-3 border-t border-slate-100 mb-4 flex items-center gap-1.5 text-xs text-slate-500">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 flex-shrink-0">
+                  <div className="pt-3 border-t border-slate-200 mb-4 flex items-center gap-1.5 text-xs text-slate-700">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 flex-shrink-0">
                       Stack:
                     </span>
-                    <span className="truncate font-medium text-slate-700" title={service.technologies.join(', ')}>
+                    <span className="truncate font-semibold text-slate-800" title={service.technologies.join(', ')}>
                       {service.technologies.slice(0, 4).join(' · ')}
                     </span>
                   </div>
                 )}
               </div>
 
-              <div className="pt-4 border-t border-slate-100">
+              <div className="pt-2 border-t border-slate-100">
                 <Link
                   to={`/services/${service.slug}`}
-                  className="inline-flex items-center text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-800 group"
+                  className="min-h-[44px] inline-flex items-center text-xs sm:text-sm font-bold text-blue-800 hover:text-blue-950 focus:outline-none focus:underline group"
                 >
                   <span>Explore Service</span>
                   <ArrowRight className="w-3.5 h-3.5 ml-1.5 group-hover:translate-x-1 transition-transform" />

@@ -45,9 +45,9 @@ export const Footer: React.FC = () => {
 
             {/* Direct Contact info */}
             {footer.contactDetails.enabled && (
-              <address className="not-italic space-y-2 pt-2 text-xs text-slate-400">
+              <address className="not-italic space-y-2.5 pt-2 text-xs sm:text-sm text-slate-300 font-medium">
                 <div className="flex items-center gap-2.5">
-                  <Mail className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                  <Mail className="w-4 h-4 text-blue-300 flex-shrink-0" />
                   <a
                     href={`mailto:${footer.contactDetails.email}`}
                     className="hover:text-white transition-colors focus:outline-none focus:underline"
@@ -56,7 +56,7 @@ export const Footer: React.FC = () => {
                   </a>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <Phone className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                  <Phone className="w-4 h-4 text-blue-300 flex-shrink-0" />
                   <a
                     href={`tel:${footer.contactDetails.phone.replace(/[^0-9+]/g, '')}`}
                     className="hover:text-white transition-colors focus:outline-none focus:underline"
@@ -65,7 +65,7 @@ export const Footer: React.FC = () => {
                   </a>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0" />
+                  <MapPin className="w-4 h-4 text-blue-300 flex-shrink-0" />
                   <span>{footer.contactDetails.location}</span>
                 </div>
               </address>
@@ -88,15 +88,15 @@ export const Footer: React.FC = () => {
                           href={link.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-slate-400 hover:text-white transition-colors inline-flex items-center gap-1 focus:outline-none focus:underline"
+                          className="text-slate-300 hover:text-white transition-colors inline-flex items-center gap-1 focus:outline-none focus:underline min-h-[36px]"
                         >
                           {link.label}
-                          <ExternalLink className="w-3 h-3 text-slate-500" />
+                          <ExternalLink className="w-3 h-3 text-slate-400" />
                         </a>
                       ) : (
                         <Link
                           to={link.href}
-                          className="text-slate-400 hover:text-white transition-colors focus:outline-none focus:underline"
+                          className="text-slate-300 hover:text-white transition-colors focus:outline-none focus:underline inline-flex items-center min-h-[36px]"
                         >
                           {link.label}
                         </Link>
@@ -109,7 +109,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Section: Copyright, Socials, & Legal Links */}
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-300 font-medium">
           <div>
             <p>{footer.copyrightText || site.copyrightText}</p>
           </div>
@@ -125,7 +125,7 @@ export const Footer: React.FC = () => {
                     href={social.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-slate-400 hover:text-white transition-colors focus:outline-none focus:underline"
+                    className="text-slate-300 hover:text-white transition-colors focus:outline-none focus:underline min-h-[36px] inline-flex items-center"
                     aria-label={`Syneza Technologies on ${social.platform}`}
                   >
                     {social.platform}
@@ -140,7 +140,7 @@ export const Footer: React.FC = () => {
               <Link
                 key={idx}
                 to={link.href}
-                className="text-slate-400 hover:text-white transition-colors focus:outline-none focus:underline"
+                className="text-slate-300 hover:text-white transition-colors focus:outline-none focus:underline min-h-[36px] inline-flex items-center"
               >
                 {link.label}
               </Link>

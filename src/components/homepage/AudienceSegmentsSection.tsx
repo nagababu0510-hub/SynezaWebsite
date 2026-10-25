@@ -64,20 +64,20 @@ export const AudienceSegmentsSection: React.FC<{ section: HomepageSection }> = (
                       {seg.name}
                     </h3>
 
-                    <p className="text-xs sm:text-sm text-slate-600 mb-5 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-slate-700 mb-5 leading-relaxed">
                       {seg.summary}
                     </p>
 
                     <div className="space-y-3 mb-6">
-                      <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-700">
+                      <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-800">
                         Primary Focus Areas
                       </h4>
-                      <ul className="space-y-2 text-xs text-slate-600">
+                      <ul className="space-y-2 text-xs text-slate-700 font-medium">
                         {seg.coreConcerns.slice(0, 3).map((concern, idx) => (
                           <li key={idx} className="flex items-start gap-2">
                             <Check
                               className={`w-3.5 h-3.5 mt-0.5 flex-shrink-0 ${
-                                isEdu ? 'text-emerald-600' : 'text-blue-600'
+                                isEdu ? 'text-emerald-800' : 'text-blue-800'
                               }`}
                             />
                             <span>{concern}</span>

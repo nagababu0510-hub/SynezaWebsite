@@ -61,38 +61,38 @@ export const ForStudentsPage: React.FC = () => {
               <h2 id="interviewers-heading" className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
                 What Technical Interviewers Actually Evaluate
               </h2>
-              <p className="mt-2 text-slate-600 text-sm">
+              <p className="mt-2 text-slate-700 text-sm">
                 Memorizing leetcode solutions is not enough. Senior engineers evaluate how you think, communicate, and test.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-900 flex items-center justify-center mb-4">
                   <Lightbulb className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Problem Decomposition</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Can you break a vague requirement into smaller, testable sub-problems? Interviewers listen to your thought process and how you clarify assumptions before typing code.
                 </p>
               </Card>
 
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-900 flex items-center justify-center mb-4">
                   <Code2 className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Code Clarity & Edge Cases</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Clean naming, idiomatic constructs, handling null or boundary inputs, and thinking about memory and runtime complexity rather than hacking together quick fixes.
                 </p>
               </Card>
 
               <Card hoverable className="p-6">
-                <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4">
+                <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-900 flex items-center justify-center mb-4">
                   <Sparkles className="w-5 h-5" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Project Ownership</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                   Can you deeply explain every architectural decision in your final-year project? Interviewers quickly identify whether code was genuinely written or copy-pasted.
                 </p>
               </Card>
@@ -106,20 +106,20 @@ export const ForStudentsPage: React.FC = () => {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
               <div className="space-y-3 p-5 rounded-xl bg-slate-50 border border-slate-200">
-                <span className="font-bold text-slate-700 text-xs uppercase tracking-wider block">
+                <span className="font-bold text-slate-800 text-xs uppercase tracking-wider block">
                   University Project Environment
                 </span>
-                <ul className="space-y-2 text-slate-600">
+                <ul className="space-y-2 text-slate-700">
                   <li className="flex items-start gap-2">
-                    <span className="text-slate-400">•</span>
+                    <span className="text-slate-500">•</span>
                     <span>Requirements remain static for an entire semester</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-slate-400">•</span>
+                    <span className="text-slate-500">•</span>
                     <span>Single developer or uncoordinated zip-file sharing</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-slate-400">•</span>
+                    <span className="text-slate-500">•</span>
                     <span>Evaluation focuses on a PowerPoint presentation and printed report</span>
                   </li>
                 </ul>
@@ -129,17 +129,17 @@ export const ForStudentsPage: React.FC = () => {
                 <span className="font-bold text-blue-900 text-xs uppercase tracking-wider block">
                   Industry Software Squad Reality
                 </span>
-                <ul className="space-y-2 text-slate-700">
+                <ul className="space-y-2 text-slate-800">
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-blue-800 flex-shrink-0 mt-0.5" />
                     <span>Requirements change mid-sprint based on client feedback</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-blue-800 flex-shrink-0 mt-0.5" />
                     <span>Git feature branches, pull requests, and peer code reviews</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-blue-800 flex-shrink-0 mt-0.5" />
                     <span>Automated test suites running on CI/CD pipelines before code is merged</span>
                   </li>
                 </ul>

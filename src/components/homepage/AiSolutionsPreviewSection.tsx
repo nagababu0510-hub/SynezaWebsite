@@ -132,21 +132,21 @@ export const AiSolutionsPreviewSection: React.FC<{ section: HomepageSection }> =
 
                 {/* Core Stack Highlight */}
                 {service.technologies && service.technologies.length > 0 && (
-                  <div className="pt-3 border-t border-slate-700/60 mb-4 flex items-center gap-1.5 text-xs text-slate-400">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-purple-400 flex-shrink-0">
+                  <div className="pt-3 border-t border-slate-700/60 mb-4 flex items-center gap-1.5 text-xs text-slate-300">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-purple-300 flex-shrink-0">
                       Stack:
                     </span>
-                    <span className="truncate font-medium text-slate-300" title={service.technologies.join(', ')}>
+                    <span className="truncate font-medium text-slate-200" title={service.technologies.join(', ')}>
                       {service.technologies.slice(0, 4).join(' · ')}
                     </span>
                   </div>
                 )}
               </div>
 
-              <div className="pt-4 border-t border-slate-700/60">
+              <div className="pt-2 border-t border-slate-700/60">
                 <Link
                   to={`/ai-solutions/${service.slug}`}
-                  className="inline-flex items-center text-xs sm:text-sm font-semibold text-purple-400 hover:text-purple-300 group"
+                  className="min-h-[44px] inline-flex items-center text-xs sm:text-sm font-bold text-purple-300 hover:text-purple-200 focus:outline-none focus:underline group"
                 >
                   <span>Learn More</span>
                   <ArrowRight className="w-3.5 h-3.5 ml-1.5 group-hover:translate-x-1 transition-transform" />

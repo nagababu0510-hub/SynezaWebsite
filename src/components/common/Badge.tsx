@@ -16,12 +16,12 @@ export const Badge: React.FC<BadgeProps> = ({
   const sizeClasses = size === 'sm' ? 'px-2 py-0.5 text-xs' : 'px-2.5 py-1 text-xs font-semibold';
 
   const variantClasses = {
-    education: 'bg-emerald-50 text-emerald-800 border border-emerald-200/80',
-    software: 'bg-blue-50 text-blue-800 border border-blue-200/80',
-    ai: 'bg-purple-50 text-purple-800 border border-purple-200/80',
-    neutral: 'bg-slate-100 text-slate-700 border border-slate-200',
-    success: 'bg-green-50 text-green-800 border border-green-200',
-    warning: 'bg-amber-50 text-amber-800 border border-amber-200',
+    education: 'bg-emerald-50 text-emerald-900 border border-emerald-300',
+    software: 'bg-blue-50 text-blue-900 border border-blue-300',
+    ai: 'bg-purple-50 text-purple-900 border border-purple-300',
+    neutral: 'bg-slate-100 text-slate-900 border border-slate-300',
+    success: 'bg-green-50 text-green-900 border border-green-300',
+    warning: 'bg-amber-50 text-amber-950 border border-amber-300',
   };
 
   return (

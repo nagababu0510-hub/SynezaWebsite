@@ -88,7 +88,7 @@ export const EducationLandingPage: React.FC = () => {
               <h2 id="programmes-heading" className="text-3xl font-extrabold text-slate-900 tracking-tight">
                 Employability & Training Offerings
               </h2>
-              <p className="mt-2 text-slate-600 text-sm sm:text-base">
+              <p className="mt-2 text-slate-700 text-sm sm:text-base">
                 Designed to be modular, supervised, and adapted to college academic schedules.
               </p>
             </div>
@@ -97,26 +97,26 @@ export const EducationLandingPage: React.FC = () => {
               {/* Card 1: Employability Assessment */}
               <Card hoverable borderTopColor="teal" className="p-8 flex flex-col justify-between">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-5">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-900 flex items-center justify-center mb-5">
                     <ClipboardCheck className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-3">
                     Comprehensive Employability Assessment
                   </h3>
-                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                  <p className="text-slate-700 text-sm leading-relaxed mb-6">
                     Supervised paper-based and practical evaluations across 18 CS areas, culminating in 1-on-1 human technical interviews and institutional gap reports.
                   </p>
                   <ul className="space-y-2 text-xs sm:text-sm text-slate-700 mb-8">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Covers Aptitude, OOP, Data Structures, SQL, OS, APIs</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>One-on-one structured interviews with engineers</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Detailed institutional report for placement faculty</span>
                     </li>
                   </ul>
@@ -124,38 +124,38 @@ export const EducationLandingPage: React.FC = () => {
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                   <Link
                     to="/education/employability-assessment"
-                    className="text-sm font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1.5"
+                    className="min-h-[44px] text-sm font-bold text-emerald-900 hover:text-emerald-950 focus:underline inline-flex items-center gap-1.5"
                   >
                     <span>Read Assessment Details</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
-                  <span className="text-xs text-slate-400">1-2 Days</span>
+                  <span className="text-xs text-slate-500 font-medium">1-2 Days</span>
                 </div>
               </Card>
 
               {/* Card 2: Software Company Simulation */}
               <Card hoverable borderTopColor="teal" className="p-8 flex flex-col justify-between">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-5">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-900 flex items-center justify-center mb-5">
                     <Laptop2 className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-3">
                     Software Company Simulation
                   </h3>
-                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                  <p className="text-slate-700 text-sm leading-relaxed mb-6">
                     A 2-day (17-hour) hands-on sprint delivery simulation. Four 4-hour sprints with user stories, acceptance criteria, branch merges, unexpected change requests, and working POC demos.
                   </p>
                   <ul className="space-y-2 text-xs sm:text-sm text-slate-700 mb-8">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Practical Agile immersion and role assignments</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Real Git merge conflicts and code review workflows</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Demonstration of working proof-of-concept software</span>
                     </li>
                   </ul>
@@ -163,36 +163,36 @@ export const EducationLandingPage: React.FC = () => {
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                   <Link
                     to="/education/software-company-simulation"
-                    className="text-sm font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1.5"
+                    className="min-h-[44px] text-sm font-bold text-emerald-900 hover:text-emerald-950 focus:underline inline-flex items-center gap-1.5"
                   >
                     <span>Explore Simulation Structure</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
-                  <span className="text-xs text-slate-400">17 Hours</span>
+                  <span className="text-xs text-slate-500 font-medium">17 Hours</span>
                 </div>
               </Card>
 
               {/* Card 3: Technology Workshops */}
               <Card hoverable borderTopColor="teal" className="p-8 flex flex-col justify-between">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-5">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-900 flex items-center justify-center mb-5">
                     <Laptop2 className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-3">Technology Workshops</h3>
-                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                  <p className="text-slate-700 text-sm leading-relaxed mb-6">
                     Practitioner-led coding workshops in Java 21, Spring Boot, Python, REST APIs, SQL query tuning, Git version control, and practical Generative AI integration.
                   </p>
                   <ul className="space-y-2 text-xs sm:text-sm text-slate-700 mb-8">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>70% hands-on lab coding and live debugging</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Verified instructor availability before scheduling</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Take-home repositories for ongoing practice</span>
                     </li>
                   </ul>
@@ -200,38 +200,38 @@ export const EducationLandingPage: React.FC = () => {
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                   <Link
                     to="/education/technology-workshops"
-                    className="text-sm font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1.5"
+                    className="min-h-[44px] text-sm font-bold text-emerald-900 hover:text-emerald-950 focus:underline inline-flex items-center gap-1.5"
                   >
                     <span>View Workshop Catalog</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
-                  <span className="text-xs text-slate-400">1-3 Days</span>
+                  <span className="text-xs text-slate-500 font-medium">1-3 Days</span>
                 </div>
               </Card>
 
               {/* Card 4: Motivational & Mindset Sessions */}
               <Card hoverable borderTopColor="teal" className="p-8 flex flex-col justify-between">
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-5">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-900 flex items-center justify-center mb-5">
                     <Compass className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-3">
                     Motivational & Career Sessions
                   </h3>
-                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                  <p className="text-slate-700 text-sm leading-relaxed mb-6">
                     Cultivating emotional resilience, professional etiquette, constructive responses to interview setbacks, and a sustainable growth mindset for lifelong engineering.
                   </p>
                   <ul className="space-y-2 text-xs sm:text-sm text-slate-700 mb-8">
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Demystifying real-world engineering careers</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Overcoming interview anxiety and setback fatigue</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-800" />
                       <span>Establishing self-directed learning habits</span>
                     </li>
                   </ul>
@@ -239,12 +239,12 @@ export const EducationLandingPage: React.FC = () => {
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                   <Link
                     to="/education/motivational-sessions"
-                    className="text-sm font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1.5"
+                    className="min-h-[44px] text-sm font-bold text-emerald-900 hover:text-emerald-950 focus:underline inline-flex items-center gap-1.5"
                   >
                     <span>Read Session Focus</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
-                  <span className="text-xs text-slate-400">2-3 Hours</span>
+                  <span className="text-xs text-slate-500 font-medium">2-3 Hours</span>
                 </div>
               </Card>
             </div>

@@ -79,14 +79,14 @@ export const TechnologyWorkshopsPage: React.FC = () => {
                 <Card key={ws.id} hoverable borderTopColor="teal" className="p-6 flex flex-col justify-between">
                   <div>
                     <div className="flex items-center justify-between mb-3">
-                      <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">
+                      <span className="text-[11px] font-bold text-slate-700 uppercase tracking-wider">
                         {ws.track}
                       </span>
                       <span
-                        className={`text-[10px] font-semibold px-2 py-0.5 rounded uppercase ${
+                        className={`text-[10px] font-bold px-2 py-0.5 rounded uppercase ${
                           isAvailable
-                            ? 'bg-emerald-50 text-emerald-800 border border-emerald-200'
-                            : 'bg-amber-50 text-amber-800 border border-amber-200'
+                            ? 'bg-emerald-50 text-emerald-900 border border-emerald-300'
+                            : 'bg-amber-50 text-amber-950 border border-amber-300'
                         }`}
                       >
                         {ws.status}
@@ -97,19 +97,19 @@ export const TechnologyWorkshopsPage: React.FC = () => {
                       {ws.title}
                     </h3>
 
-                    <div className="flex items-center gap-1.5 text-xs text-slate-500 mb-4">
+                    <div className="flex items-center gap-1.5 text-xs text-slate-700 font-medium mb-4">
                       <Clock className="w-3.5 h-3.5" />
                       <span>{ws.duration}</span>
                     </div>
 
                     <div className="space-y-2 mb-6">
-                      <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
+                      <div className="text-[11px] font-bold uppercase tracking-wider text-slate-700">
                         Topics Covered:
                       </div>
-                      <ul className="space-y-1.5 text-xs text-slate-700">
+                      <ul className="space-y-1.5 text-xs text-slate-700 font-medium">
                         {ws.topics.map((t, idx) => (
                           <li key={idx} className="flex items-start gap-1.5">
-                            <Check className="w-3.5 h-3.5 text-emerald-600 mt-0.5 flex-shrink-0" />
+                            <Check className="w-3.5 h-3.5 text-emerald-800 mt-0.5 flex-shrink-0" />
                             <span>{t}</span>
                           </li>
                         ))}

@@ -50,14 +50,14 @@ export const ForCollegesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 space-y-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card hoverable borderTopColor="teal" className="p-8">
-              <ClipboardCheck className="w-8 h-8 text-emerald-700 mb-4" />
+              <ClipboardCheck className="w-8 h-8 text-emerald-900 mb-4" />
               <h3 className="text-xl font-bold text-slate-900 mb-3">Diagnostic Gap Analytics</h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
                 Receive unvarnished branch-level data showing exactly which disciplines (e.g. SQL indexing, concurrency, memory models) need revision before corporate recruitment cycles begin.
               </p>
               <Link
                 to="/education/employability-assessment"
-                className="text-xs font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1"
+                className="min-h-[44px] text-xs font-bold text-emerald-900 hover:text-emerald-950 focus:underline inline-flex items-center gap-1"
               >
                 <span>Read About Assessment</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -65,14 +65,14 @@ export const ForCollegesPage: React.FC = () => {
             </Card>
 
             <Card hoverable borderTopColor="teal" className="p-8">
-              <Laptop2 className="w-8 h-8 text-emerald-700 mb-4" />
+              <Laptop2 className="w-8 h-8 text-emerald-900 mb-4" />
               <h3 className="text-xl font-bold text-slate-900 mb-3">Software Company Simulation</h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
                 Expose student batches to four 4-hour Agile sprints, real Git branch merges, change requests, and working proof-of-concept demos inside your own campus computer labs.
               </p>
               <Link
                 to="/education/software-company-simulation"
-                className="text-xs font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1"
+                className="min-h-[44px] text-xs font-bold text-emerald-900 hover:text-emerald-950 focus:underline inline-flex items-center gap-1"
               >
                 <span>Read About Simulation</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -80,14 +80,14 @@ export const ForCollegesPage: React.FC = () => {
             </Card>
 
             <Card hoverable borderTopColor="teal" className="p-8">
-              <FileSpreadsheet className="w-8 h-8 text-emerald-700 mb-4" />
+              <FileSpreadsheet className="w-8 h-8 text-emerald-900 mb-4" />
               <h3 className="text-xl font-bold text-slate-900 mb-3">Tailored Cohort Sizing</h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-4">
                 Engagements can be adapted to pre-final or final-year cohorts, specific departments (CSE, IT, ECE, MCA), or campus-wide multi-day recruitment preparation drives.
               </p>
               <Link
                 to="/contact?category=college-assessment"
-                className="text-xs font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1"
+                className="min-h-[44px] text-xs font-bold text-emerald-900 hover:text-emerald-950 focus:underline inline-flex items-center gap-1"
               >
                 <span>Inquire Custom Scope</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -97,10 +97,10 @@ export const ForCollegesPage: React.FC = () => {
 
           {/* Institutional Integrity Notice */}
           <div className="p-6 rounded-2xl bg-slate-100 border border-slate-200 flex items-start gap-4">
-            <ShieldAlert className="w-6 h-6 text-slate-600 mt-0.5 flex-shrink-0" />
+            <ShieldAlert className="w-6 h-6 text-slate-700 mt-0.5 flex-shrink-0" />
             <div className="space-y-1">
               <h4 className="text-sm font-bold text-slate-900">Our Institutional Code of Conduct</h4>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 We believe trust is earned through factual, transparent engagement. We do not invent client colleges, publish unverified statistics, or make false claims of guaranteed placements. Our mission is to elevate genuine student capability through disciplined, human-evaluated engineering rigor.
               </p>
             </div>

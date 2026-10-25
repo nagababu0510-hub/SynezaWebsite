@@ -36,13 +36,23 @@
   }
 }
 
-/* High-contrast focus rings for WCAG 2.2 AA */
+/* High-contrast focus indicators meeting WCAG 2.2 AAA (SC 2.4.13 Focus Appearance) */
 :focus-visible {
-  outline: 2px solid #2563EB;
-  outline-offset: 2px;
+  outline: 3px solid #1E40AF !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 1px #FFFFFF !important;
 }
 
-/* Base body typography and scrolling */
+/* Dark mode and dark section focus indicator */
+.dark :focus-visible,
+[class*="bg-slate-900"] :focus-visible,
+[class*="bg-slate-950"] :focus-visible {
+  outline: 3px solid #93C5FD !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 1px #0F172A !important;
+}
+
+/* Base body typography and scrolling (WCAG 2.2 AAA SC 1.4.8 Visual Presentation) */
 html {
   scroll-behavior: smooth;
   font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
@@ -52,4 +62,10 @@ body {
   background-color: var(--color-surface);
   color: var(--color-text-main);
   overflow-x: hidden;
+  line-height: 1.625;
+}
+
+/* Ensure paragraph line spacing satisfies Level AAA SC 1.4.8 */
+p {
+  line-height: 1.625;
 }

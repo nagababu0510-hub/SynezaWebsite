@@ -338,7 +338,7 @@ export const ContactPage: React.FC = () => {
                         onChange={(e) =>
                           setForm({ ...form, enquiryCategory: e.target.value })
                         }
-                        className="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
+                        className="w-full min-h-[44px] px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-blue-700 focus:border-blue-700 bg-white text-slate-900"
                         aria-invalid={!!errors.enquiryCategory}
                         aria-describedby={errors.enquiryCategory ? 'category-error' : undefined}
                       >
@@ -374,7 +374,7 @@ export const ContactPage: React.FC = () => {
                         </optgroup>
                       </select>
                       {errors.enquiryCategory && (
-                        <p id="category-error" className="text-xs text-red-600 mt-1">
+                        <p id="category-error" className="text-xs font-bold text-red-900 mt-1">
                           {errors.enquiryCategory}
                         </p>
                       )}
@@ -396,14 +396,14 @@ export const ContactPage: React.FC = () => {
                           value={form.fullName}
                           onChange={(e) => setForm({ ...form, fullName: e.target.value })}
                           placeholder="e.g. Priyadarshini Rao"
-                          className={`w-full px-4 py-2.5 rounded-lg border text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+                          className={`w-full min-h-[44px] px-4 py-2.5 rounded-lg border text-sm focus:ring-2 focus:ring-blue-700 focus:outline-none text-slate-900 ${
                             errors.fullName ? 'border-red-400' : 'border-slate-300'
                           }`}
                           aria-invalid={!!errors.fullName}
                           aria-describedby={errors.fullName ? 'fullname-error' : undefined}
                         />
                         {errors.fullName && (
-                          <p id="fullname-error" className="text-xs text-red-600 mt-1">
+                          <p id="fullname-error" className="text-xs font-bold text-red-900 mt-1">
                             {errors.fullName}
                           </p>
                         )}
@@ -423,14 +423,14 @@ export const ContactPage: React.FC = () => {
                           value={form.email}
                           onChange={(e) => setForm({ ...form, email: e.target.value })}
                           placeholder="name@organization.com"
-                          className={`w-full px-4 py-2.5 rounded-lg border text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+                          className={`w-full min-h-[44px] px-4 py-2.5 rounded-lg border text-sm focus:ring-2 focus:ring-blue-700 focus:outline-none text-slate-900 ${
                             errors.email ? 'border-red-400' : 'border-slate-300'
                           }`}
                           aria-invalid={!!errors.email}
                           aria-describedby={errors.email ? 'email-error' : undefined}
                         />
                         {errors.email && (
-                          <p id="email-error" className="text-xs text-red-600 mt-1">
+                          <p id="email-error" className="text-xs font-bold text-red-900 mt-1">
                             {errors.email}
                           </p>
                         )}
@@ -442,7 +442,7 @@ export const ContactPage: React.FC = () => {
                         htmlFor="phone"
                         className="block text-xs sm:text-sm font-semibold text-slate-800 mb-1"
                       >
-                        Phone Number <span className="text-slate-400 font-normal">(Optional)</span>
+                        Phone Number <span className="text-slate-600 font-medium">(Optional)</span>
                       </label>
                       <input
                         type="tel"
@@ -450,7 +450,7 @@ export const ContactPage: React.FC = () => {
                         value={form.phone}
                         onChange={(e) => setForm({ ...form, phone: e.target.value })}
                         placeholder="+91 98765 43210"
-                        className="w-full px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="w-full min-h-[44px] px-4 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-blue-700 focus:outline-none text-slate-900"
                       />
                     </div>
 
@@ -614,15 +614,15 @@ export const ContactPage: React.FC = () => {
                         value={form.message}
                         onChange={(e) => setForm({ ...form, message: e.target.value })}
                         placeholder="Please describe your key objectives, challenges, or questions..."
-                        className={`w-full px-4 py-2.5 rounded-lg border text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+                        className={`w-full min-h-[100px] px-4 py-2.5 rounded-lg border text-sm focus:ring-2 focus:ring-blue-700 focus:outline-none text-slate-900 ${
                           errors.message ? 'border-red-400' : 'border-slate-300'
                         }`}
                         aria-invalid={!!errors.message}
                         aria-describedby={errors.message ? 'message-error' : undefined}
                       />
-                      <div className="flex justify-between items-center mt-1 text-[11px] text-slate-400">
+                      <div className="flex justify-between items-center mt-1 text-xs text-slate-600 font-medium">
                         {errors.message ? (
-                          <span id="message-error" className="text-red-600">
+                          <span id="message-error" className="text-red-900 font-bold">
                             {errors.message}
                           </span>
                         ) : (
@@ -633,9 +633,9 @@ export const ContactPage: React.FC = () => {
                     </div>
 
                     {/* Disclaimers & Privacy Notice */}
-                    <div className="p-3 bg-slate-50 rounded-lg border border-slate-200 text-xs text-slate-600 space-y-1">
+                    <div className="p-3 bg-slate-50 rounded-lg border border-slate-200 text-xs text-slate-700 font-medium space-y-1">
                       <p>
-                        <strong>Privacy:</strong> {contact.formDisclaimers.privacyNotice}
+                        <strong className="text-slate-900 font-bold">Privacy:</strong> {contact.formDisclaimers.privacyNotice}
                       </p>
                     </div>
 

@@ -97,7 +97,7 @@ export const SoftwareCompanySimulationPage: React.FC = () => {
                   className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-card flex flex-col md:flex-row gap-6 items-start"
                 >
                   <div className="flex-shrink-0">
-                    <span className="px-3.5 py-1.5 rounded-lg bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider block text-center">
+                    <span className="px-3.5 py-1.5 rounded-lg bg-blue-100 text-blue-900 text-xs font-bold uppercase tracking-wider block text-center">
                       {sprint.sprint}
                     </span>
                   </div>
@@ -105,15 +105,15 @@ export const SoftwareCompanySimulationPage: React.FC = () => {
                   <div className="flex-1 space-y-3">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
                       <h3 className="text-xl font-bold text-slate-900">{sprint.title}</h3>
-                      <span className="text-xs font-semibold text-slate-500 uppercase tracking-wide">
+                      <span className="text-xs font-bold text-slate-700 uppercase tracking-wide">
                         {sprint.focus}
                       </span>
                     </div>
 
-                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-700 pt-2">
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-700 pt-2 font-medium">
                       {sprint.activities.map((act, actIdx) => (
                         <li key={actIdx} className="flex items-start gap-2">
-                          <CheckCircle2 className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+                          <CheckCircle2 className="w-4 h-4 text-emerald-800 mt-0.5 flex-shrink-0" />
                           <span>{act}</span>
                         </li>
                       ))}

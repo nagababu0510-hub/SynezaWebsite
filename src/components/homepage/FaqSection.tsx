@@ -89,12 +89,12 @@ export const FaqSection: React.FC<{ section: HomepageSection }> = ({ section }) 
                     onClick={() => toggleFaq(idx)}
                     aria-expanded={isOpen}
                     aria-controls={contentId}
-                    className="w-full flex items-center justify-between p-5 sm:p-6 text-left font-bold text-slate-900 hover:text-blue-600 focus:outline-none focus:bg-slate-50"
+                    className="w-full min-h-[44px] flex items-center justify-between p-5 sm:p-6 text-left font-bold text-slate-900 hover:text-blue-800 focus:outline-none focus:bg-slate-50 focus:ring-2 focus:ring-blue-700"
                   >
                     <span className="text-base sm:text-lg pr-4">{faq.question}</span>
                     <ChevronDown
-                      className={`w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-200 ${
-                        isOpen ? 'rotate-180 text-blue-600' : ''
+                      className={`w-5 h-5 text-slate-600 flex-shrink-0 transition-transform duration-200 ${
+                        isOpen ? 'rotate-180 text-blue-800' : ''
                       }`}
                       aria-hidden="true"
                     />
@@ -105,7 +105,7 @@ export const FaqSection: React.FC<{ section: HomepageSection }> = ({ section }) 
                     id={contentId}
                     role="region"
                     aria-labelledby={headerId}
-                    className="px-5 pb-6 sm:px-6 text-sm sm:text-base text-slate-600 leading-relaxed border-t border-slate-100 pt-4"
+                    className="px-5 pb-6 sm:px-6 text-sm sm:text-base text-slate-700 leading-relaxed border-t border-slate-100 pt-4"
                   >
                     {faq.answer}
                   </div>

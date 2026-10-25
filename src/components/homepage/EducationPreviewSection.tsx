@@ -89,15 +89,15 @@ export const EducationPreviewSection: React.FC<{ section: HomepageSection }> = (
               </div>
             </div>
 
-            <div className="pt-4 border-t border-emerald-100 flex items-center justify-between">
+            <div className="pt-2 border-t border-emerald-100 flex items-center justify-between">
               <Link
                 to="/education/employability-assessment"
-                className="text-sm font-semibold text-emerald-800 hover:text-emerald-950 inline-flex items-center gap-1.5"
+                className="min-h-[44px] text-sm font-bold text-emerald-900 hover:text-emerald-950 focus:underline inline-flex items-center gap-1.5"
               >
                 <span>Assessment Details</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
-              <span className="text-xs text-slate-500 font-medium">1-2 Days On-Campus</span>
+              <span className="text-xs text-slate-700 font-semibold">1-2 Days On-Campus</span>
             </div>
           </div>
 
@@ -105,7 +105,7 @@ export const EducationPreviewSection: React.FC<{ section: HomepageSection }> = (
           <div className="rounded-2xl border-2 border-blue-600/30 bg-blue-50/20 p-8 flex flex-col justify-between hover:shadow-card transition-shadow">
             <div>
               <div className="flex items-center justify-between mb-4">
-                <div className="w-12 h-12 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center">
+                <div className="w-12 h-12 rounded-xl bg-blue-100 text-blue-900 flex items-center justify-center">
                   <Laptop2 className="w-6 h-6" />
                 </div>
                 <Badge variant="software">2-Day Agile Immersion</Badge>
@@ -115,39 +115,39 @@ export const EducationPreviewSection: React.FC<{ section: HomepageSection }> = (
                 Software Company Simulation
               </h3>
 
-              <p className="text-slate-600 text-sm leading-relaxed mb-6">
+              <p className="text-slate-700 text-sm leading-relaxed mb-6">
                 An intensive 17-hour delivery simulation across four 4-hour sprints with user stories, acceptance criteria, branch merges, unexpected change requests, and executive proof-of-concept demonstrations.
               </p>
 
-              <div className="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-6 bg-white p-4 rounded-xl border border-blue-100">
+              <div className="grid grid-cols-2 gap-2 text-xs text-slate-800 mb-6 bg-white p-4 rounded-xl border border-blue-100">
                 <div className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" />
+                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-800" />
                   <span>4 Structured Sprints (16h)</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" />
+                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-800" />
                   <span>Git Branching & Merge PRs</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" />
+                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-800" />
                   <span>Sprint 3 Change Request</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-600" />
+                  <CheckCircle2 className="w-3.5 h-3.5 text-blue-800" />
                   <span>Working POC Demo</span>
                 </div>
               </div>
             </div>
 
-            <div className="pt-4 border-t border-blue-100 flex items-center justify-between">
+            <div className="pt-2 border-t border-blue-100 flex items-center justify-between">
               <Link
                 to="/education/software-company-simulation"
-                className="text-sm font-semibold text-blue-700 hover:text-blue-900 inline-flex items-center gap-1.5"
+                className="min-h-[44px] text-sm font-bold text-blue-900 hover:text-blue-950 focus:underline inline-flex items-center gap-1.5"
               >
                 <span>Simulation Structure</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
-              <span className="text-xs text-slate-500 font-medium">17 Hours Total</span>
+              <span className="text-xs text-slate-700 font-semibold">17 Hours Total</span>
             </div>
           </div>
         </div>

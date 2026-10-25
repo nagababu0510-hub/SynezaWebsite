@@ -25,14 +25,14 @@ export const TechnologyServicesPage: React.FC = () => {
   const overview = softwareServices.pillarOverview;
 
   const iconMap: Record<string, React.ReactNode> = {
-    'custom-software-development': <Code2 className="w-6 h-6 text-blue-600" />,
-    'software-maintenance': <Wrench className="w-6 h-6 text-blue-600" />,
-    'application-modernization': <Layers className="w-6 h-6 text-blue-600" />,
-    'api-system-integration': <Network className="w-6 h-6 text-blue-600" />,
-    'database-engineering': <Database className="w-6 h-6 text-blue-600" />,
-    'quality-engineering': <CheckCircle className="w-6 h-6 text-blue-600" />,
-    'devops-delivery': <GitBranch className="w-6 h-6 text-blue-600" />,
-    'technical-consulting-architecture': <Compass className="w-6 h-6 text-blue-600" />,
+    'custom-software-development': <Code2 className="w-6 h-6 text-blue-800" />,
+    'software-maintenance': <Wrench className="w-6 h-6 text-blue-800" />,
+    'application-modernization': <Layers className="w-6 h-6 text-blue-800" />,
+    'api-system-integration': <Network className="w-6 h-6 text-blue-800" />,
+    'database-engineering': <Database className="w-6 h-6 text-blue-800" />,
+    'quality-engineering': <CheckCircle className="w-6 h-6 text-blue-800" />,
+    'devops-delivery': <GitBranch className="w-6 h-6 text-blue-800" />,
+    'technical-consulting-architecture': <Compass className="w-6 h-6 text-blue-800" />,
   };
 
   const services = softwareServices.services
@@ -80,13 +80,13 @@ export const TechnologyServicesPage: React.FC = () => {
         {/* Core Principles Strip */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-20">
           <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-elevated">
-            <h2 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">
+            <h2 className="text-xs font-bold uppercase tracking-wider text-slate-700 mb-4">
               Our Core Engineering Commitments
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-xs sm:text-sm text-slate-700">
               {overview.principles.map((pr, idx) => (
                 <div key={idx} className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-blue-800 mt-0.5 flex-shrink-0" />
                   <span>{pr}</span>
                 </div>
               ))}
@@ -102,7 +102,7 @@ export const TechnologyServicesPage: React.FC = () => {
               <h2 id="catalogue-heading" className="text-3xl font-extrabold text-slate-900 tracking-tight">
                 Software Services & Capabilities
               </h2>
-              <p className="mt-2 text-slate-600 text-sm sm:text-base">
+              <p className="mt-2 text-slate-700 text-sm sm:text-base">
                 Each service is delivered by experienced engineers with clean documentation and automated test suites.
               </p>
             </div>
@@ -118,10 +118,10 @@ export const TechnologyServicesPage: React.FC = () => {
                   <div>
                     <div className="flex items-center justify-between mb-5">
                       <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center">
-                        {iconMap[service.id] || <Code2 className="w-6 h-6 text-blue-600" />}
+                        {iconMap[service.id] || <Code2 className="w-6 h-6 text-blue-800" />}
                       </div>
                       {service.badge && (
-                        <span className="text-[10px] font-semibold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200 uppercase tracking-wide">
+                        <span className="text-[10px] font-semibold text-blue-900 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200 uppercase tracking-wide">
                           {service.badge}
                         </span>
                       )}
@@ -130,26 +130,26 @@ export const TechnologyServicesPage: React.FC = () => {
                     <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">
                       <Link
                         to={`/services/${service.slug}`}
-                        className="hover:text-blue-600 transition-colors focus:outline-none focus:underline"
+                        className="hover:text-blue-800 transition-colors focus:outline-none focus:underline"
                       >
                         {service.name}
                       </Link>
                     </h3>
 
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-5 line-clamp-3">
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed mb-5 line-clamp-3">
                       {service.shortDescription}
                     </p>
 
                     {/* Key Deliverables */}
                     {service.keyCapabilities && service.keyCapabilities.length > 0 && (
                       <div className="space-y-2 mb-5">
-                        <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-1">
+                        <span className="text-[11px] font-bold uppercase tracking-wider text-slate-700 block mb-1">
                           Core Deliverables
                         </span>
-                        <ul className="space-y-1.5 text-xs text-slate-600">
+                        <ul className="space-y-1.5 text-xs text-slate-700">
                           {service.keyCapabilities.slice(0, 3).map((cap, idx) => (
                             <li key={idx} className="flex items-start gap-2">
-                              <CheckCircle2 className="w-3.5 h-3.5 text-blue-600 mt-0.5 flex-shrink-0" />
+                              <CheckCircle2 className="w-3.5 h-3.5 text-blue-800 mt-0.5 flex-shrink-0" />
                               <span className="leading-snug">{cap}</span>
                             </li>
                           ))}
@@ -159,15 +159,15 @@ export const TechnologyServicesPage: React.FC = () => {
 
                     {/* Tech Badges */}
                     {service.technologies && service.technologies.length > 0 && (
-                      <div className="pt-4 border-t border-slate-100 mb-6">
-                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-2">
+                      <div className="pt-4 border-t border-slate-200 mb-6">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 block mb-2">
                           Representative Technologies & Frameworks
                         </span>
                         <div className="flex flex-wrap gap-1.5">
                           {service.technologies.map((tech, idx) => (
                             <span
                               key={idx}
-                              className="px-2.5 py-1 text-xs font-medium bg-slate-50 text-slate-700 border border-slate-200/80 rounded-md"
+                              className="px-2.5 py-1 text-xs font-semibold bg-slate-50 text-slate-800 border border-slate-300 rounded-md"
                             >
                               {tech}
                             </span>
@@ -177,10 +177,10 @@ export const TechnologyServicesPage: React.FC = () => {
                     )}
                   </div>
 
-                  <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
+                  <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
                     <Link
                       to={`/services/${service.slug}`}
-                      className="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center gap-1.5 group"
+                      className="min-h-[44px] text-sm font-bold text-blue-800 hover:text-blue-950 focus:underline inline-flex items-center gap-1.5 group"
                     >
                       <span>Explore Service Details</span>
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -213,7 +213,7 @@ export const TechnologyServicesPage: React.FC = () => {
                   </div>
                   <Link
                     to="/contact"
-                    className="text-xs font-semibold text-blue-300 hover:text-white inline-flex items-center gap-1"
+                    className="min-h-[44px] text-xs font-semibold text-blue-300 hover:text-white inline-flex items-center gap-1 focus:underline"
                   >
                     <span>Inquire About Model</span>
                     <ArrowRight className="w-3 h-3" />
@@ -224,7 +224,7 @@ export const TechnologyServicesPage: React.FC = () => {
           </section>
 
           {/* Final CTA */}
-          <div className="p-8 sm:p-10 rounded-2xl bg-blue-600 text-white flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="p-8 sm:p-10 rounded-2xl bg-blue-800 text-white flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="space-y-1 text-center md:text-left">
               <h3 className="text-2xl font-bold">Have an application to build or maintain?</h3>
               <p className="text-blue-100 text-sm max-w-xl">
@@ -235,7 +235,7 @@ export const TechnologyServicesPage: React.FC = () => {
               variant="secondary"
               size="lg"
               href="/contact"
-              className="bg-white text-blue-900 hover:bg-slate-100 flex-shrink-0"
+              className="bg-white text-blue-950 hover:bg-slate-100 flex-shrink-0 font-bold"
             >
               <span>Start a Project Discussion</span>
               <ArrowRight className="w-4 h-4 ml-2" />
