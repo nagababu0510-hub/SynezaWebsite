@@ -25,6 +25,10 @@ export const BrandingConfigSchema = z.object({
     badgeText: z.string().optional().default('TECHNOLOGIES'),
     showIcon: z.boolean().default(true),
     iconName: z.string().optional().default('Layers'),
+    src: z.string().optional().default('/assets/logo/syneza-logo-web.png'),
+    darkSrc: z.string().optional().default('/assets/logo/syneza-logo-white-web.png'),
+    symbolSrc: z.string().optional().default('/assets/logo/syneza-symbol.png'),
+    alt: z.string().optional().default('Syneza Technologies Logo'),
   }),
   colors: z.object({
     primary: z.string().default('#2563EB'),

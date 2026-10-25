@@ -25,6 +25,10 @@ export const defaultBrandingConfig = {
     badgeText: 'TECHNOLOGIES',
     showIcon: true,
     iconName: 'Code2',
+    src: '/assets/logo/syneza-logo-web.png',
+    darkSrc: '/assets/logo/syneza-logo-white-web.png',
+    symbolSrc: '/assets/logo/syneza-symbol.png',
+    alt: 'Syneza Technologies Logo',
   },
   colors: {
     primary: '#2563EB',

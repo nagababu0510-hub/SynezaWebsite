@@ -17,7 +17,7 @@ import {
 
 export const AboutPage: React.FC = () => {
   const { config } = useConfig();
-  const { about, site } = config;
+  const { about, site, branding } = config;
 
   return (
     <>
@@ -30,8 +30,8 @@ export const AboutPage: React.FC = () => {
       <div className="pb-24">
         {/* Hero Section */}
         <header className="bg-slate-900 text-white py-16 lg:py-24 relative overflow-hidden border-b border-slate-800">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div className="max-w-3xl space-y-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-8">
+            <div className="max-w-2xl space-y-4">
               <Badge variant="neutral" className="bg-white/10 text-white border-white/20">
                 Company Overview
               </Badge>
@@ -42,6 +42,17 @@ export const AboutPage: React.FC = () => {
                 {about.purpose}
               </p>
             </div>
+            {branding.logo.symbolSrc && (
+              <div className="hidden md:flex flex-shrink-0 items-center justify-center p-6 rounded-2xl bg-slate-800/60 border border-slate-700/80 shadow-inner">
+                <img
+                  src={branding.logo.symbolSrc}
+                  alt={`${branding.companyName} Brand Mark`}
+                  className="w-32 h-32 lg:w-40 lg:h-40 object-contain drop-shadow-md"
+                  width={160}
+                  height={160}
+                />
+              </div>
+            )}
           </div>
         </header>
 

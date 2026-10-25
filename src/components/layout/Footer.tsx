@@ -19,24 +19,44 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2 space-y-4">
             <Link
               to="/"
-              className="inline-flex items-center gap-2.5 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded-lg p-1 -ml-1"
+              className="inline-flex items-center gap-2.5 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded-lg p-1 -ml-1 group min-h-[44px]"
               aria-label={`${branding.companyName} Home`}
             >
-              {footer.showLogo && (
-                <div className="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white flex-shrink-0">
-                  <Code2 className="w-5 h-5" aria-hidden="true" />
+              {footer.showLogo && branding.logo.darkSrc ? (
+                <div className="flex items-center gap-2.5">
+                  <img
+                    src={branding.logo.darkSrc}
+                    alt={branding.logo.alt || `${branding.companyName} Logo`}
+                    className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
+                    width={94}
+                    height={48}
+                  />
+                  <span className="sr-only">{branding.logo.text}</span>
+                  {branding.logo.badgeText && (
+                    <span className="text-[10px] font-bold tracking-widest text-blue-300 bg-slate-800 border border-slate-700 px-2 py-0.5 rounded uppercase self-center">
+                      {branding.logo.badgeText}
+                    </span>
+                  )}
                 </div>
+              ) : (
+                <>
+                  {footer.showLogo && (
+                    <div className="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white flex-shrink-0">
+                      <Code2 className="w-5 h-5" aria-hidden="true" />
+                    </div>
+                  )}
+                  <div className="flex flex-col">
+                    <span className="font-bold text-xl tracking-tight text-white leading-none">
+                      {branding.logo.text}
+                    </span>
+                    {branding.logo.badgeText && (
+                      <span className="text-[10px] font-semibold tracking-widest text-blue-400 uppercase mt-0.5">
+                        {branding.logo.badgeText}
+                      </span>
+                    )}
+                  </div>
+                </>
               )}
-              <div className="flex flex-col">
-                <span className="font-bold text-xl tracking-tight text-white leading-none">
-                  {branding.logo.text}
-                </span>
-                {branding.logo.badgeText && (
-                  <span className="text-[10px] font-semibold tracking-widest text-blue-400 uppercase mt-0.5">
-                    {branding.logo.badgeText}
-                  </span>
-                )}
-              </div>
             </Link>
 
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">

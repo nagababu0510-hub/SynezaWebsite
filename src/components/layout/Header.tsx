@@ -127,26 +127,46 @@ export const Header: React.FC = () => {
             <div className="flex items-center gap-3">
               <Link
                 to="/"
-                className="flex items-center gap-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-lg p-1"
+                className="flex items-center gap-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-lg p-1 group min-h-[44px]"
                 aria-label={`${branding.companyName} Home`}
               >
-                {branding.logo.showIcon && (
-                  <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center text-white shadow-sm flex-shrink-0">
-                    <Code2 className="w-5 h-5" aria-hidden="true" />
+                {branding.logo.src ? (
+                  <div className="flex items-center gap-2.5">
+                    <img
+                      src={branding.logo.src}
+                      alt={branding.logo.alt || `${branding.companyName} Logo`}
+                      className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
+                      width={94}
+                      height={48}
+                    />
+                    <span className="sr-only">{branding.logo.text}</span>
+                    {branding.logo.badgeText && (
+                      <span className="hidden sm:inline-block text-[10px] font-bold tracking-widest text-blue-900 bg-blue-50 border border-blue-200 px-2 py-0.5 rounded uppercase self-center">
+                        {branding.logo.badgeText}
+                      </span>
+                    )}
                   </div>
+                ) : (
+                  <>
+                    {branding.logo.showIcon && (
+                      <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center text-white shadow-sm flex-shrink-0">
+                        <Code2 className="w-5 h-5" aria-hidden="true" />
+                      </div>
+                    )}
+                    <div className="flex flex-col">
+                      {header.showCompanyName && (
+                        <span className="font-bold text-xl tracking-tight text-slate-900 leading-none">
+                          {branding.logo.text}
+                        </span>
+                      )}
+                      {branding.logo.badgeText && (
+                        <span className="text-[10px] font-semibold tracking-widest text-blue-600 uppercase mt-0.5">
+                          {branding.logo.badgeText}
+                        </span>
+                      )}
+                    </div>
+                  </>
                 )}
-                <div className="flex flex-col">
-                  {header.showCompanyName && (
-                    <span className="font-bold text-xl tracking-tight text-slate-900 leading-none">
-                      {branding.logo.text}
-                    </span>
-                  )}
-                  {branding.logo.badgeText && (
-                    <span className="text-[10px] font-semibold tracking-widest text-blue-600 uppercase mt-0.5">
-                      {branding.logo.badgeText}
-                    </span>
-                  )}
-                </div>
               </Link>
             </div>
 

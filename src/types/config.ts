@@ -23,6 +23,10 @@ export interface BrandingConfig {
     badgeText?: string;
     showIcon: boolean;
     iconName?: string;
+    src?: string;
+    darkSrc?: string;
+    symbolSrc?: string;
+    alt?: string;
   };
   colors: {
     primary: string;
