@@ -184,7 +184,7 @@
       "slug": "technology-workshops",
       "name": "Technology Workshops",
       "badge": "Hands-on Modules",
-      "shortDescription": "Modular, practitioner-taught workshops in Java, Spring Boot, Python, REST APIs, Microservices, SQL, Git, and Practical AI/LLMs.",
+      "shortDescription": "Modular, practitioner-taught workshops in Enterprise Backend Architecture, REST APIs, Distributed Systems, SQL Optimization, Version Control, and Practical AI/LLMs.",
       "fullDescription": "Focused, intensive engineering workshops tailored to the specific learning gaps identified during student assessments or requested by department heads. Each workshop emphasizes hands-on code writing, real debugging scenarios, and architectural patterns rather than theoretical slide lectures.",
       "targetAudience": [
         "Engineering Departments",
@@ -192,21 +192,20 @@
         "Pre-placement Training Initiatives"
       ],
       "businessProblem": [
-        "Curriculums often lag behind modern frameworks (e.g. teaching basic Java syntax without Spring Boot or REST API principles).",
-        "Students lack experience connecting backend services to relational databases or messaging queues like Kafka.",
+        "Curriculums often lag behind modern industry practices (e.g. teaching basic syntax without modern architectural patterns or RESTful principles).",
+        "Students lack experience connecting backend services to relational databases or event-driven messaging systems.",
         "Excessive focus on AI buzzwords without understanding foundational tokenization, API limits, or prompting fundamentals."
       ],
       "synezaSolution": [
         "Hands-on, project-backed workshops led by active technology practitioners.",
-        "Configurable modules spanning enterprise Java/Spring, Python data engineering, database tuning, and generative AI.",
+        "Configurable modules spanning enterprise backend architecture, API engineering, database tuning, and generative AI.",
         "All topics verified against currently available instructor competencies before being scheduled."
       ],
       "keyCapabilities": [
-        "Java & Spring Boot backend services",
-        "Python for scripting, backend, and data workflows",
-        "RESTful API architecture, design, and documentation",
+        "Enterprise backend architecture & microservices",
+        "RESTful API architecture, contract design, and documentation",
         "SQL, relational database modeling, and query tuning",
-        "Version control best practices with Git & GitHub/GitLab",
+        "Version control best practices with Git & collaborative workflows",
         "Software testing & quality fundamentals (Unit & Integration tests)",
         "Practical Generative AI & LLM application integration"
       ],
@@ -250,11 +249,11 @@
       },
       "seo": {
         "title": "Technology Workshops for Engineering Colleges | Syneza Technologies",
-        "metaDescription": "Hands-on technology workshops for engineering institutions. Java, Spring Boot, REST APIs, SQL, Git, and practical LLM integration.",
+        "metaDescription": "Hands-on technology workshops for engineering institutions. Backend architecture, REST APIs, SQL, Git, and practical LLM integration.",
         "keywords": [
           "Technical workshops for engineering colleges",
-          "Java Spring Boot college workshop",
-          "Python and REST API training"
+          "Enterprise backend college workshop",
+          "REST API and database training"
         ]
       },
       "order": 3,
@@ -405,33 +404,33 @@
   },
   "workshopCatalog": [
     {
-      "id": "ws-java-spring",
-      "title": "Java 21 & Spring Boot Enterprise Services",
-      "track": "Enterprise Backend",
+      "id": "ws-backend-architecture",
+      "title": "Enterprise Backend Architecture & Microservices",
+      "track": "Enterprise Systems",
       "status": "Available",
       "duration": "2 Days (14 Hours)",
       "topics": [
-        "Java 21 Modern Syntax & Records",
-        "Spring Boot 3 Core & Dependency Injection",
-        "RESTful Controller Design",
-        "Spring Data JPA & Transaction Management",
-        "Exception Handling & Validation",
-        "Unit Testing with JUnit 5 and Mockito"
+        "Modern OOP & Modular Design Patterns",
+        "Dependency Injection & Layered Architecture",
+        "RESTful Controller & Contract Design",
+        "Object-Relational Persistence & Transactions",
+        "Defensive Validation & Exception Handling",
+        "Unit Testing & Integration Test Strategies"
       ]
     },
     {
-      "id": "ws-python-apis",
-      "title": "Python Backend & REST API Engineering",
-      "track": "Backend & Data",
+      "id": "ws-api-engineering",
+      "title": "RESTful API Engineering & Service Integration",
+      "track": "API & Integration",
       "status": "Available",
       "duration": "2 Days (14 Hours)",
       "topics": [
-        "Pythonic Idioms & Type Hinting",
-        "FastAPI / Flask Architecture",
-        "Pydantic Data Validation",
-        "Asynchronous Request Processing",
-        "SQLAlchemy ORM & Database Migrations",
-        "Pytest Suite Implementation"
+        "Contract-First API Design & Schema Validation",
+        "Asynchronous Request Handling & Worker Queues",
+        "Data Validation & Idempotency Controls",
+        "API Security, Authentication & Rate Limiting",
+        "Database Migrations & Relational Access",
+        "Automated API Contract & Regression Testing"
       ]
     },
     {
@@ -442,38 +441,38 @@
       "duration": "1 to 2 Days",
       "topics": [
         "3NF Normalization & Denormalization Tradeoffs",
-        "Indexing Internals (B-Tree, Hash)",
-        "Execution Plan Analysis (EXPLAIN)",
+        "Indexing Internals (B-Tree, Hash, Composite)",
+        "Execution Plan Diagnostics (EXPLAIN)",
         "Transaction Isolation Levels & Concurrency",
-        "Writing Complex Analytical Queries in PostgreSQL/MySQL"
+        "Writing Complex Analytical Queries & Aggregations"
       ]
     },
     {
-      "id": "ws-microservices-kafka",
-      "title": "Event-Driven Architectures with Apache Kafka",
+      "id": "ws-event-driven",
+      "title": "Event-Driven & Distributed Systems Architecture",
       "track": "Distributed Systems",
       "status": "Upon Institutional Request",
       "duration": "2 Days",
       "topics": [
         "Microservice Decomposition Principles",
-        "Event-Driven vs Request-Response Paradigms",
-        "Kafka Topics, Partitions, and Consumer Groups",
-        "Producer & Consumer Implementations in Spring Boot",
+        "Event Streams vs Request-Response Models",
+        "Message Topics, Partitioning & Consumer Groups",
+        "Event Publishing & Consumer Error Handlers",
         "Handling Message Idempotency & Failure DLQs"
       ]
     },
     {
       "id": "ws-git-devops",
-      "title": "Git Version Control & Modern CI/CD Workflows",
+      "title": "Version Control Collaboration & CI/CD Delivery",
       "track": "Software Craftsmanship",
       "status": "Available",
       "duration": "1 Day",
       "topics": [
         "Git Internals (Blobs, Trees, Commits)",
-        "Branching Strategies (Trunk-Based vs GitFlow)",
-        "Interactive Rebase, Cherry-Pick, and Conflict Resolution",
-        "Automating Unit Tests via GitHub Actions",
-        "Basic Containerization with Docker"
+        "Branching Strategies (Trunk-Based & Feature Flags)",
+        "Interactive Rebase, Cherry-Pick & Conflict Resolution",
+        "Automating Unit Tests via CI/CD Pipelines",
+        "Containerization & Deployment Packaging"
       ]
     },
     {

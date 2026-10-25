@@ -592,7 +592,7 @@ export const ContactPage: React.FC = () => {
                             onChange={(e) =>
                               setForm({ ...form, existingStack: e.target.value })
                             }
-                            placeholder="e.g. Java 11 / Spring Boot / PostgreSQL / React"
+                            placeholder="e.g. Enterprise backend, relational DB, or web portal"
                             className="w-full px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm bg-white"
                           />
                         </div>

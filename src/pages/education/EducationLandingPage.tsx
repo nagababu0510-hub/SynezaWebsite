@@ -180,7 +180,7 @@ export const EducationLandingPage: React.FC = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-3">Technology Workshops</h3>
                   <p className="text-slate-700 text-sm leading-relaxed mb-6">
-                    Practitioner-led coding workshops in Java 21, Spring Boot, Python, REST APIs, SQL query tuning, Git version control, and practical Generative AI integration.
+                    Practitioner-led coding workshops in modern enterprise backend frameworks, REST APIs, database indexing and query tuning, Git version control, and practical Generative AI integration.
                   </p>
                   <ul className="space-y-2 text-xs sm:text-sm text-slate-700 mb-8">
                     <li className="flex items-center gap-2">

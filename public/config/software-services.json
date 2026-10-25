@@ -30,7 +30,7 @@
       ],
       "synezaSolution": [
         "Collaborative discovery and transparent technical specification before any line of code is written.",
-        "Clean, modular architectures using proven modern stacks (Java/Spring Boot, TypeScript/React, Python, SQL).",
+        "Clean, modular architectures using battle-tested enterprise frameworks, typed frontends, and robust database layers.",
         "Strict inclusion of unit and integration test suites as standard release deliverables.",
         "Documented deployment procedures and clean handover of all source repositories."
       ],
@@ -75,14 +75,12 @@
         "Time & Materials Engineering Support"
       ],
       "technologies": [
-        "Java",
-        "Spring Boot",
-        "TypeScript",
-        "React",
-        "Python",
-        "PostgreSQL",
-        "MySQL",
-        "Docker"
+        "Modular Architecture",
+        "Full-Stack Web Systems",
+        "RESTful Backend Services",
+        "Relational & Document Databases",
+        "Automated Testing",
+        "Cloud Deployment"
       ],
       "cta": {
         "label": "Discuss Your Software Project",
@@ -90,10 +88,10 @@
       },
       "seo": {
         "title": "Custom Software Development Services | Syneza Technologies",
-        "metaDescription": "Custom software development for businesses. Scalable web applications, backend services, and APIs built with Java, React, and Python.",
+        "metaDescription": "Custom software development for businesses. Scalable web applications, backend services, and APIs built with modern architecture and disciplined testing.",
         "keywords": [
           "Custom software development services",
-          "Java and Spring Boot development",
+          "Enterprise backend engineering",
           "web application development",
           "business portal engineering"
         ]
@@ -127,7 +125,7 @@
       "keyCapabilities": [
         "Corrective maintenance, bug fixing, and defect triage",
         "In-depth root-cause analysis for intermittent or complex production failures",
-        "Framework and dependency version upgrades (e.g. Java, Spring, Node.js packages)",
+        "Framework and dependency version upgrades (runtime LTS migrations, enterprise frameworks, modern build toolchains)",
         "Technical debt reduction, modularization, and dead code removal",
         "Database query tuning, connection leak resolution, and index adjustments",
         "Writing missing automated test suites and operational runbooks",
@@ -166,13 +164,12 @@
         "Targeted Triage Sprint"
       ],
       "technologies": [
-        "Java",
-        "Spring Boot",
-        "JavaScript / TypeScript",
-        "PHP",
-        "Python",
-        "MySQL",
-        "PostgreSQL"
+        "Defect Triage & Root Cause",
+        "Technical Debt Remediation",
+        "Dependency & Security Updates",
+        "Regression Test Automation",
+        "Performance Profiling",
+        "Documentation Hygiene"
       ],
       "cta": {
         "label": "Inquire About Application Maintenance",
@@ -201,12 +198,12 @@
       "fullDescription": "Big-bang rewrites are notoriously high-risk, expensive, and frequently fail to replicate subtle legacy business logic. Our application modernization practice focuses on incremental, value-driven evolution. We assess existing architectures, isolate core domain modules, modernize database access, and upgrade underlying frameworks while preserving continuous business operations.",
       "targetAudience": [
         "Established businesses with critical legacy applications",
-        "Organizations running unsupported Java/framework versions",
+        "Organizations running unsupported legacy runtime versions and outdated frameworks",
         "Teams facing high deployment friction and architectural gridlock"
       ],
       "businessProblem": [
         "Tightly coupled monolithic codebases where a minor change in one area breaks unrelated features.",
-        "Legacy runtime versions (e.g., ancient Java or PHP versions) blocking modern infrastructure adoption.",
+        "Legacy runtime and framework versions blocking modern infrastructure adoption and security patching.",
         "Slow release cycles requiring all developers to coordinate massive, risky all-hands deployments."
       ],
       "synezaSolution": [
@@ -218,10 +215,10 @@
       "keyCapabilities": [
         "Legacy codebase assessment, static code analysis, and architectural review",
         "Monolith modularization and bounded context isolation",
-        "Framework and runtime upgrades (e.g. Java 8/11 to Java 17/21, Spring Boot 2 to 3)",
+        "Framework and runtime upgrades (runtime LTS migrations, enterprise framework baseline upgrades)",
         "Database access modernization and query decoupling",
         "API wrapper creation around legacy core logic to enable modern web/mobile frontends",
-        "Containerization (Docker) and automated CI pipeline integration"
+        "Containerization, image optimization, and automated CI pipeline integration"
       ],
       "deliveryApproach": [
         {
@@ -255,12 +252,12 @@
         "Defined Milestone Execution"
       ],
       "technologies": [
-        "Java",
-        "Spring Boot",
-        "Docker",
-        "PostgreSQL",
-        "REST",
-        "Linux"
+        "Monolith Decoupling",
+        "Runtime & Framework Upgrades",
+        "API Modernization",
+        "Database Replatforming",
+        "Container Deployment",
+        "Zero-Downtime Migration"
       ],
       "cta": {
         "label": "Explore Application Modernization",
@@ -273,7 +270,7 @@
           "Application modernization",
           "monolith to microservices migration",
           "legacy software modernization",
-          "Java upgrade services"
+          "framework upgrade services"
         ]
       },
       "order": 3,
@@ -285,7 +282,7 @@
       "name": "API Development & System Integration",
       "badge": "Interoperability & Data Flow",
       "shortDescription": "Design, build, and secure RESTful APIs, third-party integrations, and event-driven messaging pipelines to connect disparate software platforms.",
-      "fullDescription": "Modern business efficiency depends on reliable data flow between software systems. We design robust REST APIs, integrate third-party SaaS platforms, and build event-driven messaging backbones using technologies like Apache Kafka. We emphasize clear interface documentation, strict validation, idempotency, and comprehensive error handling.",
+      "fullDescription": "Modern business efficiency depends on reliable data flow between software systems. We design robust REST APIs, integrate third-party SaaS platforms, and build event-driven messaging backbones. We emphasize clear interface documentation, strict validation, idempotency, and comprehensive error handling.",
       "targetAudience": [
         "Companies needing to connect internal systems with external partners/suppliers",
         "Teams needing clean APIs for mobile or frontend clients"
@@ -304,7 +301,7 @@
       "keyCapabilities": [
         "RESTful API design, versioning, implementation, and documentation",
         "Third-party API integrations (Payment gateways, CRM, ERP, logistics, communication)",
-        "Event-driven architecture and asynchronous messaging with Kafka",
+        "Event-driven architecture and asynchronous message queues",
         "Data exchange, transformation, and schema mapping between formats",
         "Authentication and authorization integration (OAuth2, JWT, API Gateway patterns)",
         "Integration testing and synthetic API monitoring"
@@ -341,12 +338,12 @@
         "API Design & Implementation Sprint"
       ],
       "technologies": [
-        "Spring Boot",
-        "Kafka",
-        "REST",
-        "JSON Schema",
-        "OpenAPI",
-        "Postman"
+        "Contract-First API Design",
+        "Event-Driven Messaging",
+        "Webhook Synchronization",
+        "Data Transformation Pipelines",
+        "Idempotency Controls",
+        "Partner Gateway Security"
       ],
       "cta": {
         "label": "Discuss System Integration",
@@ -354,11 +351,11 @@
       },
       "seo": {
         "title": "API Development & System Integration Services | Syneza Technologies",
-        "metaDescription": "Secure REST API design, third-party integration, and event-driven architectures with Spring Boot and Kafka.",
+        "metaDescription": "Secure REST API design, third-party system integration, and event-driven data streaming architectures.",
         "keywords": [
           "API development and integration",
           "REST API design services",
-          "Kafka messaging integration",
+          "Event-driven messaging integration",
           "system integration partner"
         ]
       },
@@ -427,11 +424,12 @@
         "Schema Migration & Refactoring Engagement"
       ],
       "technologies": [
-        "PostgreSQL",
-        "MySQL",
-        "Oracle Database",
-        "MongoDB",
-        "Flyway"
+        "Schema Design & Normalization",
+        "Query Execution Profiling",
+        "Indexing & Concurrency Optimization",
+        "Connection Pool Sizing",
+        "Database Migrations",
+        "Automated Backup Validation"
       ],
       "cta": {
         "label": "Inquire About Database Engineering",
@@ -439,7 +437,7 @@
       },
       "seo": {
         "title": "Database Engineering & SQL Optimization | Syneza Technologies",
-        "metaDescription": "Database schema design, SQL query tuning, indexing optimization, and migration planning for MySQL, PostgreSQL, and Oracle.",
+        "metaDescription": "Database schema design, SQL query tuning, indexing optimization, and migration planning for high-reliability data systems.",
         "keywords": [
           "Database optimization",
           "SQL query tuning services",
@@ -511,12 +509,12 @@
         "Ongoing Quality Engineering Support"
       ],
       "technologies": [
-        "JUnit",
-        "Mockito",
-        "Vitest",
-        "Playwright",
-        "Postman / Newman",
-        "GitHub Actions"
+        "Automated Regression Testing",
+        "API Contract Validation",
+        "Integration Test Suites",
+        "End-to-End User Journeys",
+        "CI Quality Gates",
+        "Defect Prevention"
       ],
       "cta": {
         "label": "Explore Quality Engineering",
@@ -544,7 +542,7 @@
       "fullDescription": "Reliable software requires reliable delivery mechanisms. Our DevOps and delivery engineering services focus on removing friction from the release process through containerization, reproducible builds, automated CI/CD pipelines, clear environment configurations, and deployment verification with rollback provisions.",
       "targetAudience": [
         "Engineering teams with manual, error-prone deployment procedures",
-        "Organizations standardizing environments with Docker and CI/CD"
+        "Organizations standardizing environments with containers and automated CI/CD"
       ],
       "businessProblem": [
         "\"It works on my machine\" syndrome due to inconsistent developer, staging, and production environments.",
@@ -552,14 +550,14 @@
         "Lack of automated deployment rollbacks when a release encounters unexpected errors."
       ],
       "synezaSolution": [
-        "Containerization of applications using Docker for reproducible environment behavior.",
-        "Automated CI/CD pipelines (e.g. GitHub Actions, GitLab CI) running linting, tests, and builds on every commit.",
+        "Containerization of applications for reproducible environment behavior.",
+        "Automated CI/CD pipelines running linting, tests, and builds on every commit.",
         "Strict configuration management separating environment secrets from source code.",
         "Structured deployment runbooks and rollback automation to minimize downtime."
       ],
       "keyCapabilities": [
         "Continuous Integration (CI) and Continuous Deployment (CD) pipeline engineering",
-        "Docker containerization and multi-stage build optimization",
+        "Containerization and multi-stage build optimization",
         "Environment configuration management and secret handling guidance",
         "Deployment automation, health check verification, and zero-downtime cutover patterns",
         "Structured application logging, metrics collection, and basic alerting setup",
@@ -574,7 +572,7 @@
         {
           "step": "Step 2",
           "title": "Containerization & Standardization",
-          "description": "Create optimized, minimal Dockerfiles and local development compose files."
+          "description": "Create optimized, minimal container configurations and local development environments."
         },
         {
           "step": "Step 3",
@@ -597,12 +595,12 @@
         "Environment Standardization Sprint"
       ],
       "technologies": [
-        "Docker",
-        "GitHub Actions",
-        "GitLab CI",
-        "Linux",
-        "Nginx",
-        "Bash"
+        "CI/CD Pipeline Automation",
+        "Containerization & Packaging",
+        "Environment Configuration",
+        "Automated Test Execution",
+        "Zero-Downtime Rollouts",
+        "Disaster Recovery Runbooks"
       ],
       "cta": {
         "label": "Inquire About DevOps Delivery",
@@ -610,11 +608,11 @@
       },
       "seo": {
         "title": "DevOps & Delivery Engineering | Syneza Technologies",
-        "metaDescription": "CI/CD pipeline automation, containerization with Docker, environment configuration, and deployment reliability engineering.",
+        "metaDescription": "CI/CD pipeline automation, containerization, environment configuration, and deployment reliability engineering.",
         "keywords": [
           "DevOps and delivery engineering",
           "CI/CD pipeline implementation",
-          "Docker containerization services",
+          "Containerization services",
           "automated deployment workflows"
         ]
       },

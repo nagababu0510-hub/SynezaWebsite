@@ -48,7 +48,7 @@
           "id": "edu-workshops",
           "label": "Technology Workshops",
           "href": "/education/technology-workshops",
-          "description": "Hands-on tracks in Java, Python, Spring Boot, APIs, and AI",
+          "description": "Hands-on tracks in backend architecture, APIs, databases & AI",
           "pillar": "education",
           "enabled": true
         },
@@ -120,7 +120,7 @@
           "id": "api-integration",
           "label": "API & System Integration",
           "href": "/services/api-system-integration",
-          "description": "REST APIs, Kafka messaging & enterprise integration",
+          "description": "REST APIs, event-driven messaging & enterprise integration",
           "pillar": "software",
           "enabled": true
         },

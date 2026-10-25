@@ -16,7 +16,7 @@
       "keyOfferings": [
         "Supervised Human-Led Employability Assessment (18+ topic areas)",
         "2-Day (17 Hours) Software Company Simulation",
-        "Hands-on Technology Workshops (Java, Python, Spring Boot, APIs)",
+        "Hands-on Technology Workshops (Backend Architecture, APIs, Databases)",
         "Motivational & Career Growth Mindset Sessions"
       ],
       "primaryCta": {
@@ -90,7 +90,7 @@
       ],
       "keyOfferings": [
         "Legacy Application Modernization & Monolith Refactoring",
-        "High-Throughput API & Event-Driven Integrations (REST, Kafka)",
+        "High-Throughput API & Event-Driven Messaging Integrations",
         "Grounded RAG Assistants with Document Source Citations",
         "Architecture Reviews, Quality Engineering & CI/CD Pipelines"
       ],

@@ -23,7 +23,7 @@ export const TechnologyWorkshopsPage: React.FC = () => {
     <>
       <SeoHead
         title="Technology Workshops for Engineering Colleges | Syneza Technologies"
-        description="Hands-on technology workshops for engineering institutions. Java, Spring Boot, Python, REST APIs, SQL, Git, and practical LLM integration."
+        description="Hands-on technology workshops for engineering institutions. Enterprise backend architecture, REST APIs, SQL, Git, and practical LLM integration."
         canonicalPath="/education/technology-workshops"
       />
 

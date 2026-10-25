@@ -154,60 +154,66 @@ export const EducationPreviewSection: React.FC<{ section: HomepageSection }> = (
 
         {/* Additional Education Pathways Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Card hoverable className="p-6">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="p-2 bg-emerald-50 text-emerald-700 rounded-lg">
-                <Laptop2 className="w-5 h-5" />
+          <Card hoverable className="p-6 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="p-2 bg-emerald-50 text-emerald-700 rounded-lg">
+                  <Laptop2 className="w-5 h-5" />
+                </div>
+                <h4 className="font-bold text-slate-900">Technology Workshops</h4>
               </div>
-              <h4 className="font-bold text-slate-900">Technology Workshops</h4>
+              <p className="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+                Intensive practitioner tracks in enterprise backend architecture, REST APIs, database indexing, Git workflows, and practical AI integration.
+              </p>
             </div>
-            <p className="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
-              Intensive tracks in Java, Spring Boot, Python, REST APIs, SQL, and practical AI application integration.
-            </p>
             <Link
               to="/education/technology-workshops"
-              className="text-xs font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1"
+              className="min-h-[44px] text-xs sm:text-sm font-semibold text-emerald-800 hover:text-emerald-950 inline-flex items-center gap-1.5"
             >
               <span>View Topics Catalog</span>
-              <ArrowRight className="w-3.5 h-3.5" />
+              <ArrowRight className="w-4 h-4" />
             </Link>
           </Card>
 
-          <Card hoverable className="p-6">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="p-2 bg-emerald-50 text-emerald-700 rounded-lg">
-                <Compass className="w-5 h-5" />
+          <Card hoverable className="p-6 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="p-2 bg-emerald-50 text-emerald-700 rounded-lg">
+                  <Compass className="w-5 h-5" />
+                </div>
+                <h4 className="font-bold text-slate-900">Motivational Sessions</h4>
               </div>
-              <h4 className="font-bold text-slate-900">Motivational Sessions</h4>
+              <p className="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+                Fostering professional resilience, constructive responses to interview setbacks, and sustainable growth mindsets.
+              </p>
             </div>
-            <p className="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
-              Fostering professional resilience, constructive responses to interview setbacks, and sustainable growth mindsets.
-            </p>
             <Link
               to="/education/motivational-sessions"
-              className="text-xs font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1"
+              className="min-h-[44px] text-xs sm:text-sm font-semibold text-emerald-800 hover:text-emerald-950 inline-flex items-center gap-1.5"
             >
               <span>Explore Sessions</span>
-              <ArrowRight className="w-3.5 h-3.5" />
+              <ArrowRight className="w-4 h-4" />
             </Link>
           </Card>
 
-          <Card hoverable className="p-6">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="p-2 bg-emerald-50 text-emerald-700 rounded-lg">
-                <Users className="w-5 h-5" />
+          <Card hoverable className="p-6 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="p-2 bg-emerald-50 text-emerald-700 rounded-lg">
+                  <Users className="w-5 h-5" />
+                </div>
+                <h4 className="font-bold text-slate-900">For Engineering Colleges</h4>
               </div>
-              <h4 className="font-bold text-slate-900">For Engineering Colleges</h4>
+              <p className="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
+                Tailored institutional drives with custom cohort sizing, departmental scheduling, and transparent diagnostic reporting.
+              </p>
             </div>
-            <p className="text-xs sm:text-sm text-slate-600 mb-4 leading-relaxed">
-              Tailored institutional drives with custom cohort sizing, departmental scheduling, and transparent diagnostic reporting.
-            </p>
             <Link
               to="/for-colleges"
-              className="text-xs font-semibold text-emerald-700 hover:text-emerald-900 inline-flex items-center gap-1"
+              className="min-h-[44px] text-xs sm:text-sm font-semibold text-emerald-800 hover:text-emerald-950 inline-flex items-center gap-1.5"
             >
               <span>Institutional Engagement</span>
-              <ArrowRight className="w-3.5 h-3.5" />
+              <ArrowRight className="w-4 h-4" />
             </Link>
           </Card>
         </div>

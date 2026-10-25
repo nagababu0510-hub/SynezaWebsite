@@ -75,7 +75,7 @@ export const EnterpriseSolutionsPage: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Legacy Modernization</h3>
                 <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                  Incremental monolith decoupling, framework and Java runtime upgrades (e.g. Java 8/11 to 17/21), and modularization without the high risk of a total rewrite.
+                  Incremental monolith decoupling, runtime LTS and framework upgrades, and modularization without the high risk of a total rewrite.
                 </p>
               </Card>
 
@@ -85,7 +85,7 @@ export const EnterpriseSolutionsPage: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">High-Throughput APIs & Messaging</h3>
                 <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                  Contract-first REST API design with OpenAPI specs, Kafka event streams, idempotency enforcement, and third-party partner integration.
+                  Contract-first REST API design with OpenAPI specs, event-driven message streaming, idempotency enforcement, and third-party partner integration.
                 </p>
               </Card>
 
@@ -125,7 +125,7 @@ export const EnterpriseSolutionsPage: React.FC = () => {
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">CI/CD & Delivery Engineering</h3>
                 <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                  Containerization with Docker, multi-stage pipeline configuration, deployment runbooks, and zero-downtime cutover strategies.
+                  Containerization, multi-stage pipeline configuration, deployment runbooks, and zero-downtime cutover strategies.
                 </p>
               </Card>
             </div>

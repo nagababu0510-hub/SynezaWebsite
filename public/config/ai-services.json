@@ -100,12 +100,11 @@
         "Milestone-Based Feature Build"
       ],
       "technologies": [
-        "TypeScript",
-        "Python",
+        "Backend Microservices",
         "OpenAI API",
         "Anthropic Claude",
         "Google Gemini",
-        "Ollama / Open-Weight"
+        "Open-Weight Models"
       ],
       "cta": {
         "label": "Inquire About LLM Integration",
@@ -188,10 +187,9 @@
       ],
       "technologies": [
         "Vector Databases (pgvector, Chroma, Qdrant)",
-        "Python",
-        "TypeScript",
-        "Embeddings",
-        "Hybrid Search"
+        "Semantic Search Pipelines",
+        "Document Embeddings",
+        "Hybrid Search & Reranking"
       ],
       "cta": {
         "label": "Explore Grounded RAG Solutions",
@@ -272,11 +270,10 @@
         "Production Integration Engagement"
       ],
       "technologies": [
-        "State Machines",
-        "TypeScript",
-        "Python",
-        "REST APIs",
-        "Audit Logging"
+        "Deterministic State Machines",
+        "Workflow Orchestration",
+        "REST APIs & Webhooks",
+        "Audit Logging & Verification"
       ],
       "cta": {
         "label": "Automate Internal Workflows",
@@ -356,11 +353,10 @@
         "Pilot & Knowledge Optimization"
       ],
       "technologies": [
-        "RAG",
+        "Knowledge-Grounded RAG",
         "Ticket Classification",
-        "REST Webhooks",
-        "TypeScript",
-        "Python"
+        "REST Webhooks & Event Queues",
+        "Human-in-the-Loop Review"
       ],
       "cta": {
         "label": "Inquire About Support AI",
@@ -440,10 +436,10 @@
         "Custom Pipeline Implementation"
       ],
       "technologies": [
-        "Vision LLMs",
-        "Python",
-        "PDF Parsing",
-        "JSON Schema Validation"
+        "Multimodal Vision Models",
+        "Document Parsing Engines",
+        "JSON Schema Extraction",
+        "Confidence Scoring"
       ],
       "cta": {
         "label": "Discuss Document Processing",
@@ -523,11 +519,10 @@
         "Engineering Productivity Consulting"
       ],
       "technologies": [
-        "IDE Plugins",
-        "CLI Tools",
-        "Python",
-        "TypeScript",
-        "Git"
+        "IDE Extension Tooling",
+        "Developer CLI Utilities",
+        "Prompt Template Management",
+        "Version Control Hooks"
       ],
       "cta": {
         "label": "Explore Developer AI Tools",
