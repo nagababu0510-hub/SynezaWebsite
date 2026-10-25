@@ -14,9 +14,9 @@ export const FaqSection: React.FC<{ section: HomepageSection }> = ({ section }) 
 
   const faqs: FaqItem[] = [
     {
-      question: 'What is Syneza Technologies, and how do the two business pillars connect?',
+      question: 'What is Syneza Technologies, and how do your software engineering and education practices connect?',
       answer:
-        'Syneza Technologies is a technology solutions company operating across two complementary pillars: Pillar A delivers employability assessments, software simulations, and technical workshops to engineering colleges. Pillar B provides custom software development, application maintenance, modernization, and practical AI solutions to businesses. Our production software engineering experience directly informs the realism of our student training programmes, and our commitment to educational excellence reinforces our disciplined coding standards on client projects.',
+        'Syneza Technologies provides software solutions and industry-oriented skill development. We deliver custom software development, legacy modernization, and practical AI solutions to businesses, while partnering with engineering colleges to provide human-led assessments, Agile simulations, and technical workshops. Our active production engineering work directly informs the realism of our college programs, and our focus on core fundamentals reinforces disciplined coding across all client software.',
       category: 'general',
     },
     {
@@ -67,7 +67,7 @@ export const FaqSection: React.FC<{ section: HomepageSection }> = ({ section }) 
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
             {section.subtitle ||
-              'Clear, unembellished answers about our dual-pillar services, assessment rigor, and commercial models.'}
+              'Clear, unembellished answers about our engineering capabilities, assessment rigor, and commercial models.'}
           </p>
         </div>
 

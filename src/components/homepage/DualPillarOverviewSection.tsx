@@ -11,75 +11,69 @@ export const DualPillarOverviewSection: React.FC<{ section: HomepageSection }> =
   return (
     <section className="py-20 bg-white border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-14">
           <Badge variant="neutral" className="mb-3">
-            Integrated Dual-Pillar Model
+            Core Practice Areas
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            {section.heading || 'Two Complementary Business Pillars'}
+            {section.heading || 'Two Disciplines. One High Standard.'}
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
+          <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
             {section.subtitle ||
-              'We combine practical software delivery with industry-oriented student readiness, creating a virtuous feedback loop of engineering craftsmanship and real-world talent.'}
+              'We partner with engineering colleges to build student capability, and with businesses to design, modernize, and maintain reliable software systems.'}
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-          {/* Pillar A Deep Dive */}
-          <div className="rounded-2xl border border-emerald-200 bg-emerald-50/30 p-8 sm:p-10 flex flex-col justify-between hover:shadow-card transition-shadow">
+          {/* Practice 1: Education & Readiness */}
+          <div className="rounded-2xl border border-emerald-200/90 bg-emerald-50/20 p-7 sm:p-9 flex flex-col justify-between hover:shadow-card transition-shadow">
             <div>
-              <div className="flex items-center justify-between mb-6">
-                <span className="p-3 bg-emerald-100 text-emerald-800 rounded-xl inline-block">
-                  <GraduationCap className="w-8 h-8" />
+              <div className="flex items-center justify-between mb-5">
+                <span className="p-2.5 bg-emerald-100 text-emerald-800 rounded-xl inline-block">
+                  <GraduationCap className="w-7 h-7" />
                 </span>
-                <span className="text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-100/70 px-3 py-1 rounded-full">
-                  Pillar A
-                </span>
+                <Badge variant="education" size="sm">
+                  Academic Programs
+                </Badge>
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                Education, Employability & Industry Readiness
+              <h3 className="text-2xl font-bold text-slate-900 mb-2">
+                Engineering Colleges & Students
               </h3>
-              <p className="text-slate-600 mb-6 leading-relaxed text-sm sm:text-base">
-                Engineering curriculums often focus on abstract theory. We help colleges and students identify concrete skill gaps and master the team practices, debugging techniques, and delivery discipline expected in commercial software roles.
+              <p className="text-slate-600 mb-6 leading-relaxed text-sm">
+                We bridge curriculum gaps through objective diagnostic assessments and immersive 2-day Agile delivery simulations that prepare student cohorts for professional software engineering expectations.
               </p>
 
-              <div className="space-y-3 mb-8">
+              <div className="space-y-3 mb-6">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-slate-800">
-                  Core Programme Offerings
+                  Core Offerings
                 </h4>
-                <div className="space-y-2 text-sm text-slate-700">
+                <div className="space-y-2.5 text-xs sm:text-sm text-slate-700">
                   <div className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
                     <div>
-                      <strong>Employability Assessment:</strong> Supervised paper-based and practical evaluations across 18 CS areas with 1-on-1 human technical interviews.
+                      <strong>Employability Assessment:</strong> Supervised paper & 1-on-1 practitioner interviews across 18 CS areas.
                     </div>
                   </div>
                   <div className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
                     <div>
-                      <strong>Software Company Simulation:</strong> 2-day (17-hour) intensive across 4 sprints with user stories, acceptance criteria, and change requests.
+                      <strong>Software Company Simulation:</strong> 2-Day (17-hr) sprint-based Agile immersion in campus computer labs.
                     </div>
                   </div>
                   <div className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
                     <div>
-                      <strong>Technology Workshops:</strong> Hands-on tracks in Java, Spring Boot, Python, REST APIs, SQL, and practical Generative AI.
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-2.5">
-                    <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <strong>Institutional Gap Reports:</strong> Clear cohort analytics showing faculty exactly where students need guided remediation.
+                      <strong>Institutional Gap Reports:</strong> Cohort analytics showing faculty curriculum areas requiring lab reinforcement.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="pt-6 border-t border-emerald-200/80 flex items-center justify-between">
+            <div className="pt-5 border-t border-emerald-200/80 flex items-center justify-between">
               <Link
                 to="/education"
-                className="inline-flex items-center text-sm font-semibold text-emerald-800 hover:text-emerald-950 group"
+                className="inline-flex items-center text-xs sm:text-sm font-semibold text-emerald-800 hover:text-emerald-950 group"
               >
                 <span>Explore Education Programmes</span>
                 <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1 transition-transform" />
@@ -90,61 +84,55 @@ export const DualPillarOverviewSection: React.FC<{ section: HomepageSection }> =
             </div>
           </div>
 
-          {/* Pillar B Deep Dive */}
-          <div className="rounded-2xl border border-blue-200 bg-blue-50/30 p-8 sm:p-10 flex flex-col justify-between hover:shadow-card transition-shadow">
+          {/* Practice 2: Technology Services & AI */}
+          <div className="rounded-2xl border border-blue-200/90 bg-blue-50/20 p-7 sm:p-9 flex flex-col justify-between hover:shadow-card transition-shadow">
             <div>
-              <div className="flex items-center justify-between mb-6">
-                <span className="p-3 bg-blue-100 text-blue-800 rounded-xl inline-block">
-                  <Code2 className="w-8 h-8" />
+              <div className="flex items-center justify-between mb-5">
+                <span className="p-2.5 bg-blue-100 text-blue-800 rounded-xl inline-block">
+                  <Code2 className="w-7 h-7" />
                 </span>
-                <span className="text-xs font-bold uppercase tracking-wider text-blue-700 bg-blue-100/70 px-3 py-1 rounded-full">
-                  Pillar B
-                </span>
+                <Badge variant="software" size="sm">
+                  Engineering Services
+                </Badge>
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-3">
-                Software Engineering & AI Solutions
+              <h3 className="text-2xl font-bold text-slate-900 mb-2">
+                Businesses & Enterprises
               </h3>
-              <p className="text-slate-600 mb-6 leading-relaxed text-sm sm:text-base">
-                Whether you need a new web application built from scratch, critical legacy systems maintained and stabilized, or practical AI integrated securely into existing workflows, we deliver reliable software without unnecessary bloat.
+              <p className="text-slate-600 mb-6 leading-relaxed text-sm">
+                From building custom web applications and microservices to maintaining unaddressed technical debt and integrating grounded AI, we deliver maintainable codebases built to endure.
               </p>
 
-              <div className="space-y-3 mb-8">
+              <div className="space-y-3 mb-6">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-slate-800">
-                  Key Technical Capabilities
+                  Key Capabilities
                 </h4>
-                <div className="space-y-2 text-sm text-slate-700">
+                <div className="space-y-2.5 text-xs sm:text-sm text-slate-700">
                   <div className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
                     <div>
-                      <strong>Custom Software & Backend APIs:</strong> Clean web applications, enterprise portals, and microservices built with Java, React, and Python.
+                      <strong>Custom Software:</strong> Web applications, APIs, and microservices built with Java, React, and Python.
                     </div>
                   </div>
                   <div className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
                     <div>
-                      <strong>Maintenance & Modernization:</strong> Bug triage, root-cause fixes, technical debt reduction, and safe monolith modularization.
+                      <strong>Maintenance & Modernization:</strong> Defect triage, dependency upgrades, and technical debt reduction.
                     </div>
                   </div>
                   <div className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
                     <div>
-                      <strong>Grounded AI & RAG:</strong> Knowledge assistants with verifiable document source citations and defensive prompt guardrails.
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-2.5">
-                    <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <strong>Database & Quality Engineering:</strong> Schema modeling, SQL query tuning, automated test suites, and CI/CD quality gates.
+                      <strong>Grounded AI & RAG:</strong> Domain-specific knowledge assistants with verifiable source citations.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="pt-6 border-t border-blue-200/80 flex items-center justify-between">
+            <div className="pt-5 border-t border-blue-200/80 flex items-center justify-between">
               <Link
                 to="/services"
-                className="inline-flex items-center text-sm font-semibold text-blue-700 hover:text-blue-900 group"
+                className="inline-flex items-center text-xs sm:text-sm font-semibold text-blue-700 hover:text-blue-900 group"
               >
                 <span>View Full Service Catalogue</span>
                 <ArrowRight className="w-4 h-4 ml-1.5 group-hover:translate-x-1 transition-transform" />
@@ -159,4 +147,3 @@ export const DualPillarOverviewSection: React.FC<{ section: HomepageSection }> =
     </section>
   );
 };
-

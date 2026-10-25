@@ -355,7 +355,7 @@ export const defaultHeaderConfig = {
 export const defaultFooterConfig = {
   enabled: true,
   showLogo: true,
-  companyDescription: 'Syneza Technologies is a dual-pillar technology partner delivering robust software engineering, practical AI integrations, and rigorous industry-readiness programmes for engineering institutions.',
+  companyDescription: 'Syneza Technologies delivers dependable custom software engineering, legacy modernization, practical AI solutions, and industry-oriented employability programmes for engineering colleges.',
   columns: [
     {
       id: 'tech-services',
@@ -433,7 +433,7 @@ export const defaultHomepageConfig = {
       enabled: true,
       heading: 'Engineering Technology. Enabling Potential.',
       subtitle: 'From developing reliable software and integrating practical AI solutions to preparing the next generation of technology professionals, Syneza Technologies helps organizations turn ideas into meaningful outcomes.',
-      badge: 'Dual-Pillar Technology Partner',
+      badge: 'Software Engineering & Academic Programs',
       primaryCta: {
         label: 'Explore Technology Services',
         href: '/services',
@@ -448,7 +448,7 @@ export const defaultHomepageConfig = {
       type: 'dual-pillar-overview',
       order: 2,
       enabled: true,
-      heading: 'Two Complementary Business Pillars',
+      heading: 'Two Core Disciplines. One High Standard.',
       subtitle: 'We combine rigorous software delivery with hands-on talent readiness, serving both forward-thinking businesses and forward-looking academic institutions.',
     },
     {
@@ -544,7 +544,7 @@ export const defaultAudienceSegmentsConfig = {
       id: 'colleges',
       slug: 'colleges',
       name: 'Engineering Colleges & Universities',
-      badge: 'Institutional Pillar',
+      badge: 'Academic Pathway',
       pillar: 'education' as const,
       summary: 'Preparing engineering students for real-world software delivery through comprehensive human-led assessments, gap analyses, and company simulations.',
       coreConcerns: [

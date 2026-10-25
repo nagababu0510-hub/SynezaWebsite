@@ -89,12 +89,12 @@ export const HeroSection: React.FC<{ section: HomepageSection }> = ({ section })
           </div>
         </div>
 
-        {/* Dual Pillar Visual Banner */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
-          {/* Pillar A Card */}
-          <div className="bg-slate-800/60 border border-slate-700/80 rounded-2xl p-6 sm:p-8 backdrop-blur-sm hover:border-emerald-500/50 transition-colors group">
+        {/* Core Practice Pathways */}
+        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
+          {/* Academic & Student Readiness Card */}
+          <div className="bg-slate-800/60 border border-slate-700/80 rounded-2xl p-6 sm:p-7 backdrop-blur-sm hover:border-emerald-500/50 transition-colors group">
             <div className="flex items-center justify-between mb-4">
-              <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+              <div className="w-11 h-11 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
                 <GraduationCap className="w-6 h-6" />
               </div>
               <Badge variant="education" size="sm">
@@ -102,9 +102,9 @@ export const HeroSection: React.FC<{ section: HomepageSection }> = ({ section })
               </Badge>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">
-              Education & Industry Employability
+              Academic & Student Readiness
             </h2>
-            <p className="text-sm text-slate-300 mb-5 leading-relaxed">
+            <p className="text-sm text-slate-300 mb-4 leading-relaxed">
               Supervised human-led diagnostic assessments across 18 CS areas, hands-on 2-day Agile delivery simulations, and practical technical workshops.
             </p>
             <ul className="space-y-2 text-xs sm:text-sm text-slate-300">
@@ -114,29 +114,29 @@ export const HeroSection: React.FC<{ section: HomepageSection }> = ({ section })
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span>2-day (17-hr) Software Company Simulation with sprints</span>
+                <span>2-Day (17-hr) sprint-based Agile company simulation</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                <span>Grounded guidance: realistic preparation, zero hype</span>
+                <span>Pragmatic preparation aligned with real software hiring</span>
               </li>
             </ul>
           </div>
 
-          {/* Pillar B Card */}
-          <div className="bg-slate-800/60 border border-slate-700/80 rounded-2xl p-6 sm:p-8 backdrop-blur-sm hover:border-blue-500/50 transition-colors group">
+          {/* Software Engineering & AI Solutions Card */}
+          <div className="bg-slate-800/60 border border-slate-700/80 rounded-2xl p-6 sm:p-7 backdrop-blur-sm hover:border-blue-500/50 transition-colors group">
             <div className="flex items-center justify-between mb-4">
-              <div className="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400">
+              <div className="w-11 h-11 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400">
                 <Code2 className="w-6 h-6" />
               </div>
               <Badge variant="software" size="sm">
-                For Small to Enterprise Firms
+                For Businesses & Enterprises
               </Badge>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">
               Software Engineering & AI Solutions
             </h2>
-            <p className="text-sm text-slate-300 mb-5 leading-relaxed">
+            <p className="text-sm text-slate-300 mb-4 leading-relaxed">
               Custom software engineering, legacy modernization, database tuning, API integrations, and grounded, secure Large Language Model adoption.
             </p>
             <ul className="space-y-2 text-xs sm:text-sm text-slate-300">
@@ -146,7 +146,7 @@ export const HeroSection: React.FC<{ section: HomepageSection }> = ({ section })
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-blue-400 flex-shrink-0" />
-                <span>Application maintenance, bug fixing, and refactoring</span>
+                <span>Application maintenance, bug triage, and refactoring</span>
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-blue-400 flex-shrink-0" />

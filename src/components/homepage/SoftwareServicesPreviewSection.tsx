@@ -45,7 +45,7 @@ export const SoftwareServicesPreviewSection: React.FC<{ section: HomepageSection
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="max-w-2xl">
             <Badge variant="software" className="mb-3">
-              Technology Pillar
+              Engineering Services
             </Badge>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
               {section.heading || 'Software Engineering & Maintenance'}

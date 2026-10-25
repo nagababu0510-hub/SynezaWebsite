@@ -45,7 +45,7 @@ export const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
 
-            {/* Pillar A: Education & Employability */}
+            {/* Academic & Student Readiness */}
             <Route path="/education" element={<EducationLandingPage />} />
             <Route
               path="/education/employability-assessment"
@@ -66,14 +66,14 @@ export const App: React.FC = () => {
             <Route path="/for-colleges" element={<ForCollegesPage />} />
             <Route path="/for-students" element={<ForStudentsPage />} />
 
-            {/* Pillar B: Software Services */}
+            {/* Software Engineering Services */}
             <Route path="/services" element={<TechnologyServicesPage />} />
             <Route
               path="/services/:slug"
               element={<ServiceDetailPage pillar="software" />}
             />
 
-            {/* Pillar B: AI & LLM Solutions */}
+            {/* AI & LLM Solutions */}
             <Route path="/ai-solutions" element={<AiSolutionsPage />} />
             <Route
               path="/ai-solutions/:slug"

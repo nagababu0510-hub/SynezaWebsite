@@ -27,7 +27,7 @@ export const EducationPreviewSection: React.FC<{ section: HomepageSection }> = (
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <div className="max-w-2xl">
             <Badge variant="education" className="mb-3">
-              Education & Employability Pillar
+              Academic Programs
             </Badge>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
               {section.heading || 'Education, Employability & Simulation'}

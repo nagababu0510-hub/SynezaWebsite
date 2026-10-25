@@ -423,5 +423,21 @@ describe('Configuration Acceptance Tests (All 13 Acceptance Points)', () => {
     // Verify key capabilities and clean stack format render properly
     expect(screen.getAllByText(/Stack:/i).length).toBeGreaterThan(0);
   });
+
+  // Acceptance Test 15: Zero customer-facing 'Pillar A' or 'Pillar B' jargon
+  it('15. Guarantees zero customer-facing Pillar A or Pillar B jargon on the homepage', () => {
+    render(
+      <ConfigProvider initialConfig={defaultAppConfig}>
+        <MemoryRouter>
+          <HomepageRenderer />
+        </MemoryRouter>
+      </ConfigProvider>
+    );
+
+    // Verify neither 'Pillar A' nor 'Pillar B' appears in rendered text
+    expect(screen.queryByText(/Pillar A/i)).not.toBeInTheDocument();
+    expect(screen.queryByText(/Pillar B/i)).not.toBeInTheDocument();
+    expect(screen.queryByText(/Integrated Dual-Pillar Model/i)).not.toBeInTheDocument();
+  });
 });
 

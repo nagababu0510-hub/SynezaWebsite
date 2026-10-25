@@ -23,7 +23,7 @@ export const AboutPage: React.FC = () => {
     <>
       <SeoHead
         title="About Us | Syneza Technologies"
-        description="Learn about Syneza Technologies, our dual-pillar technology mission, engineering standards, and commitment to practical solutions and student readiness."
+        description="Learn about Syneza Technologies, our engineering standards, software services, and commitment to student readiness."
         canonicalPath="/about"
       />
 
@@ -71,14 +71,14 @@ export const AboutPage: React.FC = () => {
             </div>
           </section>
 
-          {/* Dual Pillar Philosophy */}
+          {/* Integrated Engineering & Education Philosophy */}
           <section aria-labelledby="philosophy-heading" className="rounded-2xl bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 text-white p-8 sm:p-12 border border-slate-800">
             <div className="max-w-3xl space-y-4">
               <Badge variant="neutral" className="bg-white/10 text-white border-white/20">
                 The Connection
               </Badge>
               <h2 id="philosophy-heading" className="text-2xl sm:text-3xl font-extrabold text-white">
-                Our Dual-Pillar Philosophy
+                How Our Engineering & Education Practices Connect
               </h2>
               <p className="text-slate-300 text-base leading-relaxed">
                 {about.dualPillarPhilosophy}
