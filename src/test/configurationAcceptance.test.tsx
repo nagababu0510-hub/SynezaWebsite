@@ -404,5 +404,24 @@ describe('Configuration Acceptance Tests (All 13 Acceptance Points)', () => {
     const collegeCat = defaultAppConfig.contact.enquiryCategories.find(c => c.value === 'college-assessment');
     expect(collegeCat?.categoryGroup).toBe('education');
   });
+
+  // Acceptance Test 14: World-class presentation with zero raw +N overflow chips
+  it('14. Renders software service cards with clean stack presentation and zero raw +N overflow badges', () => {
+    render(
+      <ConfigProvider initialConfig={defaultAppConfig}>
+        <MemoryRouter>
+          <HomepageRenderer />
+        </MemoryRouter>
+      </ConfigProvider>
+    );
+
+    // Verify no awkward "+3" or "+5" text exists on the page
+    expect(screen.queryByText(/\+3/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/\+4/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/\+5/)).not.toBeInTheDocument();
+
+    // Verify key capabilities and clean stack format render properly
+    expect(screen.getAllByText(/Stack:/i).length).toBeGreaterThan(0);
+  });
 });
 

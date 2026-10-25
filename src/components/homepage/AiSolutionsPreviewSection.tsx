@@ -14,6 +14,7 @@ import {
   Search,
   ArrowRight,
   Shield,
+  CheckCircle2,
 } from 'lucide-react';
 import { HomepageSection } from '@/types/config';
 
@@ -113,9 +114,33 @@ export const AiSolutionsPreviewSection: React.FC<{ section: HomepageSection }> =
                   </Link>
                 </h3>
 
-                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3 mb-6">
+                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-3 mb-4">
                   {service.shortDescription}
                 </p>
+
+                {/* Key Capabilities */}
+                {service.keyCapabilities && service.keyCapabilities.length > 0 && (
+                  <ul className="space-y-1.5 mb-4 text-xs text-slate-300">
+                    {service.keyCapabilities.slice(0, 2).map((cap, idx) => (
+                      <li key={idx} className="flex items-start gap-1.5">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-purple-400 mt-0.5 flex-shrink-0" />
+                        <span className="line-clamp-1">{cap}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
+                {/* Core Stack Highlight */}
+                {service.technologies && service.technologies.length > 0 && (
+                  <div className="pt-3 border-t border-slate-700/60 mb-4 flex items-center gap-1.5 text-xs text-slate-400">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-purple-400 flex-shrink-0">
+                      Stack:
+                    </span>
+                    <span className="truncate font-medium text-slate-300" title={service.technologies.join(', ')}>
+                      {service.technologies.slice(0, 4).join(' · ')}
+                    </span>
+                  </div>
+                )}
               </div>
 
               <div className="pt-4 border-t border-slate-700/60">

@@ -11,6 +11,7 @@ import {
   Network,
   Database,
   CheckCircle,
+  CheckCircle2,
   GitBranch,
   Compass,
   ArrowRight,
@@ -100,22 +101,27 @@ export const SoftwareServicesPreviewSection: React.FC<{ section: HomepageSection
                   {service.shortDescription}
                 </p>
 
-                {/* Tech chips */}
-                {service.technologies && service.technologies.length > 0 && (
-                  <div className="flex flex-wrap gap-1.5 mb-6">
-                    {service.technologies.slice(0, 3).map((tech, idx) => (
-                      <span
-                        key={idx}
-                        className="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-600 rounded"
-                      >
-                        {tech}
-                      </span>
+                {/* Key Capabilities */}
+                {service.keyCapabilities && service.keyCapabilities.length > 0 && (
+                  <ul className="space-y-1.5 mb-4 text-xs text-slate-600">
+                    {service.keyCapabilities.slice(0, 2).map((cap, idx) => (
+                      <li key={idx} className="flex items-start gap-1.5">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-blue-600 mt-0.5 flex-shrink-0" />
+                        <span className="line-clamp-1">{cap}</span>
+                      </li>
                     ))}
-                    {service.technologies.length > 3 && (
-                      <span className="px-1.5 py-0.5 text-[11px] font-medium text-slate-400">
-                        +{service.technologies.length - 3}
-                      </span>
-                    )}
+                  </ul>
+                )}
+
+                {/* Core Stack Highlight without awkward overflow counts */}
+                {service.technologies && service.technologies.length > 0 && (
+                  <div className="pt-3 border-t border-slate-100 mb-4 flex items-center gap-1.5 text-xs text-slate-500">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 flex-shrink-0">
+                      Stack:
+                    </span>
+                    <span className="truncate font-medium text-slate-700" title={service.technologies.join(', ')}>
+                      {service.technologies.slice(0, 4).join(' · ')}
+                    </span>
                   </div>
                 )}
               </div>

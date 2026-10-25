@@ -271,7 +271,7 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({ pillar }) 
                       {service.technologies.map((tech, idx) => (
                         <span
                           key={idx}
-                          className="px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-md"
+                          className="px-2.5 py-1 text-xs font-medium bg-slate-50 text-slate-700 border border-slate-200/80 rounded-md"
                         >
                           {tech}
                         </span>
