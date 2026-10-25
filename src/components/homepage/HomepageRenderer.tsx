@@ -48,3 +48,4 @@ export const HomepageRenderer: React.FC = () => {
     </div>
   );
 };
+

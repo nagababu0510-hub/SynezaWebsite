@@ -153,3 +153,4 @@ By default, the contact form safely validates user inputs and confirms submissio
 
 - **Instant Rollback via Git / CDN**: On Cloudflare Pages, Vercel, or Netlify, you can roll back to any previous deployment with a single click in the dashboard.
 - **S3 / Container Rollback**: Maintain previous versioned releases or tag Docker images (`syneza-website:v1.0.0`). Revert traffic by pointing the CDN or load balancer to the previous container image.
+

@@ -75,3 +75,4 @@ describe('Core Layout & Navigation Components', () => {
     expect(screen.getByRole('link', { name: /Terms of Service/i })).toBeInTheDocument();
   });
 });
+

@@ -3,3 +3,4 @@ Allow: /
 Disallow: /config/*.json$
 
 Sitemap: https://syneza.com/sitemap.xml
+

@@ -159,3 +159,4 @@ export const HeroSection: React.FC<{ section: HomepageSection }> = ({ section })
     </section>
   );
 };
+

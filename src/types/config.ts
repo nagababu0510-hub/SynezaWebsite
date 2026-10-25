@@ -395,3 +395,4 @@ export interface AppConfig {
   socialLinks: SocialLinksConfig;
   legal: LegalConfig;
 }
+

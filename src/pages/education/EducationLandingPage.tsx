@@ -273,3 +273,4 @@ export const EducationLandingPage: React.FC = () => {
     </>
   );
 };
+

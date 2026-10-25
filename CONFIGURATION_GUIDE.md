@@ -192,3 +192,4 @@ Controls which sections appear on the homepage and their vertical ordering:
 ### How to Toggle Pricing Visibility
 1. Open `public/config/pricing.json`.
 2. Set `"showPricingGlobally": false` to suppress all commercial pricing figures until officially approved.
+

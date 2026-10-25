@@ -317,3 +317,4 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({ pillar }) 
     </>
   );
 };
+

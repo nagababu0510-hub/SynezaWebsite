@@ -65,3 +65,4 @@ for (const [filename, content] of Object.entries(configs)) {
 }
 
 console.log('All JSON configuration files successfully generated.');
+

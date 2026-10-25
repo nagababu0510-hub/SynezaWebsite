@@ -215,3 +215,4 @@ export const EducationPreviewSection: React.FC<{ section: HomepageSection }> = (
     </section>
   );
 };
+

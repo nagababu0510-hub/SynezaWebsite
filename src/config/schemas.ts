@@ -415,3 +415,4 @@ export const LegalConfigSchema = z.object({
     ),
   }),
 });
+

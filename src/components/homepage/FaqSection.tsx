@@ -118,3 +118,4 @@ export const FaqSection: React.FC<{ section: HomepageSection }> = ({ section }) 
     </section>
   );
 };
+

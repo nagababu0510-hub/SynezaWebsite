@@ -15,3 +15,4 @@ if (!fs.existsSync(configDir)) {
 async function main() {
   // Let's import defaults dynamically using tsx or vite-node or write the json payloads cleanly
 }
+

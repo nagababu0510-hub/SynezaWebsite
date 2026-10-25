@@ -178,3 +178,4 @@ export const SoftwareCompanySimulationPage: React.FC = () => {
     </>
   );
 };
+

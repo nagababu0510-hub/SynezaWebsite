@@ -2043,3 +2043,4 @@ export const defaultAppConfig: AppConfig = {
   socialLinks: defaultSocialLinksConfig,
   legal: defaultLegalConfig,
 };
+

@@ -85,3 +85,4 @@ This document outlines the technical search engine optimization (SEO) architectu
 1. **Dual-Pillar Cross-Pollination**: Always connect the relevance between academic readiness and commercial software engineering (e.g. on `/education/technology-workshops`, link to the production `/services/custom-software-development` page).
 2. **Contextual Inquiries**: Anchor CTAs with prefilled inquiry category parameters (e.g. `/contact?category=college-assessment` on educational pages, `/contact?category=application-modernization` on modernization pages) to minimize user friction.
 3. **No Keyword Stuffing**: Keep keyword mentions natural, contextually accurate, and informative. Never artificially repeat keyword phrases.
+

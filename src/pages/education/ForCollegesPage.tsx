@@ -129,3 +129,4 @@ export const ForCollegesPage: React.FC = () => {
     </>
   );
 };
+

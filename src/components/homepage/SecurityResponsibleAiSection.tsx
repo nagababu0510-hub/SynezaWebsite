@@ -97,3 +97,4 @@ export const SecurityResponsibleAiSection: React.FC<{ section: HomepageSection }
     </section>
   );
 };
+

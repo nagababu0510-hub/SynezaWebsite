@@ -405,3 +405,4 @@ describe('Configuration Acceptance Tests (All 13 Acceptance Points)', () => {
     expect(collegeCat?.categoryGroup).toBe('education');
   });
 });
+

@@ -122,3 +122,4 @@ Routing is managed via `react-router-dom` v6 with client-side history management
 - **Backend Integration**: When lead management requires persistence, deploy a Spring Boot REST API with MySQL, pointing `VITE_CONTACT_API_URL` to the endpoint.
 - **CMS Integration**: Because configuration files are plain JSON, a headless CMS (Strapi, Decap, Sanity) can output JSON directly into `public/config/` via automated Git commits or webhook deployments.
 - **Multilingual Localization**: `site.defaultLanguage` and configuration schemas can be extended to support localized subdirectories (`/config/hi/`, `/config/en/`) without altering component templates.
+

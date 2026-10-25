@@ -166,3 +166,4 @@ describe('Comprehensive Route Integrity Tests (All Routes Render Cleanly)', () =
     expect(screen.getByRole('heading', { name: /Page Not Found/i })).toBeInTheDocument();
   });
 });
+

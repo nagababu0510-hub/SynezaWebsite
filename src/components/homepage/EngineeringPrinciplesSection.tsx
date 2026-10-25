@@ -79,3 +79,4 @@ export const EngineeringPrinciplesSection: React.FC<{ section: HomepageSection }
     </section>
   );
 };
+

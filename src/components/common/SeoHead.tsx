@@ -105,3 +105,4 @@ export const SeoHead: React.FC<SeoHeadProps> = ({
 
   return null;
 };
+

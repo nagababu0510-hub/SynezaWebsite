@@ -85,3 +85,4 @@ Accessibility is treated as a core architectural requirement rather than an afte
    - `Referrer-Policy: strict-origin-when-cross-origin`.
 2. **Backend Rate-Limiting**: While client-side rate limiting prevents casual abuse, a production backend (Spring Boot or API Gateway) should enforce IP-based rate limiting (e.g. 10 requests / minute) to protect email infrastructure.
 3. **Continuous Dependency Audits**: Execute `npm audit` on a recurring monthly schedule to patch upstream third-party dependency vulnerabilities.
+

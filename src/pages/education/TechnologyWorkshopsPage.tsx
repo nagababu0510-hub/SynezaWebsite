@@ -137,3 +137,4 @@ export const TechnologyWorkshopsPage: React.FC = () => {
     </>
   );
 };
+
